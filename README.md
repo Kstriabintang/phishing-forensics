@@ -20,7 +20,18 @@ cloaker. Two real origins de-cloaked (INAP Chicago + Hetzner Helsinki), a **500+
 mapped and tagged, a second product line (Telegram Mini App quiz), and a **2018 Chinese
 online-gambling lineage**. Officially declared a hoax by **Kemenkomdigi (Indonesia)**.
 
-[![Landing 81GB](2026-08-18_kuota-gratis-81gb-hutri81/screenshots/01_landing_merdeka_81gb.png)](2026-08-18_kuota-gratis-81gb-hutri81/)
+<table>
+<tr>
+<td width="33%" valign="top"><a href="2026-08-18_kuota-gratis-81gb-hutri81/"><img src="2026-08-18_kuota-gratis-81gb-hutri81/screenshots/01_landing_merdeka_81gb.png" width="100%" alt="Landing 81GB"></a></td>
+<td width="33%" valign="top"><img src="2026-08-18_kuota-gratis-81gb-hutri81/screenshots/03_cloaker_free-gf920_loading.png" width="100%" alt="Cloaker"></td>
+<td width="33%" valign="top"><img src="2026-08-18_kuota-gratis-81gb-hutri81/screenshots/05_telegram_quiz_16gift.png" width="100%" alt="Telegram quiz"></td>
+</tr>
+<tr>
+<td align="center"><sub><b>Landing "81 GB" bait</b></sub></td>
+<td align="center"><sub><b>Fingerprint cloaker</b></sub></td>
+<td align="center"><sub><b>Telegram "quiz" scam</b></sub></td>
+</tr>
+</table>
 
 **→ Start with the case [README](2026-08-18_kuota-gratis-81gb-hutri81/README.md) and
 [master dossier](2026-08-18_kuota-gratis-81gb-hutri81/DIGITAL-TRACES-DOSSIER.md).**
