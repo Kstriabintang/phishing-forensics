@@ -7,3 +7,6 @@ _QUARANTINE_DO_NOT_EXECUTE/
 *.bin
 # artefak sementara
 *.tmp
+# checkpoint pribadi (berisi kode tracking laporan) — JANGAN publik
+CHECKPOINT.md
+**/CHECKPOINT.md
