@@ -1,0 +1,27 @@
+To: abuse@namecheap.com
+Subject: Abuse report — Namecheap-registered domains in active phishing/CPA-fraud campaign
+
+Hello Namecheap Abuse Team,
+
+The following Namecheap-registered domains are part of an active phishing/ad-fraud
+campaign targeting Indonesian mobile users ("Kuota Gratis 81GB HUT RI ke-81"):
+
+  - srvmediahost.com    (created 2025-11-11) — cloaker, /nlp/index.php redirector
+  - sramms.space        (created 2026-05-28) — CPA offer network (mms.sramms.space)
+  - obqj3.com           (created 2022-03-14) — CPA ad-network redirect (url_bnm_redirect)
+  - sssifmobisignal.com (created 2026-04-13) — smartlink node
+
+Role in the chain:
+  Landing kuota-gratis-81gb98.1grd.xyz -> gf920.com cloaker ->
+  {mms.sramms.space | srvmediahost.com} -> {ldl1.com | obqj3.com} ad networks.
+  Victims are shown a fake "free 81GB quota" reward and forced to re-share on
+  WhatsApp; no quota is delivered.
+
+Evidence (browser render):
+  https://urlscan.io/result/01a01157-0141-772e-871d-1cdeb0c80765/   (mms.sramms.space)
+  https://urlscan.io/result/01a01156-fd3d-719e-b164-551fa2162c28/   (srvmediahost.com -> obqj3.com)
+
+Please review and take action. Full evidence available on request.
+
+Regards,
+(Independent security researcher — defensive report)

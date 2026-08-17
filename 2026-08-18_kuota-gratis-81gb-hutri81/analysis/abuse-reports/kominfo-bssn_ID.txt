@@ -1,0 +1,32 @@
+=== Aduan Konten Kominfo ===
+Lapor via: https://aduankonten.id/  (kategori: Penipuan)
+
+Judul: Penipuan berkedok "Kuota Gratis 81GB Spesial HUT RI ke-81" via WhatsApp
+
+Isi laporan:
+Beredar pesan berantai WhatsApp berisi tautan "Kuota Gratis 81GB Spesial HUT RI ke-81"
+(contoh: https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98). Situs menampilkan
+halaman palsu bergaya kiriman Facebook dengan bukti sosial palsu (nama, komentar,
+jumlah like/share direkayasa) dan MEMAKSA korban membagikan ulang ke WhatsApp sebelum
+tombol "DAPATKAN 81GB" mengarahkan korban ke jaringan iklan penipuan (CPA/RTB) melalui
+sistem cloaking. TIDAK ADA kuota gratis yang benar-benar diberikan. Operator terindikasi
+berbahasa Mandarin (registrar Tiongkok; subdomain telemetry "tj"=统计).
+
+Domain terkait: 1grd.xyz, 626cdn.com, gf920.com, 16gift.com, sramms.space,
+srvmediahost.com, obqj3.com, ldl1.com.
+Server asal: 108.178.23.116 (INAP, AS Chicago), 95.217.42.163 (Hetzner, Finlandia).
+Bukti render independen (urlscan.io):
+  https://urlscan.io/result/01a01152-4886-778c-85cb-239aff0aa3bc/
+
+=== BSSN / ID-CERT ===
+Email: pengaduan@bssn.go.id ; cert@bssn.go.id
+Subjek: Laporan kampanye phishing/penipuan "Kuota Gratis 81GB HUT RI ke-81"
+
+Isi: (sama seperti di atas) — sertakan lampiran IOC.txt dan DIGITAL-TRACES-DOSSIER.pdf.
+Mohon koordinasi takedown lintas-penyedia (Cloudflare, INAP, Hetzner, Namecheap, AWS)
+dan blokir domain di tingkat nasional. Kampanye menargetkan pengguna seluler Indonesia
+secara massal menjelang/di sekitar 17 Agustus 2026.
+
+=== Operator seluler yang dicatut ===
+Laporkan juga ke kanal penipuan operator (Telkomsel/Indosat/XL/Tri/Smartfren) karena
+kampanye mengklaim "berlaku semua operator".

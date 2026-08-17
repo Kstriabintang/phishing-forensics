@@ -1,0 +1,2756 @@
+{
+  "data": {
+    "requests": [
+      {
+        "request": {
+          "requestId": "B6978287F9C5D3DE95DE11FFCF8B3AF8",
+          "loaderId": "B6978287F9C5D3DE95DE11FFCF8B3AF8",
+          "documentURL": "https://kuota-gratis-81gb98.1grd.xyz/go.php/?t=9",
+          "request": {
+            "url": "https://kuota-gratis-81gb98.1grd.xyz/go.php/?t=9",
+            "method": "GET",
+            "headers": {
+              "Upgrade-Insecure-Requests": "1",
+              "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36",
+              "sec-ch-ua": "\"Chromium\";v=\"122\", \"Google Chrome\";v=\"122\", \"Not(A:Brand\";v=\"24\"",
+              "sec-ch-ua-mobile": "?1",
+              "sec-ch-ua-platform": "\"Android\""
+            },
+            "mixedContentType": "none",
+            "initialPriority": "VeryHigh",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": true
+          },
+          "timestamp": 6831802.172892,
+          "wallTime": 1786997309.022942,
+          "initiator": {
+            "type": "other"
+          },
+          "redirectHasExtraInfo": false,
+          "type": "Document",
+          "frameId": "C9B69933C048E2617C66D5D20965090C",
+          "hasUserGesture": false
+        },
+        "response": {
+          "encodedDataLength": 1186,
+          "dataLength": 1007,
+          "requestId": "B6978287F9C5D3DE95DE11FFCF8B3AF8",
+          "type": "Document",
+          "response": {
+            "url": "https://kuota-gratis-81gb98.1grd.xyz/go.php/?t=9",
+            "status": 200,
+            "statusText": "",
+            "headers": {
+              "alt-svc": "h3=\":443\"; ma=86400",
+              "cf-cache-status": "DYNAMIC",
+              "cf-ray": "a2cb4f9d89778be4-SIN",
+              "content-encoding": "zstd",
+              "content-type": "text/html; charset=UTF-8",
+              "date": "Mon, 17 Aug 2026 20:08:29 GMT",
+              "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+              "priority": "u=0,i",
+              "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=m1xSgaKYCflpdsPny24AiisvNG0xLKQpdu2w30kCUyvnqsf8Fm8nKhSYzJtRJVH0Wz157Ng0SZ4ITymDh9Fm4higUKdDUPFA4rU5Hlu%2FYJidUUgbNeR7fvVwnRkVyboa3YD87vaDdKz36VBCYToK\"}]}",
+              "server": "cloudflare",
+              "server-timing": "cfCacheStatus;desc=\"DYNAMIC\"\ncfEdge;dur=7,cfOrigin;dur=4\ncfExtPri",
+              "vary": "Accept-Encoding"
+            },
+            "mimeType": "text/html",
+            "charset": "utf-8",
+            "remoteIPAddress": "172.67.166.103",
+            "remotePort": 443,
+            "encodedDataLength": 553,
+            "timing": {
+              "requestTime": 6831802.175609,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": 0,
+              "dnsEnd": 1.061,
+              "connectStart": 1.362,
+              "connectEnd": 12.004,
+              "sslStart": 1.362,
+              "sslEnd": 12.004,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 12.131,
+              "sendEnd": 12.277,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersStart": 29.308,
+              "receiveHeadersEnd": 30.628
+            },
+            "responseTime": 1786997309054.986,
+            "protocol": "h3",
+            "alternateProtocolUsage": "dnsAlpnH3JobWonRace",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "QUIC",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519MLKEM768",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "1grd.xyz",
+              "sanList": [
+                "1grd.xyz",
+                "*.1grd.xyz"
+              ],
+              "issuer": "WE1",
+              "validFrom": 1785520828,
+              "validTo": 1793300424,
+              "signedCertificateTimestampList": [
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Google 'Argon2026h2' log",
+                  "logId": "D76D7D10D1A7F577C2C7E95FD700BFF982C9335A65E1D0B3017317C0C8C56977",
+                  "timestamp": 1785524428656,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "3045022006CC9E1FA5AA222A6CDCEF157A2FECD0077E186C5F0992AC6B0A4AEFFE292D5A022100A73FF1849CACFFD5A67B7D243DAF6CD9B925E67B2B2C8144DF80799FC63456C7"
+                },
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "DigiCert 'Sphinx2026h2'",
+                  "logId": "944E4387FAECC1EF81F3192426A8186501C7D35F3802013F72677D55372E19D8",
+                  "timestamp": 1785524428667,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "3045022100B3104BAEC5ACDF9D75187D3D79BD5436F5CB05B796134C0164DC5EBB2AECC20D022059B69CD71CD9CCFF3D65FE4A00F8FF8CF1816BF755A67D14FE8AEBF0EB8F4165"
+                }
+              ],
+              "certificateTransparencyCompliance": "compliant",
+              "serverSignatureAlgorithm": 1027,
+              "encryptedClientHello": true
+            }
+          },
+          "hasExtraInfo": true,
+          "hash": "548edc17a65c8b4226d02d8bedb97df207cab143e7c9d8b6bee47e09ca311c50",
+          "size": 1007,
+          "asn": {
+            "ip": "172.67.166.103",
+            "asn": "13335",
+            "country": "US",
+            "description": "CLOUDFLARENET - Cloudflare, Inc., US",
+            "name": "Cloudflare",
+            "route": "172.67.128.0/17"
+          },
+          "geoip": {
+            "country": "",
+            "region": "",
+            "timezone": "",
+            "city": "",
+            "ll": [
+              null,
+              null
+            ],
+            "country_name": "Ascension Island"
+          }
+        }
+      },
+      {
+        "request": {
+          "requestId": "9036.2",
+          "loaderId": "B6978287F9C5D3DE95DE11FFCF8B3AF8",
+          "documentURL": "https://kuota-gratis-81gb98.1grd.xyz/go.php/?t=9",
+          "request": {
+            "url": "https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496",
+            "method": "GET",
+            "headers": {
+              "Origin": "https://kuota-gratis-81gb98.1grd.xyz",
+              "sec-ch-ua-platform": "\"Android\"",
+              "Referer": "https://kuota-gratis-81gb98.1grd.xyz/",
+              "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36",
+              "sec-ch-ua": "\"Chromium\";v=\"122\", \"Google Chrome\";v=\"122\", \"Not(A:Brand\";v=\"24\"",
+              "sec-ch-ua-mobile": "?1"
+            },
+            "mixedContentType": "none",
+            "initialPriority": "High",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": false
+          },
+          "timestamp": 6831802.241034,
+          "wallTime": 1786997309.091193,
+          "initiator": {
+            "type": "parser",
+            "url": "https://kuota-gratis-81gb98.1grd.xyz/go.php/?t=9",
+            "lineNumber": 17,
+            "columnNumber": 349
+          },
+          "redirectHasExtraInfo": false,
+          "type": "Script",
+          "frameId": "C9B69933C048E2617C66D5D20965090C",
+          "hasUserGesture": false,
+          "renderBlockingBehavior": "NonBlocking"
+        },
+        "response": {
+          "encodedDataLength": 11577,
+          "dataLength": 31612,
+          "requestId": "9036.2",
+          "type": "Script",
+          "response": {
+            "url": "https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496",
+            "status": 200,
+            "statusText": "",
+            "headers": {
+              "cache-control": "public, max-age=86400",
+              "content-encoding": "gzip",
+              "etag": "W/\"2026.6.0\"",
+              "cross-origin-resource-policy": "cross-origin",
+              "cf-ray": "a2cb4f9e0ff8f87b-SIN",
+              "access-control-allow-origin": "*",
+              "date": "Mon, 17 Aug 2026 20:08:29 GMT",
+              "content-type": "text/javascript;charset=UTF-8",
+              "last-modified": "Thu, 18 Jun 2026 14:05:09 GMT",
+              "server": "cloudflare"
+            },
+            "mimeType": "text/javascript",
+            "charset": "utf-8",
+            "remoteIPAddress": "104.16.80.73",
+            "remotePort": 443,
+            "encodedDataLength": 4293,
+            "timing": {
+              "requestTime": 6831802.250107,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": 0.161,
+              "dnsEnd": 2.614,
+              "connectStart": 2.866,
+              "connectEnd": 21.042,
+              "sslStart": 4.803,
+              "sslEnd": 21.025,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 21.328,
+              "sendEnd": 21.487,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersStart": 34.138,
+              "receiveHeadersEnd": 34.355
+            },
+            "responseTime": 1786997309134.313,
+            "protocol": "h2",
+            "alternateProtocolUsage": "unspecifiedReason",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "TLS 1.3",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519MLKEM768",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "cloudflareinsights.com",
+              "sanList": [
+                "cloudflareinsights.com",
+                "*.cloudflareinsights.com"
+              ],
+              "issuer": "WE1",
+              "validFrom": 1786694550,
+              "validTo": 1794474137,
+              "signedCertificateTimestampList": [
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Sectigo 'Tiger2026h2'",
+                  "logId": "C8A3C47FC7B3ADB9356B013F6A7A126DE33A4E43A5C646F997AD3975991DCF9A",
+                  "timestamp": 1786698151470,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "30450221009C3B08652DB315FFE828298EE8CB1EE4D4BDF7E9C53D8D5F8E7F821DC250478302201D70F12BD6A5104A8B72919E7D2861B3C097E75344E68392DA9453A627864D01"
+                },
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Google 'Argon2026h2' log",
+                  "logId": "D76D7D10D1A7F577C2C7E95FD700BFF982C9335A65E1D0B3017317C0C8C56977",
+                  "timestamp": 1786698151447,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "304502205F3729BF9FE19BD7E6F4ACD026ADC30CBE5D9CAF684E4DF6964F7788FE4A66EF022100B3EF8867C0EDE1AFC14C162FF880018E4618286158CC176C7C39EBC1DD69039C"
+                }
+              ],
+              "certificateTransparencyCompliance": "compliant",
+              "serverSignatureAlgorithm": 1027,
+              "encryptedClientHello": false
+            }
+          },
+          "hasExtraInfo": true,
+          "hash": "e1ac4849b9d4a498b68f8aca01e6ed99a11d94b35a2cec533b3916b8fb722fd6",
+          "size": 31612,
+          "asn": {
+            "ip": "104.16.80.73",
+            "asn": "13335",
+            "country": "US",
+            "description": "CLOUDFLARENET - Cloudflare, Inc., US",
+            "name": "Cloudflare",
+            "route": "104.16.0.0/14"
+          },
+          "geoip": {
+            "country": "",
+            "region": "",
+            "timezone": "",
+            "city": "",
+            "ll": [
+              null,
+              null
+            ],
+            "country_name": "Ascension Island"
+          }
+        },
+        "initiatorInfo": {
+          "url": "https://kuota-gratis-81gb98.1grd.xyz/go.php/?t=9",
+          "host": "kuota-gratis-81gb98.1grd.xyz",
+          "type": "parser"
+        }
+      },
+      {
+        "request": {
+          "requestId": "5D3D9CB652E6199A04D81D4E1FFCFF31",
+          "loaderId": "5D3D9CB652E6199A04D81D4E1FFCFF31",
+          "documentURL": "https://free.gf920.com/?utm_medium=b00cccbf77c8ae579fa684fe9c8c5affa17a412b&utm_campaign=tang4g",
+          "request": {
+            "url": "https://free.gf920.com/?utm_medium=b00cccbf77c8ae579fa684fe9c8c5affa17a412b&utm_campaign=tang4g",
+            "method": "GET",
+            "headers": {
+              "Referer": "https://kuota-gratis-81gb98.1grd.xyz/",
+              "Upgrade-Insecure-Requests": "1",
+              "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36",
+              "sec-ch-ua": "\"Chromium\";v=\"122\", \"Google Chrome\";v=\"122\", \"Not(A:Brand\";v=\"24\"",
+              "sec-ch-ua-mobile": "?1",
+              "sec-ch-ua-platform": "\"Android\""
+            },
+            "mixedContentType": "none",
+            "initialPriority": "VeryHigh",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": true
+          },
+          "timestamp": 6831802.249093,
+          "wallTime": 1786997309.099157,
+          "initiator": {
+            "type": "script",
+            "stack": {
+              "callFrames": [
+                {
+                  "functionName": "",
+                  "scriptId": "8",
+                  "url": "https://kuota-gratis-81gb98.1grd.xyz/go.php/?t=9",
+                  "lineNumber": 9,
+                  "columnNumber": 29
+                }
+              ]
+            }
+          },
+          "redirectHasExtraInfo": false,
+          "type": "Document",
+          "frameId": "C9B69933C048E2617C66D5D20965090C",
+          "hasUserGesture": false
+        },
+        "response": {
+          "encodedDataLength": 1173,
+          "dataLength": 1180,
+          "requestId": "5D3D9CB652E6199A04D81D4E1FFCFF31",
+          "type": "Document",
+          "response": {
+            "url": "https://free.gf920.com/?utm_medium=b00cccbf77c8ae579fa684fe9c8c5affa17a412b&utm_campaign=tang4g",
+            "status": 200,
+            "statusText": "",
+            "headers": {
+              "accept-ch": "Sec-CH-UA, Sec-CH-UA-Mobile, Sec-CH-UA-Platform, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Form-Factors, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-WoW64",
+              "alt-svc": "h3=\":443\"; ma=604800; persist=1",
+              "cache-control": "no-store, no-cache, must-revalidate, max-age=0",
+              "content-encoding": "gzip",
+              "content-type": "text/html; charset=UTF-8",
+              "date": "Mon, 17 Aug 2026 20:08:29 GMT",
+              "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+              "pragma": "no-cache",
+              "refresh": "3; url=https://free.gf920.com/?utm_term=7675095000211783798&tid=4d544e",
+              "server": "nginx",
+              "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+              "vary": "Accept-Encoding"
+            },
+            "mimeType": "text/html",
+            "charset": "utf-8",
+            "remoteIPAddress": "108.178.23.116",
+            "remotePort": 443,
+            "encodedDataLength": 1173,
+            "timing": {
+              "requestTime": 6831802.252287,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": 0,
+              "dnsEnd": 10.682,
+              "connectStart": 10.814,
+              "connectEnd": 520.946,
+              "sslStart": 12.744,
+              "sslEnd": 520.93,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 521.193,
+              "sendEnd": 521.433,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersStart": 1024.259,
+              "receiveHeadersEnd": 1025.564
+            },
+            "responseTime": 1786997310126.615,
+            "protocol": "h2",
+            "alternateProtocolUsage": "unspecifiedReason",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "TLS 1.3",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "free.gf920.com",
+              "sanList": [
+                "free.gf920.com"
+              ],
+              "issuer": "YE1",
+              "validFrom": 1781061249,
+              "validTo": 1788837248,
+              "signedCertificateTimestampList": [
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Google 'Xenon2026h2' log",
+                  "logId": "D809553B944F7AFFC816196F944F85ABB0F8FC5E8755260F15D12E72BB454B14",
+                  "timestamp": 1781064759390,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "3045022001F0F43E65B5B76288C7650ACE915D6E313837D54391CCD120CE2035E39824C5022100B4F122FC1B15D38E090C976F68C206D6F812A8205E64FB8EBAF0126B40ED2064"
+                },
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Geomys 'Tuscolo2026h2'",
+                  "logId": "46AF863D3B3EE59FA577DEA8245D36B0D9ED22A223F4617741229452EE95505F",
+                  "timestamp": 1781064759427,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "3046022100B752F987A8E28B011F800F4C0F3A261CFD458D9AA6BD216526F2602B166BE68502210088C7D0511607D6C152674F4216276FEB96C5E36F2448AE7DE250221D6023264F"
+                }
+              ],
+              "certificateTransparencyCompliance": "compliant",
+              "serverSignatureAlgorithm": 1027,
+              "encryptedClientHello": false
+            },
+            "securityHeaders": [
+              {
+                "name": "Strict-Transport-Security",
+                "value": "max-age=63072000; includeSubDomains; preload"
+              }
+            ]
+          },
+          "hasExtraInfo": true,
+          "hash": "50a2d56ade5517752730cd7d66160993dc5294a395d80f01390f6a9e028d7126",
+          "size": 1180,
+          "asn": {
+            "ip": "108.178.23.116",
+            "asn": "32475",
+            "country": "US",
+            "description": "SINGLEHOP-LLC - Internap Holding LLC, US",
+            "name": "Internap Holding LLC",
+            "route": "108.178.0.0/18"
+          },
+          "geoip": {
+            "country": "US",
+            "region": "",
+            "timezone": "America/Chicago",
+            "city": "",
+            "ll": [
+              37.751,
+              -97.822
+            ],
+            "country_name": "United States",
+            "metro": 0
+          },
+          "rdns": {
+            "ip": "108.178.23.116",
+            "ptr": "server04.com-2.mobi"
+          }
+        },
+        "initiatorInfo": {
+          "url": "https://kuota-gratis-81gb98.1grd.xyz/go.php/?t=9",
+          "host": "kuota-gratis-81gb98.1grd.xyz",
+          "type": "script"
+        }
+      },
+      {
+        "request": {
+          "requestId": "A0DA31030742CF9F0B79AC88CD6F1A1D",
+          "loaderId": "A0DA31030742CF9F0B79AC88CD6F1A1D",
+          "documentURL": "https://free.gf920.com/?utm_term=7675095000211783798",
+          "request": {
+            "url": "https://free.gf920.com/?utm_term=7675095000211783798",
+            "method": "GET",
+            "headers": {
+              "Referer": "https://free.gf920.com/?utm_medium=b00cccbf77c8ae579fa684fe9c8c5affa17a412b&utm_campaign=tang4g",
+              "Upgrade-Insecure-Requests": "1",
+              "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36",
+              "sec-ch-ua": "\"Chromium\";v=\"122\", \"Google Chrome\";v=\"122\", \"Not(A:Brand\";v=\"24\"",
+              "sec-ch-ua-arch": "\"arm\"",
+              "sec-ch-ua-bitness": "\"64\"",
+              "sec-ch-ua-form-factors": "\"Mobile\"",
+              "sec-ch-ua-full-version": "\"151.0.7922.137\"",
+              "sec-ch-ua-full-version-list": "\"Chromium\";v=\"122.0.0.0\", \"Google Chrome\";v=\"122.0.0.0\", \"Not(A:Brand\";v=\"24.0.0.0\"",
+              "sec-ch-ua-mobile": "?1",
+              "sec-ch-ua-model": "\"\"",
+              "sec-ch-ua-platform": "\"Android\"",
+              "sec-ch-ua-platform-version": "\"13.0.0\"",
+              "sec-ch-ua-wow64": "?0"
+            },
+            "mixedContentType": "none",
+            "initialPriority": "VeryHigh",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": true
+          },
+          "timestamp": 6831803.334997,
+          "wallTime": 1786997310.185058,
+          "initiator": {
+            "type": "script",
+            "stack": {
+              "callFrames": [
+                {
+                  "functionName": "",
+                  "scriptId": "10",
+                  "url": "https://free.gf920.com/?utm_medium=b00cccbf77c8ae579fa684fe9c8c5affa17a412b&utm_campaign=tang4g",
+                  "lineNumber": 0,
+                  "columnNumber": 945
+                }
+              ]
+            }
+          },
+          "redirectHasExtraInfo": false,
+          "type": "Document",
+          "frameId": "C9B69933C048E2617C66D5D20965090C",
+          "hasUserGesture": false
+        },
+        "response": {
+          "encodedDataLength": 1912,
+          "dataLength": 2963,
+          "requestId": "A0DA31030742CF9F0B79AC88CD6F1A1D",
+          "type": "Document",
+          "response": {
+            "url": "https://free.gf920.com/?utm_term=7675095000211783798",
+            "status": 200,
+            "statusText": "",
+            "headers": {
+              "accept-ch": "Sec-CH-UA, Sec-CH-UA-Mobile, Sec-CH-UA-Platform, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Form-Factors, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-WoW64",
+              "alt-svc": "h3=\":443\"; ma=604800; persist=1",
+              "cache-control": "no-store, no-cache, must-revalidate, max-age=0",
+              "content-encoding": "gzip",
+              "content-type": "text/html; charset=utf-8",
+              "date": "Mon, 17 Aug 2026 20:08:30 GMT",
+              "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+              "pragma": "no-cache",
+              "refresh": "0; url=https://srvmediahost.com/click.php?key=9in9fe6yawnglnbwbuzr&subid=M7675095000211783798&partner_id=27052&pid=27052-dabc31az&campaign_id=a74fea&browser=Chrome+Mobile&device=Samsung+SM-G991B&app_name=unknown&geo=SG&carrier=SG+WiFi&pcid=a74fea_27052-dabc31az&pg=27052-SG",
+              "server": "nginx",
+              "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+              "vary": "Accept-Encoding"
+            },
+            "mimeType": "text/html",
+            "charset": "utf-8",
+            "remoteIPAddress": "108.178.23.116",
+            "remotePort": 443,
+            "encodedDataLength": 1912,
+            "timing": {
+              "requestTime": 6831803.33613,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": -1,
+              "dnsEnd": -1,
+              "connectStart": -1,
+              "connectEnd": -1,
+              "sslStart": -1,
+              "sslEnd": -1,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 0.259,
+              "sendEnd": 0.474,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersStart": 490.573,
+              "receiveHeadersEnd": 492.23
+            },
+            "responseTime": 1786997310676.78,
+            "protocol": "h2",
+            "alternateProtocolUsage": "mainJobWonRace",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "TLS 1.3",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "free.gf920.com",
+              "sanList": [
+                "free.gf920.com"
+              ],
+              "issuer": "YE1",
+              "validFrom": 1781061249,
+              "validTo": 1788837248,
+              "signedCertificateTimestampList": [
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Google 'Xenon2026h2' log",
+                  "logId": "D809553B944F7AFFC816196F944F85ABB0F8FC5E8755260F15D12E72BB454B14",
+                  "timestamp": 1781064759390,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "3045022001F0F43E65B5B76288C7650ACE915D6E313837D54391CCD120CE2035E39824C5022100B4F122FC1B15D38E090C976F68C206D6F812A8205E64FB8EBAF0126B40ED2064"
+                },
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Geomys 'Tuscolo2026h2'",
+                  "logId": "46AF863D3B3EE59FA577DEA8245D36B0D9ED22A223F4617741229452EE95505F",
+                  "timestamp": 1781064759427,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "3046022100B752F987A8E28B011F800F4C0F3A261CFD458D9AA6BD216526F2602B166BE68502210088C7D0511607D6C152674F4216276FEB96C5E36F2448AE7DE250221D6023264F"
+                }
+              ],
+              "certificateTransparencyCompliance": "compliant",
+              "serverSignatureAlgorithm": 1027,
+              "encryptedClientHello": false
+            },
+            "securityHeaders": [
+              {
+                "name": "Strict-Transport-Security",
+                "value": "max-age=63072000; includeSubDomains; preload"
+              }
+            ]
+          },
+          "hasExtraInfo": true,
+          "hash": "509b3bed83ab607cbc30d104634dc046a665345c89cd9c73c934b4da1f9446da",
+          "size": 2959,
+          "asn": {
+            "ip": "108.178.23.116",
+            "asn": "32475",
+            "country": "US",
+            "description": "SINGLEHOP-LLC - Internap Holding LLC, US",
+            "name": "Internap Holding LLC",
+            "route": "108.178.0.0/18"
+          },
+          "geoip": {
+            "country": "US",
+            "region": "",
+            "timezone": "America/Chicago",
+            "city": "",
+            "ll": [
+              37.751,
+              -97.822
+            ],
+            "country_name": "United States",
+            "metro": 0
+          },
+          "rdns": {
+            "ip": "108.178.23.116",
+            "ptr": "server04.com-2.mobi"
+          }
+        },
+        "initiatorInfo": {
+          "url": "https://free.gf920.com/?utm_medium=b00cccbf77c8ae579fa684fe9c8c5affa17a412b&utm_campaign=tang4g",
+          "host": "free.gf920.com",
+          "type": "script"
+        }
+      },
+      {
+        "request": {
+          "requestId": "892EC77F074345A7376F94B54901507A",
+          "loaderId": "892EC77F074345A7376F94B54901507A",
+          "documentURL": "https://srvmediahost.com/nlp/index.php?z=11299758&var=a4c225c6ece6568874902d43d340ac7e&ymid=d736016wha1bz8n0ed&url_bnm_redirect=https://obqj3.com/link",
+          "request": {
+            "url": "https://srvmediahost.com/nlp/index.php?z=11299758&var=a4c225c6ece6568874902d43d340ac7e&ymid=d736016wha1bz8n0ed&url_bnm_redirect=https://obqj3.com/link",
+            "method": "GET",
+            "headers": {
+              "Referer": "https://free.gf920.com/",
+              "Upgrade-Insecure-Requests": "1",
+              "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36",
+              "sec-ch-ua": "\"Chromium\";v=\"122\", \"Google Chrome\";v=\"122\", \"Not(A:Brand\";v=\"24\"",
+              "sec-ch-ua-mobile": "?1",
+              "sec-ch-ua-platform": "\"Android\""
+            },
+            "mixedContentType": "none",
+            "initialPriority": "VeryHigh",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": true
+          },
+          "timestamp": 6831804.667432,
+          "wallTime": 1786997311.517547,
+          "initiator": {
+            "type": "script",
+            "stack": {
+              "callFrames": [
+                {
+                  "functionName": "",
+                  "scriptId": "12",
+                  "url": "https://free.gf920.com/?utm_medium=b00cccbf77c8ae579fa684fe9c8c5affa17a412b&utm_campaign=tang4g&cid=&1=&2=&3=&4=&5=&puid=7675095000211783798&fl=1&np=1",
+                  "lineNumber": 0,
+                  "columnNumber": 2655
+                }
+              ]
+            }
+          },
+          "redirectHasExtraInfo": true,
+          "redirectResponse": {
+            "url": "https://srvmediahost.com/click.php?key=9in9fe6yawnglnbwbuzr&subid=M7675095000211783798&partner_id=27052&pid=27052-dabc31az&campaign_id=a74fea&browser=Chrome+Mobile&device=Samsung+SM-G991B&app_name=unknown&geo=SG&carrier=SG+WiFi&pcid=a74fea_27052-dabc31az&pg=27052-SG",
+            "status": 302,
+            "statusText": "Found",
+            "headers": {
+              "Connection": "keep-alive",
+              "Content-Type": "text/html; charset=UTF-8",
+              "Date": "Mon, 17 Aug 2026 20:08:31 GMT",
+              "Location": "https://srvmediahost.com/nlp/index.php?z=11299758&var=a4c225c6ece6568874902d43d340ac7e&ymid=d736016wha1bz8n0ed&url_bnm_redirect=https://obqj3.com/link",
+              "Server": "nginx/1.26.0",
+              "Strict-Transport-Security": "max-age=31536000",
+              "Transfer-Encoding": "chunked"
+            },
+            "mimeType": "text/html",
+            "charset": "utf-8",
+            "remoteIPAddress": "95.217.42.163",
+            "remotePort": 443,
+            "encodedDataLength": 656,
+            "timing": {
+              "requestTime": 6831803.87927,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": 0,
+              "dnsEnd": 4.115,
+              "connectStart": 4.334,
+              "connectEnd": 365.173,
+              "sslStart": 7.178,
+              "sslEnd": 365.16,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 365.309,
+              "sendEnd": 365.405,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersStart": 786.383,
+              "receiveHeadersEnd": 786.563
+            },
+            "responseTime": 1786997311515.688,
+            "protocol": "http/1.1",
+            "alternateProtocolUsage": "unspecifiedReason",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "TLS 1.2",
+              "keyExchange": "ECDHE_RSA",
+              "keyExchangeGroup": "X25519",
+              "cipher": "CHACHA20_POLY1305",
+              "certificateId": 0,
+              "subjectName": "srvmediahost.com",
+              "sanList": [
+                "*.srvmediahost.com",
+                "srvmediahost.com"
+              ],
+              "issuer": "YR2",
+              "validFrom": 1783642142,
+              "validTo": 1791418141,
+              "signedCertificateTimestampList": [
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Cloudflare 'Nimbus2026'",
+                  "logId": "CB38F715897C84A1445F5BC1DDFBC96EF29A59CD470A690585B0CB14C31458E7",
+                  "timestamp": 1783645652860,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "3045022100CE31EB8E511FC3F55873F21E84752710C311B41B1B16FF21C2CA5CB4B1AF4D280220220D886976077C6965FE642E77170AF3A6810764471004092C7613B3AF48C2E0"
+                },
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Let's Encrypt 'Willow2026h2'",
+                  "logId": "A826CBE30AC6351246533FE065F14F19D96E190813C41DD96D7900B3123C5527",
+                  "timestamp": 1783645653287,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "3046022100BA141907453391241D9A9B5FB79AFAFA6D48736B1F89BDBCC5205B297D82B8C9022100A598DE1951B6B364B690368C486AA2D77524D02D070D847F7DC0A47BB9A2FD08"
+                }
+              ],
+              "certificateTransparencyCompliance": "compliant",
+              "serverSignatureAlgorithm": 2052,
+              "encryptedClientHello": false
+            }
+          },
+          "type": "Document",
+          "frameId": "C9B69933C048E2617C66D5D20965090C",
+          "hasUserGesture": false,
+          "primaryRequest": true
+        },
+        "requests": [
+          {
+            "requestId": "892EC77F074345A7376F94B54901507A",
+            "loaderId": "892EC77F074345A7376F94B54901507A",
+            "documentURL": "https://srvmediahost.com/click.php?key=9in9fe6yawnglnbwbuzr&subid=M7675095000211783798&partner_id=27052&pid=27052-dabc31az&campaign_id=a74fea&browser=Chrome+Mobile&device=Samsung+SM-G991B&app_name=unknown&geo=SG&carrier=SG+WiFi&pcid=a74fea_27052-dabc31az&pg=27052-SG",
+            "request": {
+              "url": "https://srvmediahost.com/click.php?key=9in9fe6yawnglnbwbuzr&subid=M7675095000211783798&partner_id=27052&pid=27052-dabc31az&campaign_id=a74fea&browser=Chrome+Mobile&device=Samsung+SM-G991B&app_name=unknown&geo=SG&carrier=SG+WiFi&pcid=a74fea_27052-dabc31az&pg=27052-SG",
+              "method": "GET",
+              "headers": {
+                "Referer": "https://free.gf920.com/",
+                "Upgrade-Insecure-Requests": "1",
+                "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36",
+                "sec-ch-ua": "\"Chromium\";v=\"122\", \"Google Chrome\";v=\"122\", \"Not(A:Brand\";v=\"24\"",
+                "sec-ch-ua-mobile": "?1",
+                "sec-ch-ua-platform": "\"Android\""
+              },
+              "mixedContentType": "none",
+              "initialPriority": "VeryHigh",
+              "referrerPolicy": "strict-origin-when-cross-origin",
+              "isSameSite": true
+            },
+            "timestamp": 6831803.878147,
+            "wallTime": 1786997310.72821,
+            "initiator": {
+              "type": "script",
+              "stack": {
+                "callFrames": [
+                  {
+                    "functionName": "",
+                    "scriptId": "12",
+                    "url": "https://free.gf920.com/?utm_medium=b00cccbf77c8ae579fa684fe9c8c5affa17a412b&utm_campaign=tang4g&cid=&1=&2=&3=&4=&5=&puid=7675095000211783798&fl=1&np=1",
+                    "lineNumber": 0,
+                    "columnNumber": 2655
+                  }
+                ]
+              }
+            },
+            "redirectHasExtraInfo": false,
+            "type": "Document",
+            "frameId": "C9B69933C048E2617C66D5D20965090C",
+            "hasUserGesture": false
+          },
+          {
+            "requestId": "892EC77F074345A7376F94B54901507A",
+            "loaderId": "892EC77F074345A7376F94B54901507A",
+            "documentURL": "https://srvmediahost.com/nlp/index.php?z=11299758&var=a4c225c6ece6568874902d43d340ac7e&ymid=d736016wha1bz8n0ed&url_bnm_redirect=https://obqj3.com/link",
+            "request": {
+              "url": "https://srvmediahost.com/nlp/index.php?z=11299758&var=a4c225c6ece6568874902d43d340ac7e&ymid=d736016wha1bz8n0ed&url_bnm_redirect=https://obqj3.com/link",
+              "method": "GET",
+              "headers": {
+                "Referer": "https://free.gf920.com/",
+                "Upgrade-Insecure-Requests": "1",
+                "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36",
+                "sec-ch-ua": "\"Chromium\";v=\"122\", \"Google Chrome\";v=\"122\", \"Not(A:Brand\";v=\"24\"",
+                "sec-ch-ua-mobile": "?1",
+                "sec-ch-ua-platform": "\"Android\""
+              },
+              "mixedContentType": "none",
+              "initialPriority": "VeryHigh",
+              "referrerPolicy": "strict-origin-when-cross-origin",
+              "isSameSite": true
+            },
+            "timestamp": 6831804.667432,
+            "wallTime": 1786997311.517547,
+            "initiator": {
+              "type": "script",
+              "stack": {
+                "callFrames": [
+                  {
+                    "functionName": "",
+                    "scriptId": "12",
+                    "url": "https://free.gf920.com/?utm_medium=b00cccbf77c8ae579fa684fe9c8c5affa17a412b&utm_campaign=tang4g&cid=&1=&2=&3=&4=&5=&puid=7675095000211783798&fl=1&np=1",
+                    "lineNumber": 0,
+                    "columnNumber": 2655
+                  }
+                ]
+              }
+            },
+            "redirectHasExtraInfo": true,
+            "redirectResponse": {
+              "url": "https://srvmediahost.com/click.php?key=9in9fe6yawnglnbwbuzr&subid=M7675095000211783798&partner_id=27052&pid=27052-dabc31az&campaign_id=a74fea&browser=Chrome+Mobile&device=Samsung+SM-G991B&app_name=unknown&geo=SG&carrier=SG+WiFi&pcid=a74fea_27052-dabc31az&pg=27052-SG",
+              "status": 302,
+              "statusText": "Found",
+              "headers": {
+                "Connection": "keep-alive",
+                "Content-Type": "text/html; charset=UTF-8",
+                "Date": "Mon, 17 Aug 2026 20:08:31 GMT",
+                "Location": "https://srvmediahost.com/nlp/index.php?z=11299758&var=a4c225c6ece6568874902d43d340ac7e&ymid=d736016wha1bz8n0ed&url_bnm_redirect=https://obqj3.com/link",
+                "Server": "nginx/1.26.0",
+                "Strict-Transport-Security": "max-age=31536000",
+                "Transfer-Encoding": "chunked"
+              },
+              "mimeType": "text/html",
+              "charset": "utf-8",
+              "remoteIPAddress": "95.217.42.163",
+              "remotePort": 443,
+              "encodedDataLength": 656,
+              "timing": {
+                "requestTime": 6831803.87927,
+                "proxyStart": -1,
+                "proxyEnd": -1,
+                "dnsStart": 0,
+                "dnsEnd": 4.115,
+                "connectStart": 4.334,
+                "connectEnd": 365.173,
+                "sslStart": 7.178,
+                "sslEnd": 365.16,
+                "workerStart": -1,
+                "workerReady": -1,
+                "workerFetchStart": -1,
+                "workerRespondWithSettled": -1,
+                "sendStart": 365.309,
+                "sendEnd": 365.405,
+                "pushStart": 0,
+                "pushEnd": 0,
+                "receiveHeadersStart": 786.383,
+                "receiveHeadersEnd": 786.563
+              },
+              "responseTime": 1786997311515.688,
+              "protocol": "http/1.1",
+              "alternateProtocolUsage": "unspecifiedReason",
+              "securityState": "secure",
+              "securityDetails": {
+                "protocol": "TLS 1.2",
+                "keyExchange": "ECDHE_RSA",
+                "keyExchangeGroup": "X25519",
+                "cipher": "CHACHA20_POLY1305",
+                "certificateId": 0,
+                "subjectName": "srvmediahost.com",
+                "sanList": [
+                  "*.srvmediahost.com",
+                  "srvmediahost.com"
+                ],
+                "issuer": "YR2",
+                "validFrom": 1783642142,
+                "validTo": 1791418141,
+                "signedCertificateTimestampList": [
+                  {
+                    "status": "Verified",
+                    "origin": "Embedded in certificate",
+                    "logDescription": "Cloudflare 'Nimbus2026'",
+                    "logId": "CB38F715897C84A1445F5BC1DDFBC96EF29A59CD470A690585B0CB14C31458E7",
+                    "timestamp": 1783645652860,
+                    "hashAlgorithm": "SHA-256",
+                    "signatureAlgorithm": "ECDSA",
+                    "signatureData": "3045022100CE31EB8E511FC3F55873F21E84752710C311B41B1B16FF21C2CA5CB4B1AF4D280220220D886976077C6965FE642E77170AF3A6810764471004092C7613B3AF48C2E0"
+                  },
+                  {
+                    "status": "Verified",
+                    "origin": "Embedded in certificate",
+                    "logDescription": "Let's Encrypt 'Willow2026h2'",
+                    "logId": "A826CBE30AC6351246533FE065F14F19D96E190813C41DD96D7900B3123C5527",
+                    "timestamp": 1783645653287,
+                    "hashAlgorithm": "SHA-256",
+                    "signatureAlgorithm": "ECDSA",
+                    "signatureData": "3046022100BA141907453391241D9A9B5FB79AFAFA6D48736B1F89BDBCC5205B297D82B8C9022100A598DE1951B6B364B690368C486AA2D77524D02D070D847F7DC0A47BB9A2FD08"
+                  }
+                ],
+                "certificateTransparencyCompliance": "compliant",
+                "serverSignatureAlgorithm": 2052,
+                "encryptedClientHello": false
+              },
+              "asn": {
+                "ip": "95.217.42.163",
+                "asn": "24940",
+                "country": "DE",
+                "description": "HETZNER-AS Hetzner Online GmbH, DE",
+                "name": "HETZNER-AS Hetzner Online GmbH",
+                "route": "95.216.0.0/15"
+              },
+              "geoip": {
+                "country": "FI",
+                "region": "18",
+                "timezone": "Europe/Helsinki",
+                "city": "Helsinki",
+                "ll": [
+                  60.1719,
+                  24.9347
+                ],
+                "country_name": "Finland",
+                "metro": 0
+              },
+              "rdns": {
+                "ip": "95.217.42.163",
+                "ptr": "static.163.42.217.95.clients.your-server.de"
+              }
+            },
+            "type": "Document",
+            "frameId": "C9B69933C048E2617C66D5D20965090C",
+            "hasUserGesture": false
+          }
+        ],
+        "response": {
+          "encodedDataLength": 397,
+          "dataLength": 139,
+          "requestId": "892EC77F074345A7376F94B54901507A",
+          "type": "Document",
+          "response": {
+            "url": "https://srvmediahost.com/nlp/index.php?z=11299758&var=a4c225c6ece6568874902d43d340ac7e&ymid=d736016wha1bz8n0ed&url_bnm_redirect=https://obqj3.com/link",
+            "status": 200,
+            "statusText": "OK",
+            "headers": {
+              "Connection": "keep-alive",
+              "Content-Encoding": "gzip",
+              "Content-Type": "text/html; charset=UTF-8",
+              "Date": "Mon, 17 Aug 2026 20:08:31 GMT",
+              "Server": "nginx/1.26.0",
+              "Strict-Transport-Security": "max-age=31536000",
+              "Transfer-Encoding": "chunked"
+            },
+            "mimeType": "text/html",
+            "charset": "utf-8",
+            "remoteIPAddress": "95.217.42.163",
+            "remotePort": 443,
+            "encodedDataLength": 239,
+            "timing": {
+              "requestTime": 6831804.668024,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": -1,
+              "dnsEnd": -1,
+              "connectStart": -1,
+              "connectEnd": -1,
+              "sslStart": -1,
+              "sslEnd": -1,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 0.259,
+              "sendEnd": 0.393,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersStart": 184.554,
+              "receiveHeadersEnd": 185.813
+            },
+            "responseTime": 1786997311702.613,
+            "protocol": "http/1.1",
+            "alternateProtocolUsage": "unspecifiedReason",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "TLS 1.2",
+              "keyExchange": "ECDHE_RSA",
+              "keyExchangeGroup": "X25519",
+              "cipher": "CHACHA20_POLY1305",
+              "certificateId": 0,
+              "subjectName": "srvmediahost.com",
+              "sanList": [
+                "*.srvmediahost.com",
+                "srvmediahost.com"
+              ],
+              "issuer": "YR2",
+              "validFrom": 1783642142,
+              "validTo": 1791418141,
+              "signedCertificateTimestampList": [
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Cloudflare 'Nimbus2026'",
+                  "logId": "CB38F715897C84A1445F5BC1DDFBC96EF29A59CD470A690585B0CB14C31458E7",
+                  "timestamp": 1783645652860,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "3045022100CE31EB8E511FC3F55873F21E84752710C311B41B1B16FF21C2CA5CB4B1AF4D280220220D886976077C6965FE642E77170AF3A6810764471004092C7613B3AF48C2E0"
+                },
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Let's Encrypt 'Willow2026h2'",
+                  "logId": "A826CBE30AC6351246533FE065F14F19D96E190813C41DD96D7900B3123C5527",
+                  "timestamp": 1783645653287,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "3046022100BA141907453391241D9A9B5FB79AFAFA6D48736B1F89BDBCC5205B297D82B8C9022100A598DE1951B6B364B690368C486AA2D77524D02D070D847F7DC0A47BB9A2FD08"
+                }
+              ],
+              "certificateTransparencyCompliance": "compliant",
+              "serverSignatureAlgorithm": 2052,
+              "encryptedClientHello": false
+            },
+            "securityHeaders": [
+              {
+                "name": "Strict-Transport-Security",
+                "value": "max-age=31536000"
+              }
+            ]
+          },
+          "hasExtraInfo": true,
+          "hash": "8a7c87fc06598654fefb653571e60c1a12626061ecb3cca3e405db54000dcbf2",
+          "size": 139,
+          "asn": {
+            "ip": "95.217.42.163",
+            "asn": "24940",
+            "country": "DE",
+            "description": "HETZNER-AS Hetzner Online GmbH, DE",
+            "name": "HETZNER-AS Hetzner Online GmbH",
+            "route": "95.216.0.0/15"
+          },
+          "geoip": {
+            "country": "FI",
+            "region": "18",
+            "timezone": "Europe/Helsinki",
+            "city": "Helsinki",
+            "ll": [
+              60.1719,
+              24.9347
+            ],
+            "country_name": "Finland",
+            "metro": 0
+          },
+          "rdns": {
+            "ip": "95.217.42.163",
+            "ptr": "static.163.42.217.95.clients.your-server.de"
+          }
+        },
+        "initiatorInfo": {
+          "url": "https://free.gf920.com/?utm_medium=b00cccbf77c8ae579fa684fe9c8c5affa17a412b&utm_campaign=tang4g&cid=&1=&2=&3=&4=&5=&puid=7675095000211783798&fl=1&np=1",
+          "host": "free.gf920.com",
+          "type": "script"
+        }
+      },
+      {
+        "request": {
+          "requestId": "9036.5",
+          "loaderId": "A0DA31030742CF9F0B79AC88CD6F1A1D",
+          "documentURL": "https://free.gf920.com/?utm_medium=b00cccbf77c8ae579fa684fe9c8c5affa17a412b&utm_campaign=tang4g&cid=&1=&2=&3=&4=&5=&puid=7675095000211783798&fl=1&np=1",
+          "request": {
+            "url": "https://free.gf920.com/favicon.ico",
+            "method": "GET",
+            "headers": {
+              "sec-ch-ua-full-version-list": "\"Chromium\";v=\"122.0.0.0\", \"Google Chrome\";v=\"122.0.0.0\", \"Not(A:Brand\";v=\"24.0.0.0\"",
+              "sec-ch-ua-platform": "\"Android\"",
+              "Referer": "https://free.gf920.com/?utm_medium=b00cccbf77c8ae579fa684fe9c8c5affa17a412b&utm_campaign=tang4g&cid=&1=&2=&3=&4=&5=&puid=7675095000211783798&fl=1&np=1",
+              "sec-ch-ua": "\"Chromium\";v=\"122\", \"Google Chrome\";v=\"122\", \"Not(A:Brand\";v=\"24\"",
+              "sec-ch-ua-bitness": "\"64\"",
+              "sec-ch-ua-model": "\"\"",
+              "sec-ch-ua-mobile": "?1",
+              "sec-ch-ua-form-factors": "\"Mobile\"",
+              "sec-ch-ua-wow64": "?0",
+              "sec-ch-ua-arch": "\"arm\"",
+              "sec-ch-ua-full-version": "\"151.0.7922.137\"",
+              "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36",
+              "sec-ch-ua-platform-version": "\"13.0.0\""
+            },
+            "mixedContentType": "none",
+            "initialPriority": "High",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": true
+          },
+          "timestamp": 6831803.880991,
+          "wallTime": 1786997310.731071,
+          "initiator": {
+            "type": "other"
+          },
+          "redirectHasExtraInfo": false,
+          "type": "Other",
+          "frameId": "C9B69933C048E2617C66D5D20965090C",
+          "hasUserGesture": false
+        },
+        "response": {
+          "encodedDataLength": 1576,
+          "dataLength": 1150,
+          "requestId": "9036.5",
+          "type": "Other",
+          "response": {
+            "url": "https://free.gf920.com/favicon.ico",
+            "status": 200,
+            "statusText": "",
+            "headers": {
+              "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+              "cache-control": "max-age=86400",
+              "etag": "\"64d60f4e-47e\"",
+              "accept-ch": "Sec-CH-UA, Sec-CH-UA-Mobile, Sec-CH-UA-Platform, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Form-Factors, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-WoW64",
+              "expires": "Tue, 18 Aug 2026 20:08:30 GMT",
+              "accept-ranges": "bytes",
+              "alt-svc": "h3=\":443\"; ma=604800; persist=1",
+              "content-length": "1150",
+              "date": "Mon, 17 Aug 2026 20:08:30 GMT",
+              "content-type": "image/x-icon",
+              "last-modified": "Fri, 11 Aug 2023 10:37:02 GMT",
+              "server": "nginx"
+            },
+            "mimeType": "image/x-icon",
+            "charset": "",
+            "remoteIPAddress": "108.178.23.116",
+            "remotePort": 443,
+            "encodedDataLength": 426,
+            "timing": {
+              "requestTime": 6831803.881776,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": 0,
+              "dnsEnd": 0,
+              "connectStart": 0,
+              "connectEnd": 0,
+              "sslStart": 0,
+              "sslEnd": 0,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 0.353,
+              "sendEnd": 0.605,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersStart": 257.224,
+              "receiveHeadersEnd": 258.446
+            },
+            "responseTime": 1786997310989.059,
+            "protocol": "h3",
+            "alternateProtocolUsage": "alternativeJobWonWithoutRace",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "QUIC",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "free.gf920.com",
+              "sanList": [
+                "free.gf920.com"
+              ],
+              "issuer": "YE1",
+              "validFrom": 1781061249,
+              "validTo": 1788837248,
+              "signedCertificateTimestampList": [
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Google 'Xenon2026h2' log",
+                  "logId": "D809553B944F7AFFC816196F944F85ABB0F8FC5E8755260F15D12E72BB454B14",
+                  "timestamp": 1781064759390,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "3045022001F0F43E65B5B76288C7650ACE915D6E313837D54391CCD120CE2035E39824C5022100B4F122FC1B15D38E090C976F68C206D6F812A8205E64FB8EBAF0126B40ED2064"
+                },
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Geomys 'Tuscolo2026h2'",
+                  "logId": "46AF863D3B3EE59FA577DEA8245D36B0D9ED22A223F4617741229452EE95505F",
+                  "timestamp": 1781064759427,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "3046022100B752F987A8E28B011F800F4C0F3A261CFD458D9AA6BD216526F2602B166BE68502210088C7D0511607D6C152674F4216276FEB96C5E36F2448AE7DE250221D6023264F"
+                }
+              ],
+              "certificateTransparencyCompliance": "compliant",
+              "serverSignatureAlgorithm": 1027,
+              "encryptedClientHello": false
+            },
+            "securityHeaders": [
+              {
+                "name": "Strict-Transport-Security",
+                "value": "max-age=63072000; includeSubDomains; preload"
+              }
+            ]
+          },
+          "hasExtraInfo": true,
+          "hash": "b1d7aef06456fe7431124129a28f0138bb5fccfa4f4161e3087de23c005e5edc",
+          "size": 1536,
+          "asn": {
+            "ip": "108.178.23.116",
+            "asn": "32475",
+            "country": "US",
+            "description": "SINGLEHOP-LLC - Internap Holding LLC, US",
+            "name": "Internap Holding LLC",
+            "route": "108.178.0.0/18"
+          },
+          "geoip": {
+            "country": "US",
+            "region": "",
+            "timezone": "America/Chicago",
+            "city": "",
+            "ll": [
+              37.751,
+              -97.822
+            ],
+            "country_name": "United States",
+            "metro": 0
+          },
+          "rdns": {
+            "ip": "108.178.23.116",
+            "ptr": "server04.com-2.mobi"
+          }
+        }
+      },
+      {
+        "request": {
+          "requestId": "9036.6",
+          "loaderId": "A0DA31030742CF9F0B79AC88CD6F1A1D",
+          "documentURL": "https://free.gf920.com/?utm_medium=b00cccbf77c8ae579fa684fe9c8c5affa17a412b&utm_campaign=tang4g&cid=&1=&2=&3=&4=&5=&puid=7675095000211783798&fl=1&np=1",
+          "request": {
+            "url": "https://free.gf920.com/favicon.ico",
+            "method": "GET",
+            "headers": {
+              "sec-ch-ua-full-version-list": "\"Chromium\";v=\"122.0.0.0\", \"Google Chrome\";v=\"122.0.0.0\", \"Not(A:Brand\";v=\"24.0.0.0\"",
+              "sec-ch-ua-platform": "\"Android\"",
+              "Referer": "https://free.gf920.com/?utm_medium=b00cccbf77c8ae579fa684fe9c8c5affa17a412b&utm_campaign=tang4g&cid=&1=&2=&3=&4=&5=&puid=7675095000211783798&fl=1&np=1",
+              "sec-ch-ua": "\"Chromium\";v=\"122\", \"Google Chrome\";v=\"122\", \"Not(A:Brand\";v=\"24\"",
+              "sec-ch-ua-bitness": "\"64\"",
+              "sec-ch-ua-model": "\"\"",
+              "sec-ch-ua-mobile": "?1",
+              "sec-ch-ua-form-factors": "\"Mobile\"",
+              "sec-ch-ua-wow64": "?0",
+              "sec-ch-ua-arch": "\"arm\"",
+              "sec-ch-ua-full-version": "\"151.0.7922.137\"",
+              "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36",
+              "sec-ch-ua-platform-version": "\"13.0.0\""
+            },
+            "mixedContentType": "none",
+            "initialPriority": "High",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": true
+          },
+          "timestamp": 6831804.142009,
+          "wallTime": 1786997310.992097,
+          "initiator": {
+            "type": "other"
+          },
+          "redirectHasExtraInfo": false,
+          "type": "Other",
+          "frameId": "C9B69933C048E2617C66D5D20965090C",
+          "hasUserGesture": false
+        },
+        "response": {
+          "encodedDataLength": 0,
+          "dataLength": 1150,
+          "requestId": "9036.6",
+          "type": "Other",
+          "response": {
+            "url": "https://free.gf920.com/favicon.ico",
+            "status": 200,
+            "statusText": "",
+            "headers": {
+              "cache-control": "max-age=86400",
+              "etag": "\"64d60f4e-47e\"",
+              "accept-ch": "Sec-CH-UA, Sec-CH-UA-Mobile, Sec-CH-UA-Platform, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Form-Factors, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-WoW64",
+              "expires": "Tue, 18 Aug 2026 20:08:30 GMT",
+              "accept-ranges": "bytes",
+              "alt-svc": "h3=\":443\"; ma=604800; persist=1",
+              "content-length": "1150",
+              "date": "Mon, 17 Aug 2026 20:08:30 GMT",
+              "content-type": "image/x-icon",
+              "last-modified": "Fri, 11 Aug 2023 10:37:02 GMT",
+              "server": "nginx"
+            },
+            "mimeType": "image/x-icon",
+            "charset": "",
+            "remoteIPAddress": "108.178.23.116",
+            "remotePort": 443,
+            "encodedDataLength": 0,
+            "timing": {
+              "requestTime": 6831804.142454,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": -1,
+              "dnsEnd": -1,
+              "connectStart": -1,
+              "connectEnd": -1,
+              "sslStart": -1,
+              "sslEnd": -1,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 0.055,
+              "sendEnd": 0.055,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersStart": 0.079,
+              "receiveHeadersEnd": 0.126
+            },
+            "responseTime": 1786997310989.059,
+            "protocol": "h3",
+            "alternateProtocolUsage": "unspecifiedReason",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "QUIC",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "free.gf920.com",
+              "sanList": [
+                "free.gf920.com"
+              ],
+              "issuer": "YE1",
+              "validFrom": 1781061249,
+              "validTo": 1788837248,
+              "signedCertificateTimestampList": [],
+              "certificateTransparencyCompliance": "unknown",
+              "serverSignatureAlgorithm": 1027,
+              "encryptedClientHello": false
+            }
+          },
+          "hasExtraInfo": false,
+          "hash": "b1d7aef06456fe7431124129a28f0138bb5fccfa4f4161e3087de23c005e5edc",
+          "size": 1536,
+          "asn": {
+            "ip": "108.178.23.116",
+            "asn": "32475",
+            "country": "US",
+            "description": "SINGLEHOP-LLC - Internap Holding LLC, US",
+            "name": "Internap Holding LLC",
+            "route": "108.178.0.0/18"
+          },
+          "geoip": {
+            "country": "US",
+            "region": "",
+            "timezone": "America/Chicago",
+            "city": "",
+            "ll": [
+              37.751,
+              -97.822
+            ],
+            "country_name": "United States",
+            "metro": 0
+          },
+          "rdns": {
+            "ip": "108.178.23.116",
+            "ptr": "server04.com-2.mobi"
+          }
+        }
+      },
+      {
+        "request": {
+          "requestId": "9F59B4295A0487FC24E653962E840AF5",
+          "loaderId": "9F59B4295A0487FC24E653962E840AF5",
+          "documentURL": "https://obqj3.com/link?z=11299758&var=a4c225c6ece6568874902d43d340ac7e&ymid=d736016wha1bz8n0ed",
+          "request": {
+            "url": "https://obqj3.com/link?z=11299758&var=a4c225c6ece6568874902d43d340ac7e&ymid=d736016wha1bz8n0ed",
+            "method": "GET",
+            "headers": {
+              "Referer": "https://srvmediahost.com/",
+              "Upgrade-Insecure-Requests": "1",
+              "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36",
+              "sec-ch-ua": "\"Chromium\";v=\"122\", \"Google Chrome\";v=\"122\", \"Not(A:Brand\";v=\"24\"",
+              "sec-ch-ua-mobile": "?1",
+              "sec-ch-ua-platform": "\"Android\""
+            },
+            "mixedContentType": "none",
+            "initialPriority": "VeryHigh",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": true
+          },
+          "timestamp": 6831804.887186,
+          "wallTime": 1786997311.737237,
+          "initiator": {
+            "type": "other"
+          },
+          "redirectHasExtraInfo": false,
+          "type": "Document",
+          "frameId": "C9B69933C048E2617C66D5D20965090C",
+          "hasUserGesture": false
+        },
+        "response": {
+          "encodedDataLength": 0,
+          "dataLength": 0,
+          "requestId": "9F59B4295A0487FC24E653962E840AF5",
+          "type": "Document",
+          "response": {
+            "url": "https://obqj3.com/link?z=11299758&var=a4c225c6ece6568874902d43d340ac7e&ymid=d736016wha1bz8n0ed",
+            "status": 204,
+            "statusText": "",
+            "headers": {
+              "cf-cache-status": "DYNAMIC",
+              "cf-ray": "a2cb4fae8b8099e3-SIN",
+              "content-type": "text/plain; charset=utf-8",
+              "date": "Mon, 17 Aug 2026 20:08:32 GMT",
+              "server": "cloudflare",
+              "strict-transport-security": "max-age=1",
+              "timing-allow-origin": "*",
+              "x-content-type-options": "nosniff"
+            },
+            "mimeType": "text/plain",
+            "charset": "utf-8",
+            "remoteIPAddress": "172.64.154.96",
+            "remotePort": 443,
+            "encodedDataLength": 396,
+            "timing": {
+              "requestTime": 6831804.888264,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": 0,
+              "dnsEnd": 11.289,
+              "connectStart": 11.376,
+              "connectEnd": 25.226,
+              "sslStart": 13.342,
+              "sslEnd": 25.213,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 25.409,
+              "sendEnd": 25.578,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersStart": 288.538,
+              "receiveHeadersEnd": 289.789
+            },
+            "responseTime": 1786997312026.857,
+            "protocol": "h2",
+            "alternateProtocolUsage": "unspecifiedReason",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "TLS 1.3",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519MLKEM768",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "obqj3.com",
+              "sanList": [
+                "obqj3.com"
+              ],
+              "issuer": "WE1",
+              "validFrom": 1786298386,
+              "validTo": 1794077983,
+              "signedCertificateTimestampList": [
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Cloudflare 'Nimbus2026'",
+                  "logId": "CB38F715897C84A1445F5BC1DDFBC96EF29A59CD470A690585B0CB14C31458E7",
+                  "timestamp": 1786301987249,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "304502204DFD98A139FFAAD33F39A9D49177EC26042D78072073176F6C3F0085494FB6BD022100F7C5886856F7D85EAE0728F734A579AA1CAA26B21797986E7909485472C955D6"
+                },
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Google 'Xenon2026h2' log",
+                  "logId": "D809553B944F7AFFC816196F944F85ABB0F8FC5E8755260F15D12E72BB454B14",
+                  "timestamp": 1786301987330,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "3046022100CFD9E473DE0063DBE60C6FD9AD3BEE9FC4712291A6709826A55E79153AAB83B9022100A2A49B3A9C7E208F08A26BC6A7141F087F32F5BDEC7DAE20958AA74C6315948A"
+                }
+              ],
+              "certificateTransparencyCompliance": "compliant",
+              "serverSignatureAlgorithm": 1027,
+              "encryptedClientHello": false
+            },
+            "securityHeaders": [
+              {
+                "name": "Strict-Transport-Security",
+                "value": "max-age=1"
+              },
+              {
+                "name": "X-Content-Type-Options",
+                "value": "nosniff"
+              }
+            ]
+          },
+          "hasExtraInfo": true,
+          "failed": {
+            "requestId": "9F59B4295A0487FC24E653962E840AF5",
+            "timestamp": 6831805.179947,
+            "type": "Document",
+            "errorText": "net::ERR_ABORTED",
+            "canceled": true
+          },
+          "asn": {
+            "ip": "172.64.154.96",
+            "asn": "13335",
+            "country": "US",
+            "description": "CLOUDFLARENET - Cloudflare, Inc., US",
+            "name": "Cloudflare",
+            "route": "172.64.144.0/20"
+          },
+          "geoip": {
+            "country": "",
+            "region": "",
+            "timezone": "",
+            "city": "",
+            "ll": [
+              null,
+              null
+            ],
+            "country_name": "Ascension Island"
+          }
+        }
+      },
+      {
+        "request": {
+          "requestId": "9036.8",
+          "loaderId": "892EC77F074345A7376F94B54901507A",
+          "documentURL": "https://srvmediahost.com/nlp/index.php?z=11299758&var=a4c225c6ece6568874902d43d340ac7e&ymid=d736016wha1bz8n0ed&url_bnm_redirect=https://obqj3.com/link",
+          "request": {
+            "url": "https://srvmediahost.com/favicon.ico",
+            "method": "GET",
+            "headers": {
+              "sec-ch-ua-platform": "\"Android\"",
+              "Referer": "https://srvmediahost.com/nlp/index.php?z=11299758&var=a4c225c6ece6568874902d43d340ac7e&ymid=d736016wha1bz8n0ed&url_bnm_redirect=https://obqj3.com/link",
+              "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36",
+              "sec-ch-ua": "\"Chromium\";v=\"122\", \"Google Chrome\";v=\"122\", \"Not(A:Brand\";v=\"24\"",
+              "sec-ch-ua-mobile": "?1"
+            },
+            "mixedContentType": "none",
+            "initialPriority": "High",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": true
+          },
+          "timestamp": 6831804.895178,
+          "wallTime": 1786997311.745253,
+          "initiator": {
+            "type": "other"
+          },
+          "redirectHasExtraInfo": false,
+          "type": "Other",
+          "frameId": "C9B69933C048E2617C66D5D20965090C",
+          "hasUserGesture": false
+        },
+        "response": {
+          "encodedDataLength": 270,
+          "dataLength": 0,
+          "requestId": "9036.8",
+          "type": "Other",
+          "response": {
+            "url": "https://srvmediahost.com/favicon.ico",
+            "status": 200,
+            "statusText": "OK",
+            "headers": {
+              "Transfer-Encoding": "chunked",
+              "Strict-Transport-Security": "max-age=31536000",
+              "Content-Encoding": "gzip",
+              "Date": "Mon, 17 Aug 2026 20:08:31 GMT",
+              "Content-Type": "text/html; charset=UTF-8",
+              "Server": "nginx/1.26.0",
+              "Connection": "keep-alive"
+            },
+            "mimeType": "text/html",
+            "charset": "utf-8",
+            "remoteIPAddress": "95.217.42.163",
+            "remotePort": 443,
+            "encodedDataLength": 239,
+            "timing": {
+              "requestTime": 6831804.895909,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": -1,
+              "dnsEnd": -1,
+              "connectStart": -1,
+              "connectEnd": -1,
+              "sslStart": -1,
+              "sslEnd": -1,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 0.338,
+              "sendEnd": 0.449,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersStart": 188.184,
+              "receiveHeadersEnd": 189.4
+            },
+            "responseTime": 1786997311934.128,
+            "protocol": "http/1.1",
+            "alternateProtocolUsage": "unspecifiedReason",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "TLS 1.2",
+              "keyExchange": "ECDHE_RSA",
+              "keyExchangeGroup": "X25519",
+              "cipher": "CHACHA20_POLY1305",
+              "certificateId": 0,
+              "subjectName": "srvmediahost.com",
+              "sanList": [
+                "*.srvmediahost.com",
+                "srvmediahost.com"
+              ],
+              "issuer": "YR2",
+              "validFrom": 1783642142,
+              "validTo": 1791418141,
+              "signedCertificateTimestampList": [
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Cloudflare 'Nimbus2026'",
+                  "logId": "CB38F715897C84A1445F5BC1DDFBC96EF29A59CD470A690585B0CB14C31458E7",
+                  "timestamp": 1783645652860,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "3045022100CE31EB8E511FC3F55873F21E84752710C311B41B1B16FF21C2CA5CB4B1AF4D280220220D886976077C6965FE642E77170AF3A6810764471004092C7613B3AF48C2E0"
+                },
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Let's Encrypt 'Willow2026h2'",
+                  "logId": "A826CBE30AC6351246533FE065F14F19D96E190813C41DD96D7900B3123C5527",
+                  "timestamp": 1783645653287,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "3046022100BA141907453391241D9A9B5FB79AFAFA6D48736B1F89BDBCC5205B297D82B8C9022100A598DE1951B6B364B690368C486AA2D77524D02D070D847F7DC0A47BB9A2FD08"
+                }
+              ],
+              "certificateTransparencyCompliance": "compliant",
+              "serverSignatureAlgorithm": 2052,
+              "encryptedClientHello": false
+            },
+            "securityHeaders": [
+              {
+                "name": "Strict-Transport-Security",
+                "value": "max-age=31536000"
+              }
+            ]
+          },
+          "hasExtraInfo": true,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0,
+          "asn": {
+            "ip": "95.217.42.163",
+            "asn": "24940",
+            "country": "DE",
+            "description": "HETZNER-AS Hetzner Online GmbH, DE",
+            "name": "HETZNER-AS Hetzner Online GmbH",
+            "route": "95.216.0.0/15"
+          },
+          "geoip": {
+            "country": "FI",
+            "region": "18",
+            "timezone": "Europe/Helsinki",
+            "city": "Helsinki",
+            "ll": [
+              60.1719,
+              24.9347
+            ],
+            "country_name": "Finland",
+            "metro": 0
+          },
+          "rdns": {
+            "ip": "95.217.42.163",
+            "ptr": "static.163.42.217.95.clients.your-server.de"
+          }
+        }
+      }
+    ],
+    "cookies": [
+      {
+        "name": "uclick",
+        "value": "16wha1bz8n",
+        "domain": "srvmediahost.com",
+        "path": "/",
+        "expires": 1787083711.515891,
+        "size": 16,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sourceScheme": "Secure",
+        "sourcePort": 443
+      },
+      {
+        "name": "uclickhash",
+        "value": "16wha1bz8n-16wha1bz8n-cidz-0-1zwj-hqdu-h9sc-c5d3ff",
+        "domain": "srvmediahost.com",
+        "path": "/",
+        "expires": 1787083711.515984,
+        "size": 60,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sourceScheme": "Secure",
+        "sourcePort": 443
+      },
+      {
+        "name": "__cf_bm",
+        "value": "mmnt14CxH2WgBEz9lBHTrO8OJ9gKDRNf9ibs8knkjLU-1786997311.7680964-1.0.1.1-cYa_fc4y2MdbAkeP3ng7Urn.0veqYjsWxqduN39GtJIRFayGBSAhIJJa82GmHoC56h3FAQbiRv_0Ex1IuMOztaX5lFoWyI8YJKnfz54t5AyGafnTH0Y.Gv2tt3T84oF6",
+        "domain": ".obqj3.com",
+        "path": "/",
+        "expires": 1786999112.028117,
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sourceScheme": "Secure",
+        "sourcePort": 443
+      }
+    ],
+    "console": [],
+    "links": [],
+    "timing": {
+      "beginNavigation": "2026-08-17T20:08:29.015Z",
+      "frameStartedLoading": "2026-08-17T20:08:31.736Z",
+      "frameNavigated": "2026-08-17T20:08:31.716Z",
+      "domContentEventFired": "2026-08-17T20:08:31.729Z",
+      "frameStoppedLoading": "2026-08-17T20:08:32.055Z"
+    },
+    "globals": [
+      {
+        "prop": "ontouchcancel",
+        "type": "object"
+      },
+      {
+        "prop": "ontouchend",
+        "type": "object"
+      },
+      {
+        "prop": "ontouchmove",
+        "type": "object"
+      },
+      {
+        "prop": "ontouchstart",
+        "type": "object"
+      },
+      {
+        "prop": "fence",
+        "type": "object"
+      }
+    ],
+    "storages": [],
+    "websockets": [],
+    "redirects": [
+      {
+        "from": "https://kuota-gratis-81gb98.1grd.xyz/go.php/?t=9",
+        "to": "https://free.gf920.com/?utm_medium=b00cccbf77c8ae579fa684fe9c8c5affa17a412b&utm_campaign=tang4g",
+        "initiator": "script"
+      },
+      {
+        "from": "https://free.gf920.com/?utm_medium=b00cccbf77c8ae579fa684fe9c8c5affa17a412b&utm_campaign=tang4g",
+        "to": "https://free.gf920.com/?utm_term=7675095000211783798",
+        "initiator": "script"
+      },
+      {
+        "from": "https://free.gf920.com/?utm_term=7675095000211783798",
+        "to": "https://srvmediahost.com/click.php?key=9in9fe6yawnglnbwbuzr&subid=M7675095000211783798&partner_id=27052&pid=27052-dabc31az&campaign_id=a74fea&browser=Chrome+Mobile&device=Samsung+SM-G991B&app_name=unknown&geo=SG&carrier=SG+WiFi&pcid=a74fea_27052-dabc31az&pg=27052-SG",
+        "initiator": "script"
+      },
+      {
+        "from": "https://srvmediahost.com/click.php?key=9in9fe6yawnglnbwbuzr&subid=M7675095000211783798&partner_id=27052&pid=27052-dabc31az&campaign_id=a74fea&browser=Chrome+Mobile&device=Samsung+SM-G991B&app_name=unknown&geo=SG&carrier=SG+WiFi&pcid=a74fea_27052-dabc31az&pg=27052-SG",
+        "to": "https://srvmediahost.com/nlp/index.php?z=11299758&var=a4c225c6ece6568874902d43d340ac7e&ymid=d736016wha1bz8n0ed&url_bnm_redirect=https://obqj3.com/link",
+        "status": 302
+      }
+    ],
+    "identifiers": []
+  },
+  "lists": {
+    "ips": [
+      "172.64.154.96",
+      "95.217.42.163",
+      "108.178.23.116",
+      "104.16.80.73",
+      "172.67.166.103"
+    ],
+    "countries": [
+      "FI",
+      "US"
+    ],
+    "asns": [
+      "13335",
+      "24940",
+      "32475"
+    ],
+    "domains": [
+      "free.gf920.com",
+      "srvmediahost.com",
+      "obqj3.com",
+      "static.cloudflareinsights.com",
+      "kuota-gratis-81gb98.1grd.xyz"
+    ],
+    "servers": [
+      "nginx",
+      "cloudflare",
+      "nginx/1.26.0"
+    ],
+    "urls": [
+      "https://kuota-gratis-81gb98.1grd.xyz/go.php/?t=9",
+      "https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496",
+      "https://free.gf920.com/?utm_medium=b00cccbf77c8ae579fa684fe9c8c5affa17a412b&utm_campaign=tang4g",
+      "https://free.gf920.com/?utm_term=7675095000211783798",
+      "https://srvmediahost.com/nlp/index.php?z=11299758&var=a4c225c6ece6568874902d43d340ac7e&ymid=d736016wha1bz8n0ed&url_bnm_redirect=https://obqj3.com/link",
+      "https://srvmediahost.com/click.php?key=9in9fe6yawnglnbwbuzr&subid=M7675095000211783798&partner_id=27052&pid=27052-dabc31az&campaign_id=a74fea&browser=Chrome+Mobile&device=Samsung+SM-G991B&app_name=unknown&geo=SG&carrier=SG+WiFi&pcid=a74fea_27052-dabc31az&pg=27052-SG",
+      "https://free.gf920.com/favicon.ico",
+      "https://obqj3.com/link?z=11299758&var=a4c225c6ece6568874902d43d340ac7e&ymid=d736016wha1bz8n0ed",
+      "https://srvmediahost.com/favicon.ico"
+    ],
+    "linkDomains": [],
+    "certificates": [
+      {
+        "subjectName": "1grd.xyz",
+        "issuer": "WE1",
+        "validFrom": 1785520828,
+        "validTo": 1793300424
+      },
+      {
+        "subjectName": "cloudflareinsights.com",
+        "issuer": "WE1",
+        "validFrom": 1786694550,
+        "validTo": 1794474137
+      },
+      {
+        "subjectName": "free.gf920.com",
+        "issuer": "YE1",
+        "validFrom": 1781061249,
+        "validTo": 1788837248
+      },
+      {
+        "subjectName": "srvmediahost.com",
+        "issuer": "YR2",
+        "validFrom": 1783642142,
+        "validTo": 1791418141
+      },
+      {
+        "subjectName": "obqj3.com",
+        "issuer": "WE1",
+        "validFrom": 1786298386,
+        "validTo": 1794077983
+      }
+    ],
+    "hashes": [
+      "548edc17a65c8b4226d02d8bedb97df207cab143e7c9d8b6bee47e09ca311c50",
+      "e1ac4849b9d4a498b68f8aca01e6ed99a11d94b35a2cec533b3916b8fb722fd6",
+      "50a2d56ade5517752730cd7d66160993dc5294a395d80f01390f6a9e028d7126",
+      "509b3bed83ab607cbc30d104634dc046a665345c89cd9c73c934b4da1f9446da",
+      "8a7c87fc06598654fefb653571e60c1a12626061ecb3cca3e405db54000dcbf2",
+      "b1d7aef06456fe7431124129a28f0138bb5fccfa4f4161e3087de23c005e5edc",
+      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    ]
+  },
+  "meta": {
+    "processors": {
+      "umbrella": {
+        "data": [
+          {
+            "hostname": "static.cloudflareinsights.com",
+            "rank": 306
+          },
+          {
+            "hostname": "free.gf920.com",
+            "rank": 378653
+          },
+          {
+            "hostname": "srvmediahost.com",
+            "rank": 431339
+          },
+          {
+            "hostname": "obqj3.com",
+            "rank": 501920
+          }
+        ]
+      },
+      "geoip": {
+        "data": [
+          {
+            "ip": "172.67.166.103",
+            "geoip": {
+              "country": "",
+              "region": "",
+              "timezone": "",
+              "city": "",
+              "ll": [
+                null,
+                null
+              ],
+              "country_name": "Ascension Island"
+            }
+          },
+          {
+            "ip": "104.16.80.73",
+            "geoip": {
+              "country": "",
+              "region": "",
+              "timezone": "",
+              "city": "",
+              "ll": [
+                null,
+                null
+              ],
+              "country_name": "Ascension Island"
+            }
+          },
+          {
+            "ip": "108.178.23.116",
+            "geoip": {
+              "country": "US",
+              "region": "",
+              "timezone": "America/Chicago",
+              "city": "",
+              "ll": [
+                37.751,
+                -97.822
+              ],
+              "country_name": "United States",
+              "metro": 0
+            }
+          },
+          {
+            "ip": "95.217.42.163",
+            "geoip": {
+              "country": "FI",
+              "region": "18",
+              "timezone": "Europe/Helsinki",
+              "city": "Helsinki",
+              "ll": [
+                60.1719,
+                24.9347
+              ],
+              "country_name": "Finland",
+              "metro": 0
+            }
+          },
+          {
+            "ip": "172.64.154.96",
+            "geoip": {
+              "country": "",
+              "region": "",
+              "timezone": "",
+              "city": "",
+              "ll": [
+                null,
+                null
+              ],
+              "country_name": "Ascension Island"
+            }
+          }
+        ]
+      },
+      "asn": {
+        "data": [
+          {
+            "ip": "172.67.166.103",
+            "asn": "13335",
+            "country": "US",
+            "description": "CLOUDFLARENET - Cloudflare, Inc., US",
+            "name": "Cloudflare",
+            "route": "172.67.128.0/17"
+          },
+          {
+            "ip": "104.16.80.73",
+            "asn": "13335",
+            "country": "US",
+            "description": "CLOUDFLARENET - Cloudflare, Inc., US",
+            "name": "Cloudflare",
+            "route": "104.16.0.0/14"
+          },
+          {
+            "ip": "108.178.23.116",
+            "asn": "32475",
+            "country": "US",
+            "description": "SINGLEHOP-LLC - Internap Holding LLC, US",
+            "name": "Internap Holding LLC",
+            "route": "108.178.0.0/18"
+          },
+          {
+            "ip": "95.217.42.163",
+            "asn": "24940",
+            "country": "DE",
+            "description": "HETZNER-AS Hetzner Online GmbH, DE",
+            "name": "HETZNER-AS Hetzner Online GmbH",
+            "route": "95.216.0.0/15"
+          },
+          {
+            "ip": "172.64.154.96",
+            "asn": "13335",
+            "country": "US",
+            "description": "CLOUDFLARENET - Cloudflare, Inc., US",
+            "name": "Cloudflare",
+            "route": "172.64.144.0/20"
+          }
+        ]
+      },
+      "rdns": {
+        "data": [
+          {
+            "ip": "108.178.23.116",
+            "ptr": "server04.com-2.mobi"
+          },
+          {
+            "ip": "95.217.42.163",
+            "ptr": "static.163.42.217.95.clients.your-server.de"
+          }
+        ]
+      },
+      "wappa": {
+        "data": [
+          {
+            "confidence": [
+              {
+                "confidence": 100,
+                "pattern": "\\.php(?:$|\\?)"
+              }
+            ],
+            "confidenceTotal": 100,
+            "app": "PHP",
+            "icon": "PHP.svg",
+            "website": "https://php.net",
+            "categories": [
+              {
+                "groups": [
+                  9
+                ],
+                "name": "Programming languages",
+                "priority": 5
+              }
+            ]
+          },
+          {
+            "confidence": [
+              {
+                "confidence": 100,
+                "pattern": ""
+              }
+            ],
+            "confidenceTotal": 100,
+            "app": "Cloudflare Bot Management",
+            "icon": "CloudFlare.svg",
+            "website": "https://www.cloudflare.com/en-gb/products/bot-management/",
+            "categories": [
+              {
+                "groups": [
+                  11
+                ],
+                "name": "Security",
+                "priority": 9
+              }
+            ]
+          },
+          {
+            "confidence": [
+              {
+                "confidence": 100,
+                "pattern": "static\\.cloudflareinsights\\.com/beacon(?:\\.min)?\\.js"
+              }
+            ],
+            "confidenceTotal": 100,
+            "app": "Cloudflare Browser Insights",
+            "icon": "CloudFlare.svg",
+            "website": "https://www.cloudflare.com",
+            "categories": [
+              {
+                "groups": [
+                  8
+                ],
+                "name": "Analytics",
+                "priority": 9
+              },
+              {
+                "groups": [
+                  2
+                ],
+                "name": "RUM",
+                "priority": 9
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "page": {
+    "asn": "AS24940",
+    "asnname": "HETZNER-AS Hetzner Online GmbH, DE",
+    "city": "Helsinki",
+    "country": "FI",
+    "domain": "srvmediahost.com",
+    "ip": "95.217.42.163",
+    "ptr": "static.163.42.217.95.clients.your-server.de",
+    "server": "nginx/1.26.0",
+    "url": "https://srvmediahost.com/nlp/index.php?z=11299758&var=a4c225c6ece6568874902d43d340ac7e&ymid=d736016wha1bz8n0ed&url_bnm_redirect=https://obqj3.com/link",
+    "redirected": "off-domain",
+    "apexDomainAgeDays": 279,
+    "mimeType": "text/html",
+    "tlsValidDays": 89,
+    "tlsAgeDays": 38,
+    "domainAgeDays": 279,
+    "tlsValidFrom": "2026-07-10T00:09:02.000Z",
+    "umbrellaRank": 431339,
+    "apexDomain": "srvmediahost.com",
+    "tlsIssuer": "YR2",
+    "status": "200"
+  },
+  "scanner": {
+    "country": "sg"
+  },
+  "stats": {
+    "IPv6Percentage": 0,
+    "adBlocked": 0,
+    "domainStats": [
+      {
+        "count": 4,
+        "ips": [
+          "108.178.23.116"
+        ],
+        "domain": "free.gf920.com",
+        "size": 6443,
+        "encodedSize": 4661,
+        "countries": [
+          "US"
+        ],
+        "index": 2,
+        "initiators": [
+          "kuota-gratis-81gb98.1grd.xyz",
+          "free.gf920.com"
+        ],
+        "redirects": 0
+      },
+      {
+        "count": 3,
+        "ips": [
+          "95.217.42.163"
+        ],
+        "domain": "srvmediahost.com",
+        "size": 139,
+        "encodedSize": 1323,
+        "countries": [
+          "FI"
+        ],
+        "index": 4,
+        "initiators": [
+          "free.gf920.com"
+        ],
+        "redirects": 1
+      },
+      {
+        "count": 1,
+        "ips": [
+          "172.64.154.96"
+        ],
+        "domain": "obqj3.com",
+        "size": 0,
+        "encodedSize": 0,
+        "countries": [],
+        "index": 8,
+        "initiators": [],
+        "redirects": 0
+      },
+      {
+        "count": 1,
+        "ips": [
+          "104.16.80.73"
+        ],
+        "domain": "static.cloudflareinsights.com",
+        "size": 31612,
+        "encodedSize": 11577,
+        "countries": [],
+        "index": 1,
+        "initiators": [
+          "kuota-gratis-81gb98.1grd.xyz"
+        ],
+        "redirects": 0
+      },
+      {
+        "count": 1,
+        "ips": [
+          "172.67.166.103"
+        ],
+        "domain": "kuota-gratis-81gb98.1grd.xyz",
+        "size": 1007,
+        "encodedSize": 1186,
+        "countries": [],
+        "index": 0,
+        "initiators": [],
+        "redirects": 0
+      }
+    ],
+    "ipStats": [
+      {
+        "requests": 1,
+        "domains": [
+          "kuota-gratis-81gb98.1grd.xyz"
+        ],
+        "ip": "172.67.166.103",
+        "asn": {
+          "ip": "172.67.166.103",
+          "asn": "13335",
+          "country": "US",
+          "description": "CLOUDFLARENET - Cloudflare, Inc., US",
+          "name": "Cloudflare",
+          "route": "172.67.128.0/17"
+        },
+        "dns": {},
+        "geoip": {
+          "country": "",
+          "region": "",
+          "timezone": "",
+          "city": "",
+          "ll": [
+            null,
+            null
+          ],
+          "country_name": "Ascension Island"
+        },
+        "size": 1007,
+        "encodedSize": 1186,
+        "countries": [],
+        "index": 0,
+        "ipv6": false,
+        "redirects": 0,
+        "count": null
+      },
+      {
+        "requests": 1,
+        "domains": [
+          "static.cloudflareinsights.com"
+        ],
+        "ip": "104.16.80.73",
+        "asn": {
+          "ip": "104.16.80.73",
+          "asn": "13335",
+          "country": "US",
+          "description": "CLOUDFLARENET - Cloudflare, Inc., US",
+          "name": "Cloudflare",
+          "route": "104.16.0.0/14"
+        },
+        "dns": {},
+        "geoip": {
+          "country": "",
+          "region": "",
+          "timezone": "",
+          "city": "",
+          "ll": [
+            null,
+            null
+          ],
+          "country_name": "Ascension Island"
+        },
+        "size": 31612,
+        "encodedSize": 11577,
+        "countries": [],
+        "index": 1,
+        "ipv6": false,
+        "redirects": 0,
+        "count": null
+      },
+      {
+        "requests": 4,
+        "domains": [
+          "free.gf920.com"
+        ],
+        "ip": "108.178.23.116",
+        "asn": {
+          "ip": "108.178.23.116",
+          "asn": "32475",
+          "country": "US",
+          "description": "SINGLEHOP-LLC - Internap Holding LLC, US",
+          "name": "Internap Holding LLC",
+          "route": "108.178.0.0/18"
+        },
+        "dns": {},
+        "geoip": {
+          "country": "US",
+          "region": "",
+          "timezone": "America/Chicago",
+          "city": "",
+          "ll": [
+            37.751,
+            -97.822
+          ],
+          "country_name": "United States",
+          "metro": 0
+        },
+        "size": 6443,
+        "encodedSize": 4661,
+        "countries": [
+          "US"
+        ],
+        "index": 2,
+        "ipv6": false,
+        "redirects": 0,
+        "count": null,
+        "rdns": {
+          "ip": "108.178.23.116",
+          "ptr": "server04.com-2.mobi"
+        }
+      },
+      {
+        "requests": 3,
+        "domains": [
+          "srvmediahost.com"
+        ],
+        "ip": "95.217.42.163",
+        "asn": {
+          "ip": "95.217.42.163",
+          "asn": "24940",
+          "country": "DE",
+          "description": "HETZNER-AS Hetzner Online GmbH, DE",
+          "name": "HETZNER-AS Hetzner Online GmbH",
+          "route": "95.216.0.0/15"
+        },
+        "dns": {},
+        "geoip": {
+          "country": "FI",
+          "region": "18",
+          "timezone": "Europe/Helsinki",
+          "city": "Helsinki",
+          "ll": [
+            60.1719,
+            24.9347
+          ],
+          "country_name": "Finland",
+          "metro": 0
+        },
+        "size": 139,
+        "encodedSize": 1323,
+        "countries": [
+          "FI"
+        ],
+        "index": 4,
+        "ipv6": false,
+        "redirects": 1,
+        "count": null,
+        "rdns": {
+          "ip": "95.217.42.163",
+          "ptr": "static.163.42.217.95.clients.your-server.de"
+        }
+      },
+      {
+        "requests": 1,
+        "domains": [
+          "obqj3.com"
+        ],
+        "ip": "172.64.154.96",
+        "asn": {
+          "ip": "172.64.154.96",
+          "asn": "13335",
+          "country": "US",
+          "description": "CLOUDFLARENET - Cloudflare, Inc., US",
+          "name": "Cloudflare",
+          "route": "172.64.144.0/20"
+        },
+        "dns": {},
+        "geoip": {
+          "country": "",
+          "region": "",
+          "timezone": "",
+          "city": "",
+          "ll": [
+            null,
+            null
+          ],
+          "country_name": "Ascension Island"
+        },
+        "size": 0,
+        "encodedSize": 0,
+        "countries": [],
+        "index": 8,
+        "ipv6": false,
+        "redirects": 0,
+        "count": null
+      }
+    ],
+    "malicious": 0,
+    "protocolStats": [
+      {
+        "count": 4,
+        "size": 35755,
+        "encodedSize": 14662,
+        "ips": [
+          "104.16.80.73",
+          "108.178.23.116",
+          "172.64.154.96"
+        ],
+        "countries": [
+          "US"
+        ],
+        "securityState": {},
+        "protocol": "h2"
+      },
+      {
+        "count": 3,
+        "size": 3307,
+        "encodedSize": 2762,
+        "ips": [
+          "172.67.166.103",
+          "108.178.23.116"
+        ],
+        "countries": [
+          "US"
+        ],
+        "securityState": {},
+        "protocol": "h3"
+      },
+      {
+        "count": 2,
+        "size": 139,
+        "encodedSize": 667,
+        "ips": [
+          "95.217.42.163"
+        ],
+        "countries": [
+          "FI"
+        ],
+        "securityState": {},
+        "protocol": "http/1.1"
+      }
+    ],
+    "regDomainStats": [
+      {
+        "count": 4,
+        "ips": [
+          "108.178.23.116"
+        ],
+        "regDomain": "gf920.com",
+        "size": 6443,
+        "encodedSize": 4661,
+        "countries": [],
+        "index": 2,
+        "subDomains": [
+          {
+            "domain": "free",
+            "country": "US"
+          }
+        ],
+        "redirects": 0
+      },
+      {
+        "count": 3,
+        "ips": [
+          "95.217.42.163"
+        ],
+        "regDomain": "srvmediahost.com",
+        "size": 139,
+        "encodedSize": 1323,
+        "countries": [],
+        "index": 4,
+        "subDomains": [
+          {
+            "domain": "",
+            "country": "FI"
+          }
+        ],
+        "redirects": 1
+      },
+      {
+        "count": 1,
+        "ips": [
+          "172.64.154.96"
+        ],
+        "regDomain": "obqj3.com",
+        "size": 0,
+        "encodedSize": 0,
+        "countries": [],
+        "index": 8,
+        "subDomains": [
+          {
+            "domain": "",
+            "country": ""
+          }
+        ],
+        "redirects": 0
+      },
+      {
+        "count": 1,
+        "ips": [
+          "104.16.80.73"
+        ],
+        "regDomain": "cloudflareinsights.com",
+        "size": 31612,
+        "encodedSize": 11577,
+        "countries": [],
+        "index": 1,
+        "subDomains": [
+          {
+            "domain": "static",
+            "country": ""
+          }
+        ],
+        "redirects": 0
+      },
+      {
+        "count": 1,
+        "ips": [
+          "172.67.166.103"
+        ],
+        "regDomain": "1grd.xyz",
+        "size": 1007,
+        "encodedSize": 1186,
+        "countries": [],
+        "index": 0,
+        "subDomains": [
+          {
+            "domain": "kuota-gratis-81gb98",
+            "country": ""
+          }
+        ],
+        "redirects": 0
+      }
+    ],
+    "resourceStats": [
+      {
+        "count": 5,
+        "size": 5289,
+        "encodedSize": 4668,
+        "latency": 0,
+        "countries": [
+          "US",
+          "FI"
+        ],
+        "ips": [
+          "172.67.166.103",
+          "108.178.23.116",
+          "95.217.42.163",
+          "172.64.154.96"
+        ],
+        "type": "Document",
+        "compression": "1.1",
+        "percentage": 55
+      },
+      {
+        "count": 3,
+        "size": 2300,
+        "encodedSize": 1846,
+        "latency": 0,
+        "countries": [
+          "US",
+          "FI"
+        ],
+        "ips": [
+          "108.178.23.116",
+          "95.217.42.163"
+        ],
+        "type": "Other",
+        "compression": "1.2",
+        "percentage": 33
+      },
+      {
+        "count": 1,
+        "size": 31612,
+        "encodedSize": 11577,
+        "latency": 0,
+        "countries": [],
+        "ips": [
+          "104.16.80.73"
+        ],
+        "type": "Script",
+        "compression": "2.7",
+        "percentage": 11
+      }
+    ],
+    "securePercentage": 100,
+    "secureRequests": 9,
+    "serverStats": [
+      {
+        "count": 4,
+        "size": 6443,
+        "encodedSize": 4661,
+        "ips": [
+          "108.178.23.116"
+        ],
+        "countries": [
+          "US"
+        ],
+        "server": "nginx"
+      },
+      {
+        "count": 3,
+        "size": 32619,
+        "encodedSize": 12763,
+        "ips": [
+          "172.67.166.103",
+          "104.16.80.73",
+          "172.64.154.96"
+        ],
+        "countries": [],
+        "server": "cloudflare"
+      },
+      {
+        "count": 2,
+        "size": 139,
+        "encodedSize": 667,
+        "ips": [
+          "95.217.42.163"
+        ],
+        "countries": [
+          "FI"
+        ],
+        "server": "nginx/1.26.0"
+      }
+    ],
+    "tlsStats": [
+      {
+        "count": 9,
+        "size": 39201,
+        "encodedSize": 18091,
+        "ips": [
+          "172.67.166.103",
+          "104.16.80.73",
+          "108.178.23.116",
+          "95.217.42.163",
+          "172.64.154.96"
+        ],
+        "countries": [
+          "US",
+          "FI"
+        ],
+        "protocols": {
+          "QUIC /  / AES_128_GCM": 3,
+          "TLS 1.3 /  / AES_128_GCM": 4,
+          "TLS 1.2 / ECDHE_RSA / CHACHA20_POLY1305": 2
+        },
+        "securityState": "secure"
+      }
+    ],
+    "totalLinks": 0,
+    "uniqCountries": 3
+  },
+  "submitter": {
+    "country": "ID"
+  },
+  "task": {
+    "method": "api",
+    "source": "61a6a5f6",
+    "tags": [],
+    "time": "2026-08-17T20:08:37.430Z",
+    "url": "https://kuota-gratis-81gb98.1grd.xyz/go.php/?t=9",
+    "uuid": "01a01156-fd3d-719e-b164-551fa2162c28",
+    "visibility": "unlisted",
+    "reportURL": "https://urlscan.io/result/01a01156-fd3d-719e-b164-551fa2162c28/",
+    "screenshotURL": "https://urlscan.io/screenshots/01a01156-fd3d-719e-b164-551fa2162c28.png",
+    "domURL": "https://urlscan.io/dom/01a01156-fd3d-719e-b164-551fa2162c28/",
+    "domain": "kuota-gratis-81gb98.1grd.xyz",
+    "apexDomain": "1grd.xyz"
+  },
+  "verdicts": {
+    "overall": {
+      "score": 0,
+      "categories": [],
+      "brands": [],
+      "tags": [],
+      "malicious": false,
+      "hasVerdicts": true
+    },
+    "urlscan": {
+      "score": 0,
+      "categories": [],
+      "brands": [],
+      "tags": [],
+      "malicious": false,
+      "hasVerdicts": false
+    },
+    "engines": {
+      "score": -6,
+      "malicious": false,
+      "categories": [],
+      "enginesTotal": 0,
+      "maliciousTotal": 0,
+      "benignTotal": 0,
+      "maliciousVerdicts": [],
+      "benignVerdicts": [],
+      "hasVerdicts": true,
+      "tags": [
+        "urlscan-ml",
+        "urlscan-ml-60c5e22"
+      ]
+    },
+    "community": {
+      "score": 0,
+      "categories": [],
+      "brands": [],
+      "votesTotal": 0,
+      "votesMalicious": 0,
+      "votesBenign": 0,
+      "malicious": false,
+      "hasVerdicts": false
+    }
+  }
+}

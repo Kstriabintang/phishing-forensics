@@ -1,0 +1,33 @@
+To: abuse@hetzner.com
+Subject: Abuse report — phishing/CPA-fraud cloaking server 95.217.42.163 (nginx)
+
+Hello Hetzner Abuse Team,
+
+Your IP 95.217.42.163 (AS24940) is hosting cloaking/smartlink infrastructure used
+in an active phishing/ad-fraud campaign targeting Indonesian mobile users
+("Kuota Gratis 81GB HUT RI ke-81" free-data lure spread via WhatsApp).
+
+The server acts as a cloaker: it fingerprints visitors (Canvas/WebGL/Audio/font,
+anti-bot checks) and redirects real Indonesian mobile users into a rotating CPA
+ad-network funnel, while serving empty responses to scanners.
+
+Malicious hostnames on 95.217.42.163 (all live, HTTP 200 as of 2026-08-18):
+  - srvmediahost.com   (observed: /nlp/index.php?...&url_bnm_redirect=https://obqj3.com/link)
+  - srvmedianet.com
+  - srvnewmedia.com
+  - smartmediasrv.com
+  - doubletrk.com
+  - baitechi.com
+
+Evidence (independent, browser render):
+  urlscan.io: https://urlscan.io/result/01a01156-fd3d-719e-b164-551fa2162c28/
+  Redirect chain captured:
+    kuota-gratis-81gb98.1grd.xyz/go.php -> free.gf920.com (cloaker)
+    -> srvmediahost.com/nlp/index.php?z=11299758&var=a4c225c6ece6568874902d43d340ac7e...
+    -> obqj3.com/link (ad network)
+
+Please investigate and suspend this abuse. I can provide full packet/header
+evidence on request.
+
+Regards,
+(Independent security researcher — defensive report)

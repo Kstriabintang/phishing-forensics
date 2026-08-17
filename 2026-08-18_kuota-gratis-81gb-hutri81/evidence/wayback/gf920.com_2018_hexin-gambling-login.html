@@ -1,0 +1,475 @@
+
+    
+        
+
+            <!doctype html>
+            <html lang="en">
+
+            <head>
+                <!-- 公共资源 -->
+                <title>和信娱乐城</title>
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="/css/reset.css">
+<link rel="stylesheet" href="/css/remodal.min.css">
+<link rel="stylesheet" href="/css/index.css">
+<link rel="stylesheet" href="/css/global.css">
+<link rel="stylesheet" href="/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/animate.min.css">
+
+<script src="/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript">
+    var base = '';
+</script>
+<script type="text/javascript" src="/common/template/member/common.js"></script>
+                
+
+<link rel="stylesheet" href="/common/modelCommon/layer/css/layer.css">
+<link rel="stylesheet" href="/common/modelCommon/layer/css/style.css">
+<script src="/common/modelCommon/layer/js/layer.min.js"></script>
+<script src="/common/jquery/jquery.cookie.js"></script>
+<script>
+	$(function() {
+		$.ajax({
+					url : "/getConfig/getArticle.do",
+					data : {
+						code : 14
+					},
+					type : "post",
+					dataType : 'json',
+					success : function(j) {
+						var title = "";
+						var content = "";
+						var temp = -1;
+						if (j.length > 0) {
+							if (j[0].index) {
+								var fw = 550;
+								var fh = 550;
+								if (j[0].frameWidth && j[0].frameHeight) {
+									fw = j[0].frameWidth;
+									fh = j[0].frameHeight;
+								}
+								title = j[0].title;
+								if (!title) {
+									title = " ";
+									temp = 1;
+								}
+								
+								var showStyle = $('#showStyle').val();
+								if(!showStyle){
+									layer.open({
+										type : 1, //page层
+										area : [ fw + 'px', fh + 'px' ],
+										title : title,
+										shade : 0.6, //遮罩透明度
+										scrollbar : false,
+										offset : '16%',//距离顶部
+										moveType : 0, //拖拽风格，0是默认，1是传统拖动
+										shift : 1, //0-6的动画形式，-1不开启
+										content : '<div style="overflow-x: hidden;overflow-y: hidden;width:100%;height:100%;">'
+												+ j[0].content + '</div>'
+									});
+									if (temp < 0) {
+										$('.layui-layer-title').css({
+// 											'height' : '30px',
+// 											'line-height' : '0px',
+											'font-size' : '16px',
+											'color' : '#4c2515',
+											'font-weight' : 'bold',
+											'text-align' : 'center',
+// 											'margin-bottom' : '10px',
+											//'overflow': 'hidden',
+											'text-overflow' : 'ellipsis',
+											'white-space' : 'nowrap',
+											'padding' : '10px'
+										})
+									}
+								}else{
+									
+									$(function(){
+										  if ($.cookie('SHOW_FRAME')){
+									             $("#LsjmyModal").hide();
+									             $('#Lsj-fkinglayer').hide();
+									             return;
+									         }else{
+									        	 if (temp > 0) {
+									        		 $('#LsjmyModal #Lsj_modal-header').remove();
+									        	 }else{
+									        		 $('#LsjmyModal #lsj_title').html(title);
+									        	 }
+									        	 $('#LsjmyModal #Lsj_modal-content').css('width',fw);
+									        	 $('#LsjmyModal #Lsjmodal-body_contents').css('height',fh);
+									        	 $('#LsjmyModal #Lsjmodal-body_contents').html(j[0].content);
+									            $('#Lsj-fkinglayer').show();
+									            $("#LsjmyModal").show();    
+									         }
+									});
+									
+								}
+							
+							}
+						}
+
+					}
+				});
+	});
+	
+    function removers(i) {
+        if (i == 1) {
+            $.cookie('SHOW_FRAME', 'Y', {path: '/', expires: ''});
+        }
+        $('#LsjmyModal').remove();
+    }
+</script>
+<!-- 红包功能 -->
+
+	<script src="/common/js/redpacket/redbag.js?v=1.3.5" path=""></script>
+
+<!-- 转盘功能 -->
+
+<!-- 签到功能 -->
+
+<!-- 统计代码 -->
+<div style="position: fixed; z-index: 99999999; bottom: 0;"></div>
+<!-- 弹窗 -->
+<div id="LsjmyModal" class="Lsj-Modal">
+    <div class="Lsj_modal-content pop_border_color" id="Lsj_modal-content">
+    
+        <div class="Lsj_modal-header pop_title_box_bcolor" id="Lsj_modal-header">
+            <span class="Lsj-close" onclick="removers();">×</span>
+            <h3 class="pop_title_color" id="lsj_title"></h3>
+        </div>
+        
+        <div class="Lsjmodal-body_contents pop_box_bg_color" id="Lsjmodal-body_contents"></div>
+        
+        <div class="Lsj_modal-footer">
+            <div class="Lsjbtn-bottom-two-right">
+                <button class="Lsj_okBtn Lsj_outline" onclick="removers(1);">下次不再显示</button>
+                <button class="Lsj_okBtn Lsj_filled" onclick="removers();">确定</button>
+            </div>
+        </div>
+        
+    </div>
+    <div id="Lsj-fkinglayer" style="display: none;"></div>
+</div>
+
+            </head>
+
+            <body>
+                <!-- header -->
+                
+
+
+
+<div class="header">
+    <div class="inner">
+        <div class="logo">
+            <h1>
+                <a href="/index.do">
+                    <!-- <embed src="/images/logo.swf" quality="high" width="270" height="100" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent"> -->
+                    <img src="/images/logo.png" height="100">
+                </a>
+            </h1>
+        </div>
+        <div class="nav">
+            <ul>
+                <li class="cur"><a href="/index.do" class="">首页</a></li>
+                
+                <li class=""><a href="javascript:onclick=alert('请登录后查看')" class="regctrl">彩票投注 </a></li>
+                
+                
+                <li class=""><a href="/index/real.do" class="regctrl">真人视讯 </a></li>
+                <li class=""><a href="/index/egame.do" class="regctrl">电子游戏 </a></li>
+                <li><a href="/index/sport.do" class="">体育竞技 </a></li>
+                <li class=""><a href="/regpage.do" class="regctrl">开户注册 </a></li>
+                <li class=""><a href="/index/rookieHelp.do?code=3" class="">存款取款 </a></li>
+                <li class=""><a href="/index/active.do" class="">优惠活动 <em class="hot"><img src="/images/hot.png" alt=""></em> </a></li>
+                <li><a href="/down.do" target="_blank" class="">APP下载 </a></li>
+                <li class=""><a href="/index/rookieHelp.do?code=4" class="">加盟合作 </a></li>
+
+                <li><a href="/index/signNew.do" target="_blank" class="">签到</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script>
+    window.setInterval(function(){
+        if($('.hot').hasClass('cur'))   $('.hot').removeClass('cur');
+        else    $('.hot').addClass('cur');
+    },500)
+</script>
+
+
+
+                <div class="banner">
+                  <!--  <div class=" psr" style="width: 700px;height: 60px;z-index: 999999">
+                        <form id="search_form" >
+                            &lt;!&ndash; 登录前 &ndash;&gt;&lt;!&ndash;
+                          &ndash;&gt;  
+                                &lt;!&ndash;  <div class="dengbx">
+                                      <div class="dengbx-1">
+                                          <span class="dengbx-1a">
+                                              <a name="loginHTML">用户登录</a>
+                                          </span>
+                                          <a href="http://kefu.ziyun.com.cn/vclient/chat/?websiteid=136060" class="dengbx-1b" target="_blank">
+                                              <em>
+                                                  <img src="/images/kf.png">
+                                              </em> 在线客服
+                                          </a>
+                                      </div>&ndash;&gt;
+                                <div class="dengbx-2">
+                                    <ul class="dengul">
+                                        <li>
+
+                                        </li>
+                                        <li>
+
+                                        </li>
+                                        <li>
+
+                                        </li>
+                                        <li>
+
+                                            <div class="cl"></div>
+                                        </li>
+                                        <li class="regctrl">
+                                            <a href="/registerGuestPage.do" target="_blank">
+
+                                            </a>
+                                            <a href="/regpage.do">
+
+                                            </a>
+                                            <div class="cl"></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                &lt;!&ndash;</div>&ndash;&gt;
+                            
+                            &lt;!&ndash; 登录后 &ndash;&gt;
+                            
+                        </form>
+                    </div>-->
+                    
+                        <p class="logo-p">
+                            <input type="text" class="denginpt dicon1" placeholder="账号" name="userName" id="username" data="帐号">
+                            <input type="password" class="denginpt dicon2" placeholder="密码" name="userPwd" id="password" data="密码">
+                            <input type="text" class="denginpt-imgcode dicon2" placeholder="看不清?点击更换" name="loginVcode" id="verifyCode" data="验证码" maxlength="4">
+                            <img class="imgCode validcode" id="imgCode" title="看不清?点击更换" alt="none" style="vertical-align: middle;width:80px;height:31px;margin-top:-4px;margin-left:2px;" src="/verifycode.do">
+                            <input class="dbtn3" type="button" value="免费试玩" id="guestlogin"  onclick="window.open('/registerGuestPage.do')">
+                            <input class="dbtn2" type="button" value="注册" onclick="window.location.href='/regpage.do'">
+                            <input class="dbtn1" type="button" onclick="loginB()" value="登录" >
+                        </p>
+                    
+                    
+                    
+
+<script src="/js/jquery.SuperSlide.2.1.1.js"></script>
+<style type="text/css">
+    /* 本例子css */
+    .slideBox{ width:100%; overflow:hidden; position:absolute;
+        top:40px;}
+    .slideBox .hd{ height:15px; overflow:hidden; position:absolute; right:45%; bottom:45px; z-index:1;}
+    .slideBox .hd ul{ overflow:hidden; zoom:1; float:left;}
+    .slideBox .hd ul li{ float:left; margin-right:10px;  width:40px; height:7px; line-height:14px; text-align:center; background:#fff; cursor:pointer;border-radius: 7px;}
+    .slideBox .hd ul li.on{ background:#f39800; color:#fff;}
+    .slideBox .bd{ position:relative; height: 480px; z-index:0;}
+    .slideBox .bd li{ zoom:1; vertical-align:middle;}
+    .slideBox .bd img{height:100%; display:block;}
+    /*背景图*/
+    .slideBox .img {position: absolute;transition: left .5s ease;width: 100%;height: 100%;z-index: 0;left: 0;}
+</style>
+<div id="slideBox" class="slideBox">
+    <!-- 轮播图 -->
+    <div class="bd">
+        <ul id="lunbo">
+        </ul>
+    </div>
+    <!-- 点点点 -->
+    <div class="hd">
+        <ul></ul>
+    </div>
+</div>
+<script type="text/javascript">
+    function lunbo() {
+        $.ajax({
+            url : "/getConfig/getLunBo.do",
+            type : "GET",
+            dataType : "json",
+            success : function(j) {
+                var col = '';
+                var dian = '';
+                var url = 'javascript:;';
+                imgsize = j.length;
+                for (var i = 0; i < imgsize; i++) {
+                    col += '<li><a href="'+url+'" style="background:url('+j[i].titleImg+') center no-repeat;" class="img"></a></li>'
+                    dian += '<li></li>';
+                }
+                $("#lunbo").html(col);
+                $("div.hd ul").html(dian);
+                jQuery(".slideBox").slide({mainCell:".bd ul",autoPlay:true});
+            }
+        });
+    }
+
+    lunbo();
+</script>
+                    <div class="newbox">
+                        <div class="inner">
+                            <div class="newin">
+                                <div class="lunleft">
+                                    <marquee direction="left" onmouseover="this.stop()" onmouseout="this.start()" behavior="scroll" scrollamount="4" scrolldelay="0"
+                                        loop="-1" width="1000" height="31" style="line-height: 31px;">
+                                        尊敬的会员：您好，和信集团娱乐城，将在8月1号正式上架全新活动，天天抢红，天天签到，详情请了解优惠活动了解
+                                    </marquee>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cl"></div>
+
+                <!--  center -->
+                <div class="content">
+                    <div class="inner">
+                        <ul class="dcpbx">
+                            <li>
+                                <a style="cursor:pointer" href="/index/real.do">
+                                    <span class="dcpbx-1">
+                                        <img src="/images/dcp1.png">
+                                    </span>
+                                    <div class="dcpbx-2">真人娱乐</div>
+                                    <div class="dcpbx-3">立即游戏</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a style="cursor:pointer" href="/index/egame.do">
+                                    <span class="dcpbx-1">
+                                        <img src="/images/dcp2.png">
+                                    </span>
+                                    <div class="dcpbx-2">电子游艺</div>
+                                    <div class="dcpbx-3">立即游戏</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a style="cursor:pointer" href="/index/sport.do">
+                                    <span class="dcpbx-1">
+                                        <img src="/images/dcp3.png">
+                                    </span>
+                                    <div class="dcpbx-2">体育竞技</div>
+                                    <div class="dcpbx-3">立即游戏</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a style="cursor:pointer" href=" javascript:alert('请登录会员!')">
+                                    <span class="dcpbx-1">
+                                        <img src="/images/dcp4.png">
+                                    </span>
+                                    <div class="dcpbx-2">彩票投注</div>
+                                    <div class="dcpbx-3">立即游戏</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a style="cursor:pointer" href="/index/signNew.do " target="_blank">
+                                    <span class="dcpbx-1">
+                                        <img src="/images/dcp5.png">
+                                    </span>
+                                    <div class="dcpbx-2">签到</div>
+                                    <div class="dcpbx-3">立即游戏</div>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="cl"></div>
+                        <div class="fitmswa">
+                            <div class="fitms fitms1">
+                                <div class="fitms-1">
+                                    <div class="fitms-1a">零审核极速提款</div>
+                                    <div class="fitms-1b">QUICK WITHDRAWAL</div>
+                                </div>
+                                <div class="fitms-2">
+                                    <img src="/images/lmg.png"> </div>
+                            </div>
+                            <div class="fitms fitms2">
+                                <div class="fitms-1">
+                                    <div class="fitms-1a">联系我们</div>
+                                    <div class="fitms-1b">CONTACT US</div>
+                                </div>
+                                <div class="fitms-2">
+                                    <!-- <img src="/images/qq.png?aa" style="width: 450px">
+                        <a href="tencent://message/?uin=78030380&Menu=yes" target="_blank" style="width: 205px;height: 65px;position: absolute; margin-top: -215px;"></a>
+                        <a href="tencent://message/?uin=79092972&Menu=yes" target="_blank" style="width: 205px;height: 65px;position: absolute; margin-top: -141px;"></a>
+                        <a href="/user_xljc.do " target="_blank" style="width: 205px;height: 65px;position: absolute; margin-top: -66px;"></a> -->
+                                    <ul class="fimsul">
+                                        <li>
+                                            <span class="fimsul-1">
+                                                <img src="/images/rc1.png">
+                                            </span>
+                                            <div class="fimsul-2">易记域名
+                                                <br> hx1.vip</div>
+                                        </li>
+                                        <!-- <li> 
+                                <span class="fimsul-1"><img src="/images/rc2.png"></span>
+                                <div class="fimsul-2">菲律宾热线 <br> 0063-9770777222</div>
+                            </li> -->
+                                        <li>
+                                            <span class="fimsul-1">
+                                                <img src="/images/rc3.png">
+                                            </span>
+                                            <div class="fimsul-2">代理加盟QQ
+                                                <br>
+                                                <a href="tencent://message/?uin=752562222&amp;Site=web&amp;Menu=yes">752562222</a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="fimsul-1">
+                                                <img src="/images/rc4.png">
+                                            </span>
+                                            <div class="fimsul-2">微信
+                                                <br> wjdlc6588</div>
+                                        </li>
+                                        <li>
+                                            <span class="fimsul-1">
+                                                <img src="/images/rc3.png">
+                                            </span>
+                                            <div class="fimsul-2">客服QQ
+                                                <br>
+                                                <a href="tencent://message/?uin=2623456868&amp;Site=web&amp;Menu=yes">2623456868</a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="fimsul-1">
+                                                <img src="/images/rc6.png">
+                                            </span>
+                                            <div class="fimsul-2">公司邮箱
+                                                <br> hexincp888@gmail.com</div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cl"></div>
+                    </div>
+                </div>
+                <!--  endCenter -->
+
+                <!-- 底部 -->
+                
+
+
+<div style="position: fixed;left: 10px;bottom: 10px">
+    <a href="/index/luckyLottery.do" target="_blank"><img src="/images/dzp.png" title="幸运大转盘" style="width: 230px;" alt=""></a>
+</div>
+<div class="fnav">
+    <a href="/index/rookieHelp.do?code=1" class="">关于我们</a> ｜
+    <a href="/index/rookieHelp.do?code=6" class="">联络我們</a> ｜
+    <a href="/index/rookieHelp.do?code=4" class="">合作伙伴</a> ｜
+    <a href="/index/rookieHelp.do?code=3" class="">存款幫助</a> ｜
+    <a href="/index/rookieHelp.do?code=2" class="">取款幫助</a> ｜
+    <a href="/index/rookieHelp.do?code=7" class="">常见问题</a>
+    <br>
+    Copyright © 和信娱乐 Reserved
+</div>
+<div class="footer">
+    <div class="fimg"><img src="/images/fimg.png"></div>
+</div>
+            </body>
+
+            </html>

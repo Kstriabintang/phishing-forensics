@@ -1,0 +1,105 @@
+# INDICATORS OF COMPROMISE (IOC)
+# Case: 2026-08-18_kuota-gratis-81gb-hutri81
+# Classification: WhatsApp reward-bait scam -> CPA affiliate smartlink
+
+## DOMAINS
+1grd.xyz                         # landing/redirector, wildcard *.1grd.xyz, reg west.cn, created 2026-06-02
+kuota-gratis-81gb98.1grd.xyz     # observed landing subdomain
+626cdn.com                       # shared asset CDN (Cloudflare R2), reg Cloud Yuqu LLC, created 2026-06-16
+gf920.com                        # monetization backbone, reg Cloud Yuqu LLC, created 2026-01-14
+free.gf920.com                   # smartlink offer endpoint (grey-cloud -> real origin)
+
+## URLS
+https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98
+https://kuota-gratis-81gb98.1grd.xyz/go.php/?t=9
+https://free.gf920.com/?utm_medium=b00cccbf77c8ae579fa684fe9c8c5affa17a412b&utm_campaign=tang4g
+
+## IP / ASN
+108.178.23.116                   # REAL ORIGIN of free.gf920.com | AS32475 Internap/INAP | Chicago, US | nginx
+172.67.166.103                   # Cloudflare edge (1grd.xyz)
+104.21.16.50                     # Cloudflare edge (1grd.xyz)
+104.21.63.159                    # Cloudflare edge (626cdn.com)
+172.67.171.11                    # Cloudflare edge (626cdn.com)
+
+## FINGERPRINTS
+affiliate_id  = b00cccbf77c8ae579fa684fe9c8c5affa17a412b   # utm_medium
+campaign      = tang4g                                     # utm_campaign
+campaign_old  = 7629843022917664770                        # utm_term (urlscan 2026-04-17)
+redirector    = /go.php?t=9                                # t-param => multiple sub-campaigns
+registrar     = Cloud Yuqu LLC / abuse@diymysite.com       # links 626cdn.com + gf920.com
+page_title    = Kuota Gratis 81GB Spesial HUT RI ke-81
+cookies       = pics, comments, names, loclang             # kit signature
+cdn_countries = /Indonesia/ /Malaysia/ /Vietnam/ /Thailand/ /Philippines/
+
+## NETWORK-2  (CPA OFFER TIER — hop 5/6)
+sramms.space                     # CPA offer network, reg NameCheap, created 2026-05-28
+mms.sramms.space                 # offer host (AWS CloudFront d20yaalqmjo7mn.cloudfront.net, edge FR)
+https://free.gf920.com/?utm_term=7675059214544273449&utm_content=<device_fingerprint>   # cloaker stage-2
+https://mms.sramms.space/aa449b3e-b49f-4551-abd7-4ba528dcb970?partner_ID=27052&pid=27052-dabc31az&subid=M7675059214544273449
+partner_ID    = 27052                                      # affiliate/publisher in CPA network
+pid           = 27052-dabc31az
+subid         = M7675059214544273449                       # == cloaker utm_term (ties hops)
+offer_guid    = aa449b3e-b49f-4551-abd7-4ba528dcb970
+cloudfront    = d20yaalqmjo7mn.cloudfront.net              # 18.161.111.9/19/80/90 (AS16509 Amazon)
+origin_farm   = 108.178.23.116                             # 165 unique cloaking/offer domains co-hosted
+
+## NETWORK-3  (ditemukan via urlscan render, 2026-08-18)
+tj.16gift.com                    # telemetry/analitik first-party ("tj"=统计 tongji, sinyal operator Mandarin)
+16gift.com                       # tracking backbone, created 2023-12-30, reg Hefei Juming (CN), Cloudflare
+  -> GET https://tj.16gift.com/js/script.js ; POST https://tj.16gift.com/api/event
+a.sssifmobisignal.com            # node cloaker/smartlink tambahan (pasca-fingerprint)
+sssifmobisignal.com              # created 2026-04-13, reg NameCheap, ip 162.255.119.12 (AS22612)
+ldl1.com                         # ad-network RTB (zone dinamis: z=11569507, z=10474180; var=27052 tetap)
+# urlscan results (unlisted):
+#   https://urlscan.io/result/01a01152-4886-778c-85cb-239aff0aa3bc/  (landing)
+#   https://urlscan.io/result/01a01152-4da8-742f-9115-4b876c71bffd/  (cloaker)
+
+## NETWORK-4  (ORIGIN ASLI #2 + ad-network, via urlscan render scan #2)
+95.217.42.163                    # ORIGIN ASLI #2 - Hetzner Helsinki (AS24940), nginx/1.26.0
+srvmediahost.com                 # cloaker/smartlink /nlp/index.php, reg NameCheap, created 2025-11-11
+srvmedianet.com                  # co-host 95.217.42.163 (LIVE 200)
+srvnewmedia.com                  # co-host 95.217.42.163 (LIVE 200)
+smartmediasrv.com                # co-host 95.217.42.163 (LIVE 200)
+doubletrk.com                    # co-host 95.217.42.163 (LIVE 200) - tracker
+baitechi.com                     # co-host 95.217.42.163 (LIVE 200)
+obqj3.com                        # ad-network RTB (url_bnm_redirect), reg NameCheap, created 2022-03-14
+  -> https://srvmediahost.com/nlp/index.php?z=11299758&var=a4c225c6ece6568874902d43d340ac7e&ymid=...&url_bnm_redirect=https://obqj3.com/link
+var_srvmedia  = a4c225c6ece6568874902d43d340ac7e     # affiliate hash (jalur obqj3/srvmediahost)
+zone_obqj3    = 11299758
+# urlscan render (unlisted): go.php  https://urlscan.io/result/01a01156-fd3d-719e-b164-551fa2162c28/
+#                            mms     https://urlscan.io/result/01a01157-0141-772e-871d-1cdeb0c80765/
+#                            ldl1    https://urlscan.io/result/01a01157-04c6-7159-b314-4764f30466fb/
+
+## NETWORK-5  (deep-dive ronde 2 — analitik + produk Telegram)
+tj.16gift.com                    # self-hosted Plausible telemetry (kuota); POST /api/event
+plausible.16gift.com             # Plausible dashboard (403, privat)
+16gift.com/njb/                  # Telegram Mini App "Quiz" backend (api.php, payout.php, referral psid)
+  -> GET 16gift.com/njb/api.php?cmd=get_user_info  => {"ok":false,"status":4002,"msg":"Parameters error"}
+657g.xyz / tj.657g.xyz           # Plausible telemetry (kuis), reg Dynadot, created 2026-07-31, Cloudflare
+zs.obqj3.com                     # subdomain ad-network (crt.sh)
+plausible_site_id_kuota = id-data01      # data-domain (skema kampanye: id=Indonesia,data,NN)
+plausible_site_id_quiz  = bot.com        # data-domain kuis
+attribution = Mandarin operator (registrar Hefei Juming/west.cn; "tj"=统计 tongji; multi-product)
+note = TIDAK ada key/token bocor - opsec solid (.git/.env 403, listing 403, API gated, dashboard privat)
+
+## NETWORK-6  (deep-dive ronde 3 — atribusi & OSINT pasif)
+# LINEAGE: gf920.com (Wayback 2018) = situs judi Mandarin "和信娱乐城" (Hexin Entertainment City)
+#   login form userName/userPwd/loginVcode; 彩票投注(lotre); URL /账号 /密码 /验证码 -> repurposed 2026
+# 16gift.com (Wayback 2012) = toko hadiah/bunga Tiongkok (ASP) -> repurposed
+# Cluster Hetzner 95.217.42.163 (OTX, LIVE 200): baitechi.com doubletrk.com smartmediasrv.com
+#   srvmediahost.com srvmedianet.com srvnewmedia.com  (+ rotated: letsdothisbrutus.com
+#   mediaserv2.com mediaservingde/oc.com mefemediaagency.com openvisiting.com progmediaserve.com srvmdia.com)
+mediaservingcd.com -> 104.219.250.37   # CROSS-LINK: Hetzner cluster <-> Namecheap-PHX cluster = operator sama
+# KORELASI EKSTERNAL: Kemenkomdigi/Kominfo nyatakan HOAKS; media ID (akurat.co, Tribun, RRI) melaporkan.
+#   Varian data-harvesting (nama/alamat/Telegram-WA, share 5 grup/15 kontak, pinjol) DILAPORKAN publik --
+#   BERBEDA dari varian CPA/RTB yang dibedah teknis di sini (multi-varian, satu tema "81GB").
+# ATTRIBUTION: operator Mandarin, ekosistem gambling/CPA-affiliate; pola Cloaking-as-a-Service (CaaS).
+
+## REGISTRAR ABUSE CONTACTS
+abuse@west.cn                    # 1grd.xyz  (+86.2862778877)
+abuse@diymysite.com              # 626cdn.com, gf920.com
+
+## NAMESERVERS (Cloudflare)
+dara.ns.cloudflare.com / max.ns.cloudflare.com          # 1grd.xyz
+christina.ns.cloudflare.com / rodrigo.ns.cloudflare.com # 626cdn.com
+burt.ns.cloudflare.com / lauryn.ns.cloudflare.com       # gf920.com

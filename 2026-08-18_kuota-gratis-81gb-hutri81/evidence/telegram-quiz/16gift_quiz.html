@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+	<title>Quiz</title>
+	<script type="text/javascript" src="./njb/cdn/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="https://telegram.org/js/telegram-web-app.js"></script>
+	<script type="text/javascript" src="./njb/cdn/main.js?v=2"></script>
+	<link rel="stylesheet" href="./njb/cdn/spinner.css">
+	<style type="text/css">
+		.ss-spinner{width:100%;height:100%;background:#FFF;position:absolute;top:0;left:0;z-index:9999;}
+	</style>
+</head>
+<body>
+	<div class="ss-spinner">
+		<div class="spinner page-spinner">
+			<div class="rect1"></div>
+			<div class="rect2"></div>
+			<div class="rect3"></div>
+			<div class="rect4"></div>
+			<div class="rect5"></div>
+		</div>
+	</div>
+	<script language="javascript">
+		$(document).ready(function(){
+			console.log(Telegram.WebApp.initDataUnsafe);
+			if(Telegram.WebApp.initDataUnsafe.user){
+				var userObj = Telegram.WebApp.initDataUnsafe.user;
+				var startParam = Telegram.WebApp.initDataUnsafe.start_param || '';
+				//var startObj = {};
+				var psid = '';
+				if(startParam != '' && startParam != 'wallet' && startParam != 'test'){
+					//startObj = JSON.parse(atob(startParam));
+					//psid = startObj.sid && startObj.sid.length > 16 ? startObj.sid.substr(0,16) : '';
+					psid = startParam.length > 16 ? startParam.substr(0,16) : '';
+				}
+				//console.log(startObj);
+				$.ajax({
+					url : './njb/api.php?cmd=get_user_info',
+					data : {
+						uid : userObj.id,
+						psid : psid,
+						first_name : userObj.first_name,
+						last_name : userObj.last_name || '',
+						lang : userObj.language_code || '',
+					},
+					type : 'get',
+					cache : false,
+					dataType : 'json',
+					success : function(res){
+						//console.log(res);
+						if(res.user.tgid == userObj.id){
+							if(startParam == 'wallet'){
+								document.location.href = './payout.php';
+							}else if(startParam == 'test'){
+								document.location.href = './intro.php';
+							}else{
+								document.location.href = './index.php';
+							}
+							//setTimeout("document.location.href = './index.php'",1000);
+						}
+					},
+					error : function(err){
+						console.log(err);
+						alert(err.responseText);
+					}
+				});
+			}else{
+				console.log('error');
+				document.location.href = './intro.php';
+			}
+		});
+	</script>
+	<script defer data-domain="bot.com" src="https://tj.657g.xyz/js/script.js"></script>
+</body>
+</html>

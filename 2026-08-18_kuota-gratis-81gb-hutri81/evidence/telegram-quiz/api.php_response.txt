@@ -1,0 +1,1 @@
+{"ok":false,"status":4002,"msg":"Parameters error"}  <- 16gift.com/njb/api.php?cmd=get_user_info

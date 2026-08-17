@@ -1,0 +1,1826 @@
+{
+  "data": {
+    "requests": [
+      {
+        "request": {
+          "requestId": "599DA4125F4CCA5B348D053B9FEE43ED",
+          "loaderId": "599DA4125F4CCA5B348D053B9FEE43ED",
+          "documentURL": "https://free.gf920.com/?utm_medium=b00cccbf77c8ae579fa684fe9c8c5affa17a412b&utm_campaign=tang4g",
+          "request": {
+            "url": "https://free.gf920.com/?utm_medium=b00cccbf77c8ae579fa684fe9c8c5affa17a412b&utm_campaign=tang4g",
+            "method": "GET",
+            "headers": {
+              "Upgrade-Insecure-Requests": "1",
+              "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36",
+              "sec-ch-ua": "\"Chromium\";v=\"122\", \"Google Chrome\";v=\"122\", \"Not(A:Brand\";v=\"24\"",
+              "sec-ch-ua-mobile": "?1",
+              "sec-ch-ua-platform": "\"Android\""
+            },
+            "mixedContentType": "none",
+            "initialPriority": "VeryHigh",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": true
+          },
+          "timestamp": 6831522.129,
+          "wallTime": 1786997028.979069,
+          "initiator": {
+            "type": "other"
+          },
+          "redirectHasExtraInfo": false,
+          "type": "Document",
+          "frameId": "1A0AED1FE2BBB395F5E5528A6949D215",
+          "hasUserGesture": false
+        },
+        "response": {
+          "encodedDataLength": 1169,
+          "dataLength": 1180,
+          "requestId": "599DA4125F4CCA5B348D053B9FEE43ED",
+          "type": "Document",
+          "response": {
+            "url": "https://free.gf920.com/?utm_medium=b00cccbf77c8ae579fa684fe9c8c5affa17a412b&utm_campaign=tang4g",
+            "status": 200,
+            "statusText": "",
+            "headers": {
+              "accept-ch": "Sec-CH-UA, Sec-CH-UA-Mobile, Sec-CH-UA-Platform, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Form-Factors, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-WoW64",
+              "alt-svc": "h3=\":443\"; ma=604800; persist=1",
+              "cache-control": "no-store, no-cache, must-revalidate, max-age=0",
+              "content-encoding": "gzip",
+              "content-type": "text/html; charset=UTF-8",
+              "date": "Mon, 17 Aug 2026 20:03:49 GMT",
+              "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+              "pragma": "no-cache",
+              "refresh": "3; url=https://free.gf920.com/?utm_term=7675093797620940902&tid=4d544e",
+              "server": "nginx",
+              "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+              "vary": "Accept-Encoding"
+            },
+            "mimeType": "text/html",
+            "charset": "utf-8",
+            "remoteIPAddress": "108.178.23.116",
+            "remotePort": 443,
+            "encodedDataLength": 1169,
+            "timing": {
+              "requestTime": 6831522.130172,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": 0,
+              "dnsEnd": 0,
+              "connectStart": 0,
+              "connectEnd": 494.404,
+              "sslStart": 0,
+              "sslEnd": 494.386,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 496.9,
+              "sendEnd": 498.231,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersStart": 978.689,
+              "receiveHeadersEnd": 980.009
+            },
+            "responseTime": 1786997029958.928,
+            "protocol": "h2",
+            "alternateProtocolUsage": "unspecifiedReason",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "TLS 1.3",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "free.gf920.com",
+              "sanList": [
+                "free.gf920.com"
+              ],
+              "issuer": "YE1",
+              "validFrom": 1781061249,
+              "validTo": 1788837248,
+              "signedCertificateTimestampList": [
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Google 'Xenon2026h2' log",
+                  "logId": "D809553B944F7AFFC816196F944F85ABB0F8FC5E8755260F15D12E72BB454B14",
+                  "timestamp": 1781064759390,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "3045022001F0F43E65B5B76288C7650ACE915D6E313837D54391CCD120CE2035E39824C5022100B4F122FC1B15D38E090C976F68C206D6F812A8205E64FB8EBAF0126B40ED2064"
+                },
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Geomys 'Tuscolo2026h2'",
+                  "logId": "46AF863D3B3EE59FA577DEA8245D36B0D9ED22A223F4617741229452EE95505F",
+                  "timestamp": 1781064759427,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "3046022100B752F987A8E28B011F800F4C0F3A261CFD458D9AA6BD216526F2602B166BE68502210088C7D0511607D6C152674F4216276FEB96C5E36F2448AE7DE250221D6023264F"
+                }
+              ],
+              "certificateTransparencyCompliance": "compliant",
+              "serverSignatureAlgorithm": 1027,
+              "encryptedClientHello": false
+            },
+            "securityHeaders": [
+              {
+                "name": "Strict-Transport-Security",
+                "value": "max-age=63072000; includeSubDomains; preload"
+              }
+            ]
+          },
+          "hasExtraInfo": true,
+          "hash": "1f52bf680a195ce9a933d472174218f0a33965fd69eded330cf767469114ab79",
+          "size": 1180,
+          "asn": {
+            "ip": "108.178.23.116",
+            "asn": "32475",
+            "country": "US",
+            "description": "SINGLEHOP-LLC - Internap Holding LLC, US",
+            "name": "Internap Holding LLC",
+            "route": "108.178.0.0/18"
+          },
+          "geoip": {
+            "country": "US",
+            "region": "",
+            "timezone": "America/Chicago",
+            "city": "",
+            "ll": [
+              37.751,
+              -97.822
+            ],
+            "country_name": "United States",
+            "metro": 0
+          },
+          "rdns": {
+            "ip": "108.178.23.116",
+            "ptr": "server04.com-2.mobi"
+          }
+        }
+      },
+      {
+        "request": {
+          "requestId": "FF08A63B83C288310E088106D4A44044",
+          "loaderId": "FF08A63B83C288310E088106D4A44044",
+          "documentURL": "https://free.gf920.com/?utm_term=7675093797620940902",
+          "request": {
+            "url": "https://free.gf920.com/?utm_term=7675093797620940902",
+            "method": "GET",
+            "headers": {
+              "Referer": "https://free.gf920.com/?utm_medium=b00cccbf77c8ae579fa684fe9c8c5affa17a412b&utm_campaign=tang4g",
+              "Upgrade-Insecure-Requests": "1",
+              "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36",
+              "sec-ch-ua": "\"Chromium\";v=\"122\", \"Google Chrome\";v=\"122\", \"Not(A:Brand\";v=\"24\"",
+              "sec-ch-ua-arch": "\"arm\"",
+              "sec-ch-ua-bitness": "\"64\"",
+              "sec-ch-ua-form-factors": "\"Mobile\"",
+              "sec-ch-ua-full-version": "\"151.0.7922.137\"",
+              "sec-ch-ua-full-version-list": "\"Chromium\";v=\"122.0.0.0\", \"Google Chrome\";v=\"122.0.0.0\", \"Not(A:Brand\";v=\"24.0.0.0\"",
+              "sec-ch-ua-mobile": "?1",
+              "sec-ch-ua-model": "\"\"",
+              "sec-ch-ua-platform": "\"Android\"",
+              "sec-ch-ua-platform-version": "\"13.0.0\"",
+              "sec-ch-ua-wow64": "?0"
+            },
+            "mixedContentType": "none",
+            "initialPriority": "VeryHigh",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": true
+          },
+          "timestamp": 6831523.17664,
+          "wallTime": 1786997030.026715,
+          "initiator": {
+            "type": "script",
+            "stack": {
+              "callFrames": [
+                {
+                  "functionName": "",
+                  "scriptId": "8",
+                  "url": "https://free.gf920.com/?utm_medium=b00cccbf77c8ae579fa684fe9c8c5affa17a412b&utm_campaign=tang4g",
+                  "lineNumber": 0,
+                  "columnNumber": 945
+                }
+              ]
+            }
+          },
+          "redirectHasExtraInfo": false,
+          "type": "Document",
+          "frameId": "1A0AED1FE2BBB395F5E5528A6949D215",
+          "hasUserGesture": false,
+          "primaryRequest": true
+        },
+        "response": {
+          "encodedDataLength": 1688,
+          "dataLength": 2471,
+          "requestId": "FF08A63B83C288310E088106D4A44044",
+          "type": "Document",
+          "response": {
+            "url": "https://free.gf920.com/?utm_term=7675093797620940902",
+            "status": 200,
+            "statusText": "",
+            "headers": {
+              "accept-ch": "Sec-CH-UA, Sec-CH-UA-Mobile, Sec-CH-UA-Platform, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Form-Factors, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-WoW64",
+              "alt-svc": "h3=\":443\"; ma=604800; persist=1",
+              "cache-control": "no-store, no-cache, must-revalidate, max-age=0",
+              "content-encoding": "gzip",
+              "content-type": "text/html; charset=utf-8",
+              "date": "Mon, 17 Aug 2026 20:03:50 GMT",
+              "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+              "pragma": "no-cache",
+              "refresh": "0; url=https://a.sssifmobisignal.com/432a766c-6117-49d1-bfb2-86dada210172?pub=27052&placement=27052-dc84002z&cid=M7675093797620940902",
+              "server": "nginx",
+              "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+              "vary": "Accept-Encoding"
+            },
+            "mimeType": "text/html",
+            "charset": "utf-8",
+            "remoteIPAddress": "108.178.23.116",
+            "remotePort": 443,
+            "encodedDataLength": 1688,
+            "timing": {
+              "requestTime": 6831523.181288,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": -1,
+              "dnsEnd": -1,
+              "connectStart": -1,
+              "connectEnd": -1,
+              "sslStart": -1,
+              "sslEnd": -1,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 11.221,
+              "sendEnd": 22.263,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersStart": 457.3,
+              "receiveHeadersEnd": 458.982
+            },
+            "responseTime": 1786997030488.653,
+            "protocol": "h2",
+            "alternateProtocolUsage": "mainJobWonRace",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "TLS 1.3",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "free.gf920.com",
+              "sanList": [
+                "free.gf920.com"
+              ],
+              "issuer": "YE1",
+              "validFrom": 1781061249,
+              "validTo": 1788837248,
+              "signedCertificateTimestampList": [
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Google 'Xenon2026h2' log",
+                  "logId": "D809553B944F7AFFC816196F944F85ABB0F8FC5E8755260F15D12E72BB454B14",
+                  "timestamp": 1781064759390,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "3045022001F0F43E65B5B76288C7650ACE915D6E313837D54391CCD120CE2035E39824C5022100B4F122FC1B15D38E090C976F68C206D6F812A8205E64FB8EBAF0126B40ED2064"
+                },
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Geomys 'Tuscolo2026h2'",
+                  "logId": "46AF863D3B3EE59FA577DEA8245D36B0D9ED22A223F4617741229452EE95505F",
+                  "timestamp": 1781064759427,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "3046022100B752F987A8E28B011F800F4C0F3A261CFD458D9AA6BD216526F2602B166BE68502210088C7D0511607D6C152674F4216276FEB96C5E36F2448AE7DE250221D6023264F"
+                }
+              ],
+              "certificateTransparencyCompliance": "compliant",
+              "serverSignatureAlgorithm": 1027,
+              "encryptedClientHello": false
+            },
+            "securityHeaders": [
+              {
+                "name": "Strict-Transport-Security",
+                "value": "max-age=63072000; includeSubDomains; preload"
+              }
+            ]
+          },
+          "hasExtraInfo": true,
+          "hash": "ca95a2dbe4cf0dd72eaaafea1518ab8ef846d1abf1f9ca610578d3d2e92464b8",
+          "size": 2467,
+          "asn": {
+            "ip": "108.178.23.116",
+            "asn": "32475",
+            "country": "US",
+            "description": "SINGLEHOP-LLC - Internap Holding LLC, US",
+            "name": "Internap Holding LLC",
+            "route": "108.178.0.0/18"
+          },
+          "geoip": {
+            "country": "US",
+            "region": "",
+            "timezone": "America/Chicago",
+            "city": "",
+            "ll": [
+              37.751,
+              -97.822
+            ],
+            "country_name": "United States",
+            "metro": 0
+          },
+          "rdns": {
+            "ip": "108.178.23.116",
+            "ptr": "server04.com-2.mobi"
+          }
+        },
+        "initiatorInfo": {
+          "url": "https://free.gf920.com/?utm_medium=b00cccbf77c8ae579fa684fe9c8c5affa17a412b&utm_campaign=tang4g",
+          "host": "free.gf920.com",
+          "type": "script"
+        }
+      },
+      {
+        "request": {
+          "requestId": "841F70EB243456C7A2994876A0A5BBEE",
+          "loaderId": "841F70EB243456C7A2994876A0A5BBEE",
+          "documentURL": "https://ldl1.com/link?z=10474180&var=27052&ymid=wcq81t6kq75h2kkkj0bupdfu",
+          "request": {
+            "url": "https://ldl1.com/link?z=10474180&var=27052&ymid=wcq81t6kq75h2kkkj0bupdfu",
+            "method": "GET",
+            "headers": {
+              "Referer": "https://free.gf920.com/",
+              "Upgrade-Insecure-Requests": "1",
+              "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36",
+              "sec-ch-ua": "\"Chromium\";v=\"122\", \"Google Chrome\";v=\"122\", \"Not(A:Brand\";v=\"24\"",
+              "sec-ch-ua-mobile": "?1",
+              "sec-ch-ua-platform": "\"Android\""
+            },
+            "mixedContentType": "none",
+            "initialPriority": "VeryHigh",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": true
+          },
+          "timestamp": 6831524.837252,
+          "wallTime": 1786997031.687381,
+          "initiator": {
+            "type": "script",
+            "stack": {
+              "callFrames": [
+                {
+                  "functionName": "",
+                  "scriptId": "10",
+                  "url": "https://free.gf920.com/?utm_medium=b00cccbf77c8ae579fa684fe9c8c5affa17a412b&utm_campaign=tang4g&cid=&1=&2=&3=&4=&5=&puid=7675093797620940902&fl=1&np=1",
+                  "lineNumber": 0,
+                  "columnNumber": 2303
+                }
+              ]
+            }
+          },
+          "redirectHasExtraInfo": true,
+          "redirectResponse": {
+            "url": "https://a.sssifmobisignal.com/432a766c-6117-49d1-bfb2-86dada210172?pub=27052&placement=27052-dc84002z&cid=M7675093797620940902",
+            "status": 302,
+            "statusText": "",
+            "headers": {
+              "alt-svc": "h3=\":443\"; ma=86400",
+              "cache-control": "no-store, no-cache, pre-check=0, post-check=0",
+              "content-length": "0",
+              "date": "Mon, 17 Aug 2026 20:03:51 GMT",
+              "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+              "location": "https://ldl1.com/link?z=10474180&var=27052&ymid=wcq81t6kq75h2kkkj0bupdfu",
+              "pragma": "no-cache",
+              "server": "nginx",
+              "via": "1.1 5b0eace94b8220bbb91f62de16481416.cloudfront.net (CloudFront)",
+              "x-amz-cf-id": "LQISs8e9Xi4Iiws0bI3MMdTSfJTntw1BvF2RiqqLacz6bQAGyWGDkw==",
+              "x-amz-cf-pop": "TLV55-P1",
+              "x-cache": "Miss from cloudfront"
+            },
+            "mimeType": "",
+            "charset": "",
+            "remoteIPAddress": "3.169.64.3",
+            "remotePort": 443,
+            "encodedDataLength": 787,
+            "timing": {
+              "requestTime": 6831523.867285,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": 0,
+              "dnsEnd": 38.144,
+              "connectStart": 39.429,
+              "connectEnd": 539.433,
+              "sslStart": 47.087,
+              "sslEnd": 539.405,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 542.894,
+              "sendEnd": 550.709,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersStart": 964.236,
+              "receiveHeadersEnd": 964.456
+            },
+            "responseTime": 1786997031681.597,
+            "protocol": "h2",
+            "alternateProtocolUsage": "unspecifiedReason",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "TLS 1.3",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519MLKEM768",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "a.sssifmobisignal.com",
+              "sanList": [
+                "a.sssifmobisignal.com"
+              ],
+              "issuer": "Amazon RSA 2048 M01",
+              "validFrom": 1776038400,
+              "validTo": 1793145599,
+              "signedCertificateTimestampList": [
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "DigiCert 'Wyvern2026h2'",
+                  "logId": "C2317E574519A345EE7F38DEB29041EBC7C2215A22BF7FD5B5AD769AD90E52CD",
+                  "timestamp": 1776061749382,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "3045022100AD958E5ECEB90C9BE396E68D17D6375CFED8EBB73323452EF974E0DB0ABE72FA02201E6DE33E9E0F688D63E99CDF1CAE923179101CEC4ECE0270A8478089F05CEEEA"
+                },
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Google 'Xenon2026h2' log",
+                  "logId": "D809553B944F7AFFC816196F944F85ABB0F8FC5E8755260F15D12E72BB454B14",
+                  "timestamp": 1776061749393,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "3045022100F9B437F996D60A8C7FA2CF9E6C8B4A9DA79BE8E7CAB402DA7EF785CCF7509A1802207985DB77F909FBB64A3CCA0F6BDF4E9556DB61C555DA8BCAD0934A437922EFF7"
+                },
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "DigiCert 'Sphinx2026h2'",
+                  "logId": "944E4387FAECC1EF81F3192426A8186501C7D35F3802013F72677D55372E19D8",
+                  "timestamp": 1776061749401,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "3046022100A0C82EFA1CB3CC640BC6475F7D04A07A09BDFCA4299775249FA118C43E25230C022100B163BD8E408ABF5B3259C5CD539EA8D56D1C416A65350C488BF2F95E1F999651"
+                }
+              ],
+              "certificateTransparencyCompliance": "compliant",
+              "serverSignatureAlgorithm": 2052,
+              "encryptedClientHello": false
+            }
+          },
+          "type": "Document",
+          "frameId": "1A0AED1FE2BBB395F5E5528A6949D215",
+          "hasUserGesture": false
+        },
+        "requests": [
+          {
+            "requestId": "841F70EB243456C7A2994876A0A5BBEE",
+            "loaderId": "841F70EB243456C7A2994876A0A5BBEE",
+            "documentURL": "https://a.sssifmobisignal.com/432a766c-6117-49d1-bfb2-86dada210172?pub=27052&placement=27052-dc84002z&cid=M7675093797620940902",
+            "request": {
+              "url": "https://a.sssifmobisignal.com/432a766c-6117-49d1-bfb2-86dada210172?pub=27052&placement=27052-dc84002z&cid=M7675093797620940902",
+              "method": "GET",
+              "headers": {
+                "Referer": "https://free.gf920.com/",
+                "Upgrade-Insecure-Requests": "1",
+                "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36",
+                "sec-ch-ua": "\"Chromium\";v=\"122\", \"Google Chrome\";v=\"122\", \"Not(A:Brand\";v=\"24\"",
+                "sec-ch-ua-mobile": "?1",
+                "sec-ch-ua-platform": "\"Android\""
+              },
+              "mixedContentType": "none",
+              "initialPriority": "VeryHigh",
+              "referrerPolicy": "strict-origin-when-cross-origin",
+              "isSameSite": true
+            },
+            "timestamp": 6831523.865896,
+            "wallTime": 1786997030.715969,
+            "initiator": {
+              "type": "script",
+              "stack": {
+                "callFrames": [
+                  {
+                    "functionName": "",
+                    "scriptId": "10",
+                    "url": "https://free.gf920.com/?utm_medium=b00cccbf77c8ae579fa684fe9c8c5affa17a412b&utm_campaign=tang4g&cid=&1=&2=&3=&4=&5=&puid=7675093797620940902&fl=1&np=1",
+                    "lineNumber": 0,
+                    "columnNumber": 2303
+                  }
+                ]
+              }
+            },
+            "redirectHasExtraInfo": false,
+            "type": "Document",
+            "frameId": "1A0AED1FE2BBB395F5E5528A6949D215",
+            "hasUserGesture": false
+          },
+          {
+            "requestId": "841F70EB243456C7A2994876A0A5BBEE",
+            "loaderId": "841F70EB243456C7A2994876A0A5BBEE",
+            "documentURL": "https://ldl1.com/link?z=10474180&var=27052&ymid=wcq81t6kq75h2kkkj0bupdfu",
+            "request": {
+              "url": "https://ldl1.com/link?z=10474180&var=27052&ymid=wcq81t6kq75h2kkkj0bupdfu",
+              "method": "GET",
+              "headers": {
+                "Referer": "https://free.gf920.com/",
+                "Upgrade-Insecure-Requests": "1",
+                "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36",
+                "sec-ch-ua": "\"Chromium\";v=\"122\", \"Google Chrome\";v=\"122\", \"Not(A:Brand\";v=\"24\"",
+                "sec-ch-ua-mobile": "?1",
+                "sec-ch-ua-platform": "\"Android\""
+              },
+              "mixedContentType": "none",
+              "initialPriority": "VeryHigh",
+              "referrerPolicy": "strict-origin-when-cross-origin",
+              "isSameSite": true
+            },
+            "timestamp": 6831524.837252,
+            "wallTime": 1786997031.687381,
+            "initiator": {
+              "type": "script",
+              "stack": {
+                "callFrames": [
+                  {
+                    "functionName": "",
+                    "scriptId": "10",
+                    "url": "https://free.gf920.com/?utm_medium=b00cccbf77c8ae579fa684fe9c8c5affa17a412b&utm_campaign=tang4g&cid=&1=&2=&3=&4=&5=&puid=7675093797620940902&fl=1&np=1",
+                    "lineNumber": 0,
+                    "columnNumber": 2303
+                  }
+                ]
+              }
+            },
+            "redirectHasExtraInfo": true,
+            "redirectResponse": {
+              "url": "https://a.sssifmobisignal.com/432a766c-6117-49d1-bfb2-86dada210172?pub=27052&placement=27052-dc84002z&cid=M7675093797620940902",
+              "status": 302,
+              "statusText": "",
+              "headers": {
+                "alt-svc": "h3=\":443\"; ma=86400",
+                "cache-control": "no-store, no-cache, pre-check=0, post-check=0",
+                "content-length": "0",
+                "date": "Mon, 17 Aug 2026 20:03:51 GMT",
+                "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+                "location": "https://ldl1.com/link?z=10474180&var=27052&ymid=wcq81t6kq75h2kkkj0bupdfu",
+                "pragma": "no-cache",
+                "server": "nginx",
+                "via": "1.1 5b0eace94b8220bbb91f62de16481416.cloudfront.net (CloudFront)",
+                "x-amz-cf-id": "LQISs8e9Xi4Iiws0bI3MMdTSfJTntw1BvF2RiqqLacz6bQAGyWGDkw==",
+                "x-amz-cf-pop": "TLV55-P1",
+                "x-cache": "Miss from cloudfront"
+              },
+              "mimeType": "",
+              "charset": "",
+              "remoteIPAddress": "3.169.64.3",
+              "remotePort": 443,
+              "encodedDataLength": 787,
+              "timing": {
+                "requestTime": 6831523.867285,
+                "proxyStart": -1,
+                "proxyEnd": -1,
+                "dnsStart": 0,
+                "dnsEnd": 38.144,
+                "connectStart": 39.429,
+                "connectEnd": 539.433,
+                "sslStart": 47.087,
+                "sslEnd": 539.405,
+                "workerStart": -1,
+                "workerReady": -1,
+                "workerFetchStart": -1,
+                "workerRespondWithSettled": -1,
+                "sendStart": 542.894,
+                "sendEnd": 550.709,
+                "pushStart": 0,
+                "pushEnd": 0,
+                "receiveHeadersStart": 964.236,
+                "receiveHeadersEnd": 964.456
+              },
+              "responseTime": 1786997031681.597,
+              "protocol": "h2",
+              "alternateProtocolUsage": "unspecifiedReason",
+              "securityState": "secure",
+              "securityDetails": {
+                "protocol": "TLS 1.3",
+                "keyExchange": "",
+                "keyExchangeGroup": "X25519MLKEM768",
+                "cipher": "AES_128_GCM",
+                "certificateId": 0,
+                "subjectName": "a.sssifmobisignal.com",
+                "sanList": [
+                  "a.sssifmobisignal.com"
+                ],
+                "issuer": "Amazon RSA 2048 M01",
+                "validFrom": 1776038400,
+                "validTo": 1793145599,
+                "signedCertificateTimestampList": [
+                  {
+                    "status": "Verified",
+                    "origin": "Embedded in certificate",
+                    "logDescription": "DigiCert 'Wyvern2026h2'",
+                    "logId": "C2317E574519A345EE7F38DEB29041EBC7C2215A22BF7FD5B5AD769AD90E52CD",
+                    "timestamp": 1776061749382,
+                    "hashAlgorithm": "SHA-256",
+                    "signatureAlgorithm": "ECDSA",
+                    "signatureData": "3045022100AD958E5ECEB90C9BE396E68D17D6375CFED8EBB73323452EF974E0DB0ABE72FA02201E6DE33E9E0F688D63E99CDF1CAE923179101CEC4ECE0270A8478089F05CEEEA"
+                  },
+                  {
+                    "status": "Verified",
+                    "origin": "Embedded in certificate",
+                    "logDescription": "Google 'Xenon2026h2' log",
+                    "logId": "D809553B944F7AFFC816196F944F85ABB0F8FC5E8755260F15D12E72BB454B14",
+                    "timestamp": 1776061749393,
+                    "hashAlgorithm": "SHA-256",
+                    "signatureAlgorithm": "ECDSA",
+                    "signatureData": "3045022100F9B437F996D60A8C7FA2CF9E6C8B4A9DA79BE8E7CAB402DA7EF785CCF7509A1802207985DB77F909FBB64A3CCA0F6BDF4E9556DB61C555DA8BCAD0934A437922EFF7"
+                  },
+                  {
+                    "status": "Verified",
+                    "origin": "Embedded in certificate",
+                    "logDescription": "DigiCert 'Sphinx2026h2'",
+                    "logId": "944E4387FAECC1EF81F3192426A8186501C7D35F3802013F72677D55372E19D8",
+                    "timestamp": 1776061749401,
+                    "hashAlgorithm": "SHA-256",
+                    "signatureAlgorithm": "ECDSA",
+                    "signatureData": "3046022100A0C82EFA1CB3CC640BC6475F7D04A07A09BDFCA4299775249FA118C43E25230C022100B163BD8E408ABF5B3259C5CD539EA8D56D1C416A65350C488BF2F95E1F999651"
+                  }
+                ],
+                "certificateTransparencyCompliance": "compliant",
+                "serverSignatureAlgorithm": 2052,
+                "encryptedClientHello": false
+              },
+              "asn": {
+                "ip": "3.169.64.3",
+                "asn": "16509",
+                "country": "US",
+                "description": "AMAZON-02 - Amazon.com, Inc., US",
+                "name": "Amazon.com",
+                "route": "3.128.0.0/10"
+              },
+              "geoip": {
+                "country": "US",
+                "region": "",
+                "timezone": "America/Chicago",
+                "city": "",
+                "ll": [
+                  37.751,
+                  -97.822
+                ],
+                "country_name": "United States",
+                "metro": 0
+              },
+              "rdns": {
+                "ip": "3.169.64.3",
+                "ptr": "server-3-169-64-3.tlv55.r.cloudfront.net"
+              }
+            },
+            "type": "Document",
+            "frameId": "1A0AED1FE2BBB395F5E5528A6949D215",
+            "hasUserGesture": false
+          }
+        ],
+        "response": {
+          "encodedDataLength": 0,
+          "dataLength": 0,
+          "requestId": "841F70EB243456C7A2994876A0A5BBEE",
+          "type": "Document",
+          "response": {
+            "url": "https://ldl1.com/link?z=10474180&var=27052&ymid=wcq81t6kq75h2kkkj0bupdfu",
+            "status": 204,
+            "statusText": "",
+            "headers": {
+              "cf-cache-status": "DYNAMIC",
+              "cf-ray": "a2cb48d8d9ec6018-SIN",
+              "content-type": "text/plain; charset=utf-8",
+              "date": "Mon, 17 Aug 2026 20:03:52 GMT",
+              "server": "cloudflare",
+              "strict-transport-security": "max-age=1",
+              "timing-allow-origin": "*",
+              "x-content-type-options": "nosniff"
+            },
+            "mimeType": "text/plain",
+            "charset": "utf-8",
+            "remoteIPAddress": "104.18.33.160",
+            "remotePort": 443,
+            "encodedDataLength": 397,
+            "timing": {
+              "requestTime": 6831524.839316,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": 0.243,
+              "dnsEnd": 8.679,
+              "connectStart": 9.382,
+              "connectEnd": 125.062,
+              "sslStart": 11.11,
+              "sslEnd": 125.05,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 125.244,
+              "sendEnd": 125.403,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersStart": 381.38,
+              "receiveHeadersEnd": 382.72
+            },
+            "responseTime": 1786997032070.764,
+            "protocol": "h2",
+            "alternateProtocolUsage": "unspecifiedReason",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "TLS 1.3",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519MLKEM768",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "ldl1.com",
+              "sanList": [
+                "ldl1.com"
+              ],
+              "issuer": "WE1",
+              "validFrom": 1783041426,
+              "validTo": 1790821017,
+              "signedCertificateTimestampList": [
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Google 'Xenon2026h2' log",
+                  "logId": "D809553B944F7AFFC816196F944F85ABB0F8FC5E8755260F15D12E72BB454B14",
+                  "timestamp": 1783045027238,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "3044022071DF80A4D63AA640F46D3A15726129E678F10EE6263AABA8C10961D931BF0C41022047067F2A9C7CC3E6F876EB17703107FF1D87299D5D7E0E8C0610948C30194F13"
+                },
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Sectigo 'Elephant2026h2'",
+                  "logId": "AF67883B57B04EDD8FA6D97EF62EA8EB810AC77160F0245E55D60C2FE785873A",
+                  "timestamp": 1783045027405,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "3046022100B3935A13C61A635926CD7BBD4458BBCE572F39694EC25DBC0AFCA1CBCE11ACD5022100C706E9C1858767D1DD64042F5C3822C697DC99065B352165D64C0847A9DB94BF"
+                }
+              ],
+              "certificateTransparencyCompliance": "compliant",
+              "serverSignatureAlgorithm": 1027,
+              "encryptedClientHello": false
+            },
+            "securityHeaders": [
+              {
+                "name": "Strict-Transport-Security",
+                "value": "max-age=1"
+              },
+              {
+                "name": "X-Content-Type-Options",
+                "value": "nosniff"
+              }
+            ]
+          },
+          "hasExtraInfo": true,
+          "failed": {
+            "requestId": "841F70EB243456C7A2994876A0A5BBEE",
+            "timestamp": 6831525.231164,
+            "type": "Document",
+            "errorText": "net::ERR_ABORTED",
+            "canceled": true
+          },
+          "asn": {
+            "ip": "104.18.33.160",
+            "asn": "13335",
+            "country": "US",
+            "description": "CLOUDFLARENET - Cloudflare, Inc., US",
+            "name": "Cloudflare",
+            "route": "104.16.0.0/14"
+          },
+          "geoip": {
+            "country": "",
+            "region": "",
+            "timezone": "",
+            "city": "",
+            "ll": [
+              null,
+              null
+            ],
+            "country_name": "Ascension Island"
+          }
+        },
+        "initiatorInfo": {
+          "url": "https://free.gf920.com/?utm_medium=b00cccbf77c8ae579fa684fe9c8c5affa17a412b&utm_campaign=tang4g&cid=&1=&2=&3=&4=&5=&puid=7675093797620940902&fl=1&np=1",
+          "host": "free.gf920.com",
+          "type": "script"
+        }
+      },
+      {
+        "request": {
+          "requestId": "581846.3",
+          "loaderId": "FF08A63B83C288310E088106D4A44044",
+          "documentURL": "https://free.gf920.com/?utm_medium=b00cccbf77c8ae579fa684fe9c8c5affa17a412b&utm_campaign=tang4g&cid=&1=&2=&3=&4=&5=&puid=7675093797620940902&fl=1&np=1",
+          "request": {
+            "url": "https://free.gf920.com/favicon.ico",
+            "method": "GET",
+            "headers": {
+              "sec-ch-ua-full-version-list": "\"Chromium\";v=\"122.0.0.0\", \"Google Chrome\";v=\"122.0.0.0\", \"Not(A:Brand\";v=\"24.0.0.0\"",
+              "sec-ch-ua-platform": "\"Android\"",
+              "Referer": "https://free.gf920.com/?utm_medium=b00cccbf77c8ae579fa684fe9c8c5affa17a412b&utm_campaign=tang4g&cid=&1=&2=&3=&4=&5=&puid=7675093797620940902&fl=1&np=1",
+              "sec-ch-ua": "\"Chromium\";v=\"122\", \"Google Chrome\";v=\"122\", \"Not(A:Brand\";v=\"24\"",
+              "sec-ch-ua-bitness": "\"64\"",
+              "sec-ch-ua-model": "\"\"",
+              "sec-ch-ua-mobile": "?1",
+              "sec-ch-ua-form-factors": "\"Mobile\"",
+              "sec-ch-ua-wow64": "?0",
+              "sec-ch-ua-arch": "\"arm\"",
+              "sec-ch-ua-full-version": "\"151.0.7922.137\"",
+              "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36",
+              "sec-ch-ua-platform-version": "\"13.0.0\""
+            },
+            "mixedContentType": "none",
+            "initialPriority": "High",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": true
+          },
+          "timestamp": 6831523.950867,
+          "wallTime": 1786997030.800975,
+          "initiator": {
+            "type": "other"
+          },
+          "redirectHasExtraInfo": false,
+          "type": "Other",
+          "frameId": "1A0AED1FE2BBB395F5E5528A6949D215",
+          "hasUserGesture": false
+        },
+        "response": {
+          "encodedDataLength": 1576,
+          "dataLength": 1150,
+          "requestId": "581846.3",
+          "type": "Other",
+          "response": {
+            "url": "https://free.gf920.com/favicon.ico",
+            "status": 200,
+            "statusText": "",
+            "headers": {
+              "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+              "cache-control": "max-age=86400",
+              "etag": "\"64d60f4e-47e\"",
+              "accept-ch": "Sec-CH-UA, Sec-CH-UA-Mobile, Sec-CH-UA-Platform, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Form-Factors, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-WoW64",
+              "expires": "Tue, 18 Aug 2026 20:03:50 GMT",
+              "accept-ranges": "bytes",
+              "alt-svc": "h3=\":443\"; ma=604800; persist=1",
+              "content-length": "1150",
+              "date": "Mon, 17 Aug 2026 20:03:50 GMT",
+              "content-type": "image/x-icon",
+              "last-modified": "Fri, 11 Aug 2023 10:37:02 GMT",
+              "server": "nginx"
+            },
+            "mimeType": "image/x-icon",
+            "charset": "",
+            "remoteIPAddress": "108.178.23.116",
+            "remotePort": 443,
+            "encodedDataLength": 426,
+            "timing": {
+              "requestTime": 6831523.958069,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": 0,
+              "dnsEnd": 0,
+              "connectStart": 0,
+              "connectEnd": 0,
+              "sslStart": 0,
+              "sslEnd": 0,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 5.768,
+              "sendEnd": 6.353,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersStart": 247.002,
+              "receiveHeadersEnd": 258.3
+            },
+            "responseTime": 1786997031055.138,
+            "protocol": "h3",
+            "alternateProtocolUsage": "alternativeJobWonWithoutRace",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "QUIC",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "free.gf920.com",
+              "sanList": [
+                "free.gf920.com"
+              ],
+              "issuer": "YE1",
+              "validFrom": 1781061249,
+              "validTo": 1788837248,
+              "signedCertificateTimestampList": [
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Google 'Xenon2026h2' log",
+                  "logId": "D809553B944F7AFFC816196F944F85ABB0F8FC5E8755260F15D12E72BB454B14",
+                  "timestamp": 1781064759390,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "3045022001F0F43E65B5B76288C7650ACE915D6E313837D54391CCD120CE2035E39824C5022100B4F122FC1B15D38E090C976F68C206D6F812A8205E64FB8EBAF0126B40ED2064"
+                },
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Geomys 'Tuscolo2026h2'",
+                  "logId": "46AF863D3B3EE59FA577DEA8245D36B0D9ED22A223F4617741229452EE95505F",
+                  "timestamp": 1781064759427,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "3046022100B752F987A8E28B011F800F4C0F3A261CFD458D9AA6BD216526F2602B166BE68502210088C7D0511607D6C152674F4216276FEB96C5E36F2448AE7DE250221D6023264F"
+                }
+              ],
+              "certificateTransparencyCompliance": "compliant",
+              "serverSignatureAlgorithm": 1027,
+              "encryptedClientHello": false
+            },
+            "securityHeaders": [
+              {
+                "name": "Strict-Transport-Security",
+                "value": "max-age=63072000; includeSubDomains; preload"
+              }
+            ]
+          },
+          "hasExtraInfo": true,
+          "hash": "b1d7aef06456fe7431124129a28f0138bb5fccfa4f4161e3087de23c005e5edc",
+          "size": 1536,
+          "asn": {
+            "ip": "108.178.23.116",
+            "asn": "32475",
+            "country": "US",
+            "description": "SINGLEHOP-LLC - Internap Holding LLC, US",
+            "name": "Internap Holding LLC",
+            "route": "108.178.0.0/18"
+          },
+          "geoip": {
+            "country": "US",
+            "region": "",
+            "timezone": "America/Chicago",
+            "city": "",
+            "ll": [
+              37.751,
+              -97.822
+            ],
+            "country_name": "United States",
+            "metro": 0
+          },
+          "rdns": {
+            "ip": "108.178.23.116",
+            "ptr": "server04.com-2.mobi"
+          }
+        }
+      },
+      {
+        "request": {
+          "requestId": "581846.4",
+          "loaderId": "FF08A63B83C288310E088106D4A44044",
+          "documentURL": "https://free.gf920.com/?utm_medium=b00cccbf77c8ae579fa684fe9c8c5affa17a412b&utm_campaign=tang4g&cid=&1=&2=&3=&4=&5=&puid=7675093797620940902&fl=1&np=1",
+          "request": {
+            "url": "https://free.gf920.com/favicon.ico",
+            "method": "GET",
+            "headers": {
+              "sec-ch-ua-full-version-list": "\"Chromium\";v=\"122.0.0.0\", \"Google Chrome\";v=\"122.0.0.0\", \"Not(A:Brand\";v=\"24.0.0.0\"",
+              "sec-ch-ua-platform": "\"Android\"",
+              "Referer": "https://free.gf920.com/?utm_medium=b00cccbf77c8ae579fa684fe9c8c5affa17a412b&utm_campaign=tang4g&cid=&1=&2=&3=&4=&5=&puid=7675093797620940902&fl=1&np=1",
+              "sec-ch-ua": "\"Chromium\";v=\"122\", \"Google Chrome\";v=\"122\", \"Not(A:Brand\";v=\"24\"",
+              "sec-ch-ua-bitness": "\"64\"",
+              "sec-ch-ua-model": "\"\"",
+              "sec-ch-ua-mobile": "?1",
+              "sec-ch-ua-form-factors": "\"Mobile\"",
+              "sec-ch-ua-wow64": "?0",
+              "sec-ch-ua-arch": "\"arm\"",
+              "sec-ch-ua-full-version": "\"151.0.7922.137\"",
+              "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36",
+              "sec-ch-ua-platform-version": "\"13.0.0\""
+            },
+            "mixedContentType": "none",
+            "initialPriority": "High",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": true
+          },
+          "timestamp": 6831524.352544,
+          "wallTime": 1786997031.202619,
+          "initiator": {
+            "type": "other"
+          },
+          "redirectHasExtraInfo": false,
+          "type": "Other",
+          "frameId": "1A0AED1FE2BBB395F5E5528A6949D215",
+          "hasUserGesture": false
+        },
+        "response": {
+          "encodedDataLength": 0,
+          "dataLength": 1150,
+          "requestId": "581846.4",
+          "type": "Other",
+          "response": {
+            "url": "https://free.gf920.com/favicon.ico",
+            "status": 200,
+            "statusText": "",
+            "headers": {
+              "cache-control": "max-age=86400",
+              "etag": "\"64d60f4e-47e\"",
+              "accept-ch": "Sec-CH-UA, Sec-CH-UA-Mobile, Sec-CH-UA-Platform, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Form-Factors, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-WoW64",
+              "expires": "Tue, 18 Aug 2026 20:03:50 GMT",
+              "accept-ranges": "bytes",
+              "alt-svc": "h3=\":443\"; ma=604800; persist=1",
+              "content-length": "1150",
+              "date": "Mon, 17 Aug 2026 20:03:50 GMT",
+              "content-type": "image/x-icon",
+              "last-modified": "Fri, 11 Aug 2023 10:37:02 GMT",
+              "server": "nginx"
+            },
+            "mimeType": "image/x-icon",
+            "charset": "",
+            "remoteIPAddress": "108.178.23.116",
+            "remotePort": 443,
+            "encodedDataLength": 0,
+            "timing": {
+              "requestTime": 6831524.353739,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": -1,
+              "dnsEnd": -1,
+              "connectStart": -1,
+              "connectEnd": -1,
+              "sslStart": -1,
+              "sslEnd": -1,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 0.076,
+              "sendEnd": 0.076,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersStart": 3.45,
+              "receiveHeadersEnd": 4.024
+            },
+            "responseTime": 1786997031055.138,
+            "protocol": "h3",
+            "alternateProtocolUsage": "unspecifiedReason",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "QUIC",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "free.gf920.com",
+              "sanList": [
+                "free.gf920.com"
+              ],
+              "issuer": "YE1",
+              "validFrom": 1781061249,
+              "validTo": 1788837248,
+              "signedCertificateTimestampList": [],
+              "certificateTransparencyCompliance": "unknown",
+              "serverSignatureAlgorithm": 1027,
+              "encryptedClientHello": false
+            }
+          },
+          "hasExtraInfo": false,
+          "hash": "b1d7aef06456fe7431124129a28f0138bb5fccfa4f4161e3087de23c005e5edc",
+          "size": 1536,
+          "asn": {
+            "ip": "108.178.23.116",
+            "asn": "32475",
+            "country": "US",
+            "description": "SINGLEHOP-LLC - Internap Holding LLC, US",
+            "name": "Internap Holding LLC",
+            "route": "108.178.0.0/18"
+          },
+          "geoip": {
+            "country": "US",
+            "region": "",
+            "timezone": "America/Chicago",
+            "city": "",
+            "ll": [
+              37.751,
+              -97.822
+            ],
+            "country_name": "United States",
+            "metro": 0
+          },
+          "rdns": {
+            "ip": "108.178.23.116",
+            "ptr": "server04.com-2.mobi"
+          }
+        }
+      }
+    ],
+    "cookies": [
+      {
+        "name": "432a766c-6117-49d1-bfb2-86dada210172-v4",
+        "value": "WMBKl1GYz1slZO27rMCi9Ru28GoL1Nnn72LHLVSNg6c",
+        "domain": ".a.sssifmobisignal.com",
+        "path": "/",
+        "expires": 1787083431.681808,
+        "size": 82,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sourceScheme": "Secure",
+        "sourcePort": 443
+      },
+      {
+        "name": "cc-v4",
+        "value": "l9HEgJZRyVJuGNZpjlUsPUtqB2umgoiCmrpEdHsql46u%2F8Le%2B4YZHwn9yErzhHaOojfGd4zOb4PMQ%2Ft%2FXq7ZgSdW1OPZKiTUCftUWZDPfuQIUHA5eFpjyWILtr3rJlqkvsxT3VtpD%2FV1U4bxTRAf8Q%3D%3D",
+        "domain": ".a.sssifmobisignal.com",
+        "path": "/",
+        "expires": 1802549031.681911,
+        "size": 171,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sourceScheme": "Secure",
+        "sourcePort": 443
+      },
+      {
+        "name": "__cf_bm",
+        "value": "s7jwH0eaBAkDMDR.0e.eQjX9OcHAIU4uHnFXYGT8Xaw-1786997031.819076-1.0.1.1-E45zBEgXy9b3Dk9GJt9YNKz6a5PZ1a2AJDv.GqCpMhrksTL5Lv_uWc7LLVF3c.q2vQLoWhBQ1JxolHTODlfNWf6kOidrNPcScaGKg4OfhX0RPaYdnU_8Aftub6MswBqY",
+        "domain": ".ldl1.com",
+        "path": "/",
+        "expires": 1786998832.072108,
+        "size": 205,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sourceScheme": "Secure",
+        "sourcePort": 443
+      }
+    ],
+    "console": [],
+    "links": [],
+    "timing": {
+      "beginNavigation": "2026-08-17T20:03:48.957Z",
+      "frameStartedLoading": "2026-08-17T20:03:50.715Z",
+      "frameNavigated": "2026-08-17T20:03:50.634Z",
+      "domContentEventFired": "2026-08-17T20:03:50.706Z",
+      "frameStoppedLoading": "2026-08-17T20:03:52.084Z"
+    },
+    "globals": [
+      {
+        "prop": "ontouchcancel",
+        "type": "object"
+      },
+      {
+        "prop": "ontouchend",
+        "type": "object"
+      },
+      {
+        "prop": "ontouchmove",
+        "type": "object"
+      },
+      {
+        "prop": "ontouchstart",
+        "type": "object"
+      },
+      {
+        "prop": "fence",
+        "type": "object"
+      }
+    ],
+    "storages": [],
+    "websockets": [],
+    "redirects": [
+      {
+        "from": "https://free.gf920.com/?utm_medium=b00cccbf77c8ae579fa684fe9c8c5affa17a412b&utm_campaign=tang4g",
+        "to": "https://free.gf920.com/?utm_term=7675093797620940902",
+        "initiator": "script"
+      }
+    ],
+    "identifiers": []
+  },
+  "lists": {
+    "ips": [
+      "104.18.33.160",
+      "3.169.64.3",
+      "108.178.23.116"
+    ],
+    "countries": [
+      "US"
+    ],
+    "asns": [
+      "13335",
+      "16509",
+      "32475"
+    ],
+    "domains": [
+      "free.gf920.com",
+      "ldl1.com",
+      "a.sssifmobisignal.com"
+    ],
+    "servers": [
+      "nginx",
+      "cloudflare"
+    ],
+    "urls": [
+      "https://free.gf920.com/?utm_medium=b00cccbf77c8ae579fa684fe9c8c5affa17a412b&utm_campaign=tang4g",
+      "https://free.gf920.com/?utm_term=7675093797620940902",
+      "https://ldl1.com/link?z=10474180&var=27052&ymid=wcq81t6kq75h2kkkj0bupdfu",
+      "https://a.sssifmobisignal.com/432a766c-6117-49d1-bfb2-86dada210172?pub=27052&placement=27052-dc84002z&cid=M7675093797620940902",
+      "https://free.gf920.com/favicon.ico"
+    ],
+    "linkDomains": [],
+    "certificates": [
+      {
+        "subjectName": "free.gf920.com",
+        "issuer": "YE1",
+        "validFrom": 1781061249,
+        "validTo": 1788837248
+      },
+      {
+        "subjectName": "ldl1.com",
+        "issuer": "WE1",
+        "validFrom": 1783041426,
+        "validTo": 1790821017
+      }
+    ],
+    "hashes": [
+      "1f52bf680a195ce9a933d472174218f0a33965fd69eded330cf767469114ab79",
+      "ca95a2dbe4cf0dd72eaaafea1518ab8ef846d1abf1f9ca610578d3d2e92464b8",
+      "b1d7aef06456fe7431124129a28f0138bb5fccfa4f4161e3087de23c005e5edc"
+    ]
+  },
+  "meta": {
+    "processors": {
+      "umbrella": {
+        "data": [
+          {
+            "hostname": "free.gf920.com",
+            "rank": 378653
+          },
+          {
+            "hostname": "ldl1.com",
+            "rank": 48429
+          },
+          {
+            "hostname": "a.sssifmobisignal.com",
+            "rank": 502963
+          }
+        ]
+      },
+      "geoip": {
+        "data": [
+          {
+            "ip": "108.178.23.116",
+            "geoip": {
+              "country": "US",
+              "region": "",
+              "timezone": "America/Chicago",
+              "city": "",
+              "ll": [
+                37.751,
+                -97.822
+              ],
+              "country_name": "United States",
+              "metro": 0
+            }
+          },
+          {
+            "ip": "104.18.33.160",
+            "geoip": {
+              "country": "",
+              "region": "",
+              "timezone": "",
+              "city": "",
+              "ll": [
+                null,
+                null
+              ],
+              "country_name": "Ascension Island"
+            }
+          },
+          {
+            "ip": "3.169.64.3",
+            "geoip": {
+              "country": "US",
+              "region": "",
+              "timezone": "America/Chicago",
+              "city": "",
+              "ll": [
+                37.751,
+                -97.822
+              ],
+              "country_name": "United States",
+              "metro": 0
+            }
+          }
+        ]
+      },
+      "asn": {
+        "data": [
+          {
+            "ip": "108.178.23.116",
+            "asn": "32475",
+            "country": "US",
+            "description": "SINGLEHOP-LLC - Internap Holding LLC, US",
+            "name": "Internap Holding LLC",
+            "route": "108.178.0.0/18"
+          },
+          {
+            "ip": "104.18.33.160",
+            "asn": "13335",
+            "country": "US",
+            "description": "CLOUDFLARENET - Cloudflare, Inc., US",
+            "name": "Cloudflare",
+            "route": "104.16.0.0/14"
+          },
+          {
+            "ip": "3.169.64.3",
+            "asn": "16509",
+            "country": "US",
+            "description": "AMAZON-02 - Amazon.com, Inc., US",
+            "name": "Amazon.com",
+            "route": "3.128.0.0/10"
+          }
+        ]
+      },
+      "rdns": {
+        "data": [
+          {
+            "ip": "108.178.23.116",
+            "ptr": "server04.com-2.mobi"
+          },
+          {
+            "ip": "3.169.64.3",
+            "ptr": "server-3-169-64-3.tlv55.r.cloudfront.net"
+          }
+        ]
+      },
+      "wappa": {
+        "data": [
+          {
+            "confidence": [
+              {
+                "confidence": 100,
+                "pattern": ""
+              }
+            ],
+            "confidenceTotal": 100,
+            "app": "Cloudflare Bot Management",
+            "icon": "CloudFlare.svg",
+            "website": "https://www.cloudflare.com/en-gb/products/bot-management/",
+            "categories": [
+              {
+                "groups": [
+                  11
+                ],
+                "name": "Security",
+                "priority": 9
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "page": {
+    "asn": "AS32475",
+    "asnname": "SINGLEHOP-LLC - Internap Holding LLC, US",
+    "city": "",
+    "country": "US",
+    "domain": "free.gf920.com",
+    "ip": "108.178.23.116",
+    "ptr": "server04.com-2.mobi",
+    "server": "nginx",
+    "url": "https://free.gf920.com/?utm_term=7675093797620940902",
+    "redirected": "same-domain",
+    "apexDomainAgeDays": 215,
+    "mimeType": "text/html",
+    "title": "Loading…",
+    "tlsValidDays": 89,
+    "tlsAgeDays": 68,
+    "domainAgeDays": 215,
+    "tlsValidFrom": "2026-06-10T03:14:09.000Z",
+    "umbrellaRank": 378653,
+    "apexDomain": "gf920.com",
+    "tlsIssuer": "YE1",
+    "status": "200"
+  },
+  "scanner": {
+    "country": "sg"
+  },
+  "stats": {
+    "IPv6Percentage": 0,
+    "adBlocked": 0,
+    "domainStats": [
+      {
+        "count": 4,
+        "ips": [
+          "108.178.23.116"
+        ],
+        "domain": "free.gf920.com",
+        "size": 5951,
+        "encodedSize": 4433,
+        "countries": [
+          "US"
+        ],
+        "index": 0,
+        "initiators": [
+          "free.gf920.com"
+        ],
+        "redirects": 0
+      },
+      {
+        "count": 1,
+        "ips": [
+          "104.18.33.160"
+        ],
+        "domain": "ldl1.com",
+        "size": 0,
+        "encodedSize": 0,
+        "countries": [],
+        "index": 3,
+        "initiators": [
+          "free.gf920.com"
+        ],
+        "redirects": 0
+      },
+      {
+        "count": 1,
+        "ips": [
+          "3.169.64.3"
+        ],
+        "domain": "a.sssifmobisignal.com",
+        "size": 0,
+        "encodedSize": 787,
+        "countries": [
+          "US"
+        ],
+        "index": 2,
+        "initiators": [],
+        "redirects": 1
+      }
+    ],
+    "ipStats": [
+      {
+        "requests": 4,
+        "domains": [
+          "free.gf920.com"
+        ],
+        "ip": "108.178.23.116",
+        "asn": {
+          "ip": "108.178.23.116",
+          "asn": "32475",
+          "country": "US",
+          "description": "SINGLEHOP-LLC - Internap Holding LLC, US",
+          "name": "Internap Holding LLC",
+          "route": "108.178.0.0/18"
+        },
+        "dns": {},
+        "geoip": {
+          "country": "US",
+          "region": "",
+          "timezone": "America/Chicago",
+          "city": "",
+          "ll": [
+            37.751,
+            -97.822
+          ],
+          "country_name": "United States",
+          "metro": 0
+        },
+        "size": 5951,
+        "encodedSize": 4433,
+        "countries": [
+          "US"
+        ],
+        "index": 0,
+        "ipv6": false,
+        "redirects": 0,
+        "count": null,
+        "rdns": {
+          "ip": "108.178.23.116",
+          "ptr": "server04.com-2.mobi"
+        }
+      },
+      {
+        "requests": 1,
+        "domains": [
+          "a.sssifmobisignal.com"
+        ],
+        "ip": "3.169.64.3",
+        "asn": {
+          "ip": "3.169.64.3",
+          "asn": "16509",
+          "country": "US",
+          "description": "AMAZON-02 - Amazon.com, Inc., US",
+          "name": "Amazon.com",
+          "route": "3.128.0.0/10"
+        },
+        "dns": {},
+        "geoip": {
+          "country": "US",
+          "region": "",
+          "timezone": "America/Chicago",
+          "city": "",
+          "ll": [
+            37.751,
+            -97.822
+          ],
+          "country_name": "United States",
+          "metro": 0
+        },
+        "size": 0,
+        "encodedSize": 787,
+        "countries": [
+          "US"
+        ],
+        "index": 2,
+        "ipv6": false,
+        "redirects": 1,
+        "count": null,
+        "rdns": {
+          "ip": "3.169.64.3",
+          "ptr": "server-3-169-64-3.tlv55.r.cloudfront.net"
+        }
+      },
+      {
+        "requests": 1,
+        "domains": [
+          "ldl1.com"
+        ],
+        "ip": "104.18.33.160",
+        "asn": {
+          "ip": "104.18.33.160",
+          "asn": "13335",
+          "country": "US",
+          "description": "CLOUDFLARENET - Cloudflare, Inc., US",
+          "name": "Cloudflare",
+          "route": "104.16.0.0/14"
+        },
+        "dns": {},
+        "geoip": {
+          "country": "",
+          "region": "",
+          "timezone": "",
+          "city": "",
+          "ll": [
+            null,
+            null
+          ],
+          "country_name": "Ascension Island"
+        },
+        "size": 0,
+        "encodedSize": 0,
+        "countries": [],
+        "index": 3,
+        "ipv6": false,
+        "redirects": 0,
+        "count": null
+      }
+    ],
+    "malicious": 0,
+    "protocolStats": [
+      {
+        "count": 3,
+        "size": 3651,
+        "encodedSize": 2857,
+        "ips": [
+          "108.178.23.116",
+          "104.18.33.160"
+        ],
+        "countries": [
+          "US"
+        ],
+        "securityState": {},
+        "protocol": "h2"
+      },
+      {
+        "count": 2,
+        "size": 2300,
+        "encodedSize": 1576,
+        "ips": [
+          "108.178.23.116"
+        ],
+        "countries": [
+          "US"
+        ],
+        "securityState": {},
+        "protocol": "h3"
+      }
+    ],
+    "regDomainStats": [
+      {
+        "count": 4,
+        "ips": [
+          "108.178.23.116"
+        ],
+        "regDomain": "gf920.com",
+        "size": 5951,
+        "encodedSize": 4433,
+        "countries": [],
+        "index": 0,
+        "subDomains": [
+          {
+            "domain": "free",
+            "country": "US"
+          }
+        ],
+        "redirects": 0
+      },
+      {
+        "count": 1,
+        "ips": [
+          "104.18.33.160"
+        ],
+        "regDomain": "ldl1.com",
+        "size": 0,
+        "encodedSize": 0,
+        "countries": [],
+        "index": 3,
+        "subDomains": [
+          {
+            "domain": "",
+            "country": ""
+          }
+        ],
+        "redirects": 0
+      },
+      {
+        "count": 1,
+        "ips": [
+          "3.169.64.3"
+        ],
+        "regDomain": "sssifmobisignal.com",
+        "size": 0,
+        "encodedSize": 787,
+        "countries": [],
+        "index": 2,
+        "subDomains": [
+          {
+            "domain": "a",
+            "country": "US"
+          }
+        ],
+        "redirects": 1
+      }
+    ],
+    "resourceStats": [
+      {
+        "count": 3,
+        "size": 3651,
+        "encodedSize": 2857,
+        "latency": 0,
+        "countries": [
+          "US"
+        ],
+        "ips": [
+          "108.178.23.116",
+          "104.18.33.160"
+        ],
+        "type": "Document",
+        "compression": "1.3",
+        "percentage": 60
+      },
+      {
+        "count": 2,
+        "size": 2300,
+        "encodedSize": 1576,
+        "latency": 0,
+        "countries": [
+          "US"
+        ],
+        "ips": [
+          "108.178.23.116"
+        ],
+        "type": "Other",
+        "compression": "1.5",
+        "percentage": 40
+      }
+    ],
+    "securePercentage": 100,
+    "secureRequests": 5,
+    "serverStats": [
+      {
+        "count": 4,
+        "size": 5951,
+        "encodedSize": 4433,
+        "ips": [
+          "108.178.23.116"
+        ],
+        "countries": [
+          "US"
+        ],
+        "server": "nginx"
+      },
+      {
+        "count": 1,
+        "size": 0,
+        "encodedSize": 0,
+        "ips": [
+          "104.18.33.160"
+        ],
+        "countries": [],
+        "server": "cloudflare"
+      }
+    ],
+    "tlsStats": [
+      {
+        "count": 5,
+        "size": 5951,
+        "encodedSize": 4433,
+        "ips": [
+          "108.178.23.116",
+          "104.18.33.160"
+        ],
+        "countries": [
+          "US"
+        ],
+        "protocols": {
+          "TLS 1.3 /  / AES_128_GCM": 3,
+          "QUIC /  / AES_128_GCM": 2
+        },
+        "securityState": "secure"
+      }
+    ],
+    "totalLinks": 0,
+    "uniqCountries": 2
+  },
+  "submitter": {
+    "country": "ID"
+  },
+  "task": {
+    "method": "api",
+    "source": "61a6a5f6",
+    "tags": [],
+    "time": "2026-08-17T20:03:58.583Z",
+    "url": "https://free.gf920.com/?utm_medium=b00cccbf77c8ae579fa684fe9c8c5affa17a412b&utm_campaign=tang4g",
+    "uuid": "01a01152-4da8-742f-9115-4b876c71bffd",
+    "visibility": "unlisted",
+    "reportURL": "https://urlscan.io/result/01a01152-4da8-742f-9115-4b876c71bffd/",
+    "screenshotURL": "https://urlscan.io/screenshots/01a01152-4da8-742f-9115-4b876c71bffd.png",
+    "domURL": "https://urlscan.io/dom/01a01152-4da8-742f-9115-4b876c71bffd/",
+    "domain": "free.gf920.com",
+    "apexDomain": "gf920.com"
+  },
+  "verdicts": {
+    "overall": {
+      "score": 0,
+      "categories": [],
+      "brands": [],
+      "tags": [],
+      "malicious": false,
+      "hasVerdicts": true
+    },
+    "urlscan": {
+      "score": 0,
+      "categories": [],
+      "brands": [],
+      "tags": [],
+      "malicious": false,
+      "hasVerdicts": false
+    },
+    "engines": {
+      "score": -18,
+      "malicious": false,
+      "categories": [],
+      "enginesTotal": 0,
+      "maliciousTotal": 0,
+      "benignTotal": 0,
+      "maliciousVerdicts": [],
+      "benignVerdicts": [],
+      "hasVerdicts": true,
+      "tags": [
+        "urlscan-ml",
+        "urlscan-ml-60c5e22"
+      ]
+    },
+    "community": {
+      "score": 0,
+      "categories": [],
+      "brands": [],
+      "votesTotal": 0,
+      "votesMalicious": 0,
+      "votesBenign": 0,
+      "malicious": false,
+      "hasVerdicts": false
+    }
+  }
+}

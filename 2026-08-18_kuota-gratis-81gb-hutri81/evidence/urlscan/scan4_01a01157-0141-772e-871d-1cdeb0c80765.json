@@ -1,0 +1,933 @@
+{
+  "data": {
+    "requests": [
+      {
+        "request": {
+          "requestId": "7E9AD3A24330D5F0C69F0CEBB85A4565",
+          "loaderId": "7E9AD3A24330D5F0C69F0CEBB85A4565",
+          "documentURL": "https://ldl1.com/link?z=11569507&var=27052&ymid=wji327mlgasg3kkkjqf89q2e",
+          "request": {
+            "url": "https://ldl1.com/link?z=11569507&var=27052&ymid=wji327mlgasg3kkkjqf89q2e",
+            "method": "GET",
+            "headers": {
+              "Upgrade-Insecure-Requests": "1",
+              "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36",
+              "sec-ch-ua": "\"Chromium\";v=\"122\", \"Google Chrome\";v=\"122\", \"Not(A:Brand\";v=\"24\"",
+              "sec-ch-ua-mobile": "?1",
+              "sec-ch-ua-platform": "\"Android\""
+            },
+            "mixedContentType": "none",
+            "initialPriority": "VeryHigh",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": true
+          },
+          "timestamp": 6831819.822879,
+          "wallTime": 1786997326.672989,
+          "initiator": {
+            "type": "other"
+          },
+          "redirectHasExtraInfo": true,
+          "redirectResponse": {
+            "url": "https://mms.sramms.space/aa449b3e-b49f-4551-abd7-4ba528dcb970?partner_ID=27052&pid=27052-dabc31az&subid=M7675059214544273449",
+            "status": 302,
+            "statusText": "",
+            "headers": {
+              "alt-svc": "h3=\":443\"; ma=86400",
+              "cache-control": "no-store, no-cache, pre-check=0, post-check=0",
+              "content-length": "0",
+              "date": "Mon, 17 Aug 2026 20:08:46 GMT",
+              "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+              "location": "https://ldl1.com/link?z=11569507&var=27052&ymid=wji327mlgasg3kkkjqf89q2e",
+              "pragma": "no-cache",
+              "server": "nginx",
+              "via": "1.1 9a163031670ab13ed0dc3ff579826e12.cloudfront.net (CloudFront)",
+              "x-amz-cf-id": "SluGrZyWwrEQm5vCO_u6Pn9P_EYA4aVnP6TL9VEsSwZfbELscVmY3g==",
+              "x-amz-cf-pop": "TLV55-P3",
+              "x-cache": "Miss from cloudfront"
+            },
+            "mimeType": "",
+            "charset": "",
+            "remoteIPAddress": "13.224.245.83",
+            "remotePort": 443,
+            "encodedDataLength": 731,
+            "timing": {
+              "requestTime": 6831819.19925,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": 0,
+              "dnsEnd": 72.058,
+              "connectStart": 72.29,
+              "connectEnd": 259.494,
+              "sslStart": 72.29,
+              "sslEnd": 259.494,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 259.583,
+              "sendEnd": 259.732,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersStart": 533.615,
+              "receiveHeadersEnd": 572.851
+            },
+            "responseTime": 1786997326582.94,
+            "protocol": "h3",
+            "alternateProtocolUsage": "dnsAlpnH3JobWonRace",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "QUIC",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519MLKEM768",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "mms.sramms.space",
+              "sanList": [
+                "mms.sramms.space"
+              ],
+              "issuer": "Amazon RSA 2048 M01",
+              "validFrom": 1779926400,
+              "validTo": 1797033599,
+              "signedCertificateTimestampList": [
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "DigiCert 'Wyvern2026h2'",
+                  "logId": "C2317E574519A345EE7F38DEB29041EBC7C2215A22BF7FD5B5AD769AD90E52CD",
+                  "timestamp": 1779992275912,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "304402207BF2F812CC4DE105CBF39A03640CA9F523D1C0BAC35E63F443A8E219324EEA030220796C7DDAA459B92CE23D013C99CFD28A9F8E9FFC52416C62E4CFB5B2DB4CA30A"
+                },
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Google 'Argon2026h2' log",
+                  "logId": "D76D7D10D1A7F577C2C7E95FD700BFF982C9335A65E1D0B3017317C0C8C56977",
+                  "timestamp": 1779992275875,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "30450221009C017B0D8439025D40ACD2D7593F5CCF510EB377CD69EA7FD6C35290AB9BC7C9022078AB989B673D289D2B2BFF7B1BA399C3582605E5073721F14E3A1A4BA4189DF0"
+                },
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "DigiCert 'Sphinx2026h2'",
+                  "logId": "944E4387FAECC1EF81F3192426A8186501C7D35F3802013F72677D55372E19D8",
+                  "timestamp": 1779992275944,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "3045022100A8FC491CEC0DB8F242A8C9539C7A0AF732ADADF21FC30B80C5532B1069189F4502202B7FEFB6E8DADEC173AE9D28887A98A4B949A0B25F34691C76EB03DCAC0E8D62"
+                }
+              ],
+              "certificateTransparencyCompliance": "compliant",
+              "serverSignatureAlgorithm": 2052,
+              "encryptedClientHello": false
+            }
+          },
+          "type": "Document",
+          "frameId": "EBE3AD7D441FDBACA1231B3DAA360D21",
+          "hasUserGesture": false,
+          "primaryRequest": true
+        },
+        "requests": [
+          {
+            "requestId": "7E9AD3A24330D5F0C69F0CEBB85A4565",
+            "loaderId": "7E9AD3A24330D5F0C69F0CEBB85A4565",
+            "documentURL": "https://mms.sramms.space/aa449b3e-b49f-4551-abd7-4ba528dcb970?partner_ID=27052&pid=27052-dabc31az&subid=M7675059214544273449",
+            "request": {
+              "url": "https://mms.sramms.space/aa449b3e-b49f-4551-abd7-4ba528dcb970?partner_ID=27052&pid=27052-dabc31az&subid=M7675059214544273449",
+              "method": "GET",
+              "headers": {
+                "Upgrade-Insecure-Requests": "1",
+                "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36",
+                "sec-ch-ua": "\"Chromium\";v=\"122\", \"Google Chrome\";v=\"122\", \"Not(A:Brand\";v=\"24\"",
+                "sec-ch-ua-mobile": "?1",
+                "sec-ch-ua-platform": "\"Android\""
+              },
+              "mixedContentType": "none",
+              "initialPriority": "VeryHigh",
+              "referrerPolicy": "strict-origin-when-cross-origin",
+              "isSameSite": true
+            },
+            "timestamp": 6831819.198269,
+            "wallTime": 1786997326.048316,
+            "initiator": {
+              "type": "other"
+            },
+            "redirectHasExtraInfo": false,
+            "type": "Document",
+            "frameId": "EBE3AD7D441FDBACA1231B3DAA360D21",
+            "hasUserGesture": false
+          },
+          {
+            "requestId": "7E9AD3A24330D5F0C69F0CEBB85A4565",
+            "loaderId": "7E9AD3A24330D5F0C69F0CEBB85A4565",
+            "documentURL": "https://ldl1.com/link?z=11569507&var=27052&ymid=wji327mlgasg3kkkjqf89q2e",
+            "request": {
+              "url": "https://ldl1.com/link?z=11569507&var=27052&ymid=wji327mlgasg3kkkjqf89q2e",
+              "method": "GET",
+              "headers": {
+                "Upgrade-Insecure-Requests": "1",
+                "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36",
+                "sec-ch-ua": "\"Chromium\";v=\"122\", \"Google Chrome\";v=\"122\", \"Not(A:Brand\";v=\"24\"",
+                "sec-ch-ua-mobile": "?1",
+                "sec-ch-ua-platform": "\"Android\""
+              },
+              "mixedContentType": "none",
+              "initialPriority": "VeryHigh",
+              "referrerPolicy": "strict-origin-when-cross-origin",
+              "isSameSite": true
+            },
+            "timestamp": 6831819.822879,
+            "wallTime": 1786997326.672989,
+            "initiator": {
+              "type": "other"
+            },
+            "redirectHasExtraInfo": true,
+            "redirectResponse": {
+              "url": "https://mms.sramms.space/aa449b3e-b49f-4551-abd7-4ba528dcb970?partner_ID=27052&pid=27052-dabc31az&subid=M7675059214544273449",
+              "status": 302,
+              "statusText": "",
+              "headers": {
+                "alt-svc": "h3=\":443\"; ma=86400",
+                "cache-control": "no-store, no-cache, pre-check=0, post-check=0",
+                "content-length": "0",
+                "date": "Mon, 17 Aug 2026 20:08:46 GMT",
+                "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+                "location": "https://ldl1.com/link?z=11569507&var=27052&ymid=wji327mlgasg3kkkjqf89q2e",
+                "pragma": "no-cache",
+                "server": "nginx",
+                "via": "1.1 9a163031670ab13ed0dc3ff579826e12.cloudfront.net (CloudFront)",
+                "x-amz-cf-id": "SluGrZyWwrEQm5vCO_u6Pn9P_EYA4aVnP6TL9VEsSwZfbELscVmY3g==",
+                "x-amz-cf-pop": "TLV55-P3",
+                "x-cache": "Miss from cloudfront"
+              },
+              "mimeType": "",
+              "charset": "",
+              "remoteIPAddress": "13.224.245.83",
+              "remotePort": 443,
+              "encodedDataLength": 731,
+              "timing": {
+                "requestTime": 6831819.19925,
+                "proxyStart": -1,
+                "proxyEnd": -1,
+                "dnsStart": 0,
+                "dnsEnd": 72.058,
+                "connectStart": 72.29,
+                "connectEnd": 259.494,
+                "sslStart": 72.29,
+                "sslEnd": 259.494,
+                "workerStart": -1,
+                "workerReady": -1,
+                "workerFetchStart": -1,
+                "workerRespondWithSettled": -1,
+                "sendStart": 259.583,
+                "sendEnd": 259.732,
+                "pushStart": 0,
+                "pushEnd": 0,
+                "receiveHeadersStart": 533.615,
+                "receiveHeadersEnd": 572.851
+              },
+              "responseTime": 1786997326582.94,
+              "protocol": "h3",
+              "alternateProtocolUsage": "dnsAlpnH3JobWonRace",
+              "securityState": "secure",
+              "securityDetails": {
+                "protocol": "QUIC",
+                "keyExchange": "",
+                "keyExchangeGroup": "X25519MLKEM768",
+                "cipher": "AES_128_GCM",
+                "certificateId": 0,
+                "subjectName": "mms.sramms.space",
+                "sanList": [
+                  "mms.sramms.space"
+                ],
+                "issuer": "Amazon RSA 2048 M01",
+                "validFrom": 1779926400,
+                "validTo": 1797033599,
+                "signedCertificateTimestampList": [
+                  {
+                    "status": "Verified",
+                    "origin": "Embedded in certificate",
+                    "logDescription": "DigiCert 'Wyvern2026h2'",
+                    "logId": "C2317E574519A345EE7F38DEB29041EBC7C2215A22BF7FD5B5AD769AD90E52CD",
+                    "timestamp": 1779992275912,
+                    "hashAlgorithm": "SHA-256",
+                    "signatureAlgorithm": "ECDSA",
+                    "signatureData": "304402207BF2F812CC4DE105CBF39A03640CA9F523D1C0BAC35E63F443A8E219324EEA030220796C7DDAA459B92CE23D013C99CFD28A9F8E9FFC52416C62E4CFB5B2DB4CA30A"
+                  },
+                  {
+                    "status": "Verified",
+                    "origin": "Embedded in certificate",
+                    "logDescription": "Google 'Argon2026h2' log",
+                    "logId": "D76D7D10D1A7F577C2C7E95FD700BFF982C9335A65E1D0B3017317C0C8C56977",
+                    "timestamp": 1779992275875,
+                    "hashAlgorithm": "SHA-256",
+                    "signatureAlgorithm": "ECDSA",
+                    "signatureData": "30450221009C017B0D8439025D40ACD2D7593F5CCF510EB377CD69EA7FD6C35290AB9BC7C9022078AB989B673D289D2B2BFF7B1BA399C3582605E5073721F14E3A1A4BA4189DF0"
+                  },
+                  {
+                    "status": "Verified",
+                    "origin": "Embedded in certificate",
+                    "logDescription": "DigiCert 'Sphinx2026h2'",
+                    "logId": "944E4387FAECC1EF81F3192426A8186501C7D35F3802013F72677D55372E19D8",
+                    "timestamp": 1779992275944,
+                    "hashAlgorithm": "SHA-256",
+                    "signatureAlgorithm": "ECDSA",
+                    "signatureData": "3045022100A8FC491CEC0DB8F242A8C9539C7A0AF732ADADF21FC30B80C5532B1069189F4502202B7FEFB6E8DADEC173AE9D28887A98A4B949A0B25F34691C76EB03DCAC0E8D62"
+                  }
+                ],
+                "certificateTransparencyCompliance": "compliant",
+                "serverSignatureAlgorithm": 2052,
+                "encryptedClientHello": false
+              },
+              "asn": {
+                "ip": "13.224.245.83",
+                "asn": "16509",
+                "country": "US",
+                "description": "AMAZON-02 - Amazon.com, Inc., US",
+                "name": "Amazon.com",
+                "route": "13.224.240.0/20"
+              },
+              "geoip": {
+                "country": "US",
+                "region": "",
+                "timezone": "America/Chicago",
+                "city": "",
+                "ll": [
+                  37.751,
+                  -97.822
+                ],
+                "country_name": "United States",
+                "metro": 0
+              },
+              "rdns": {
+                "ip": "13.224.245.83",
+                "ptr": "server-13-224-245-83.tlv55.r.cloudfront.net"
+              }
+            },
+            "type": "Document",
+            "frameId": "EBE3AD7D441FDBACA1231B3DAA360D21",
+            "hasUserGesture": false
+          }
+        ],
+        "response": {
+          "encodedDataLength": 0,
+          "dataLength": 0,
+          "requestId": "7E9AD3A24330D5F0C69F0CEBB85A4565",
+          "type": "Document",
+          "response": {
+            "url": "https://ldl1.com/link?z=11569507&var=27052&ymid=wji327mlgasg3kkkjqf89q2e",
+            "status": 204,
+            "statusText": "",
+            "headers": {
+              "cf-cache-status": "DYNAMIC",
+              "cf-ray": "a2cb500bdfdd7082-SIN",
+              "content-type": "text/plain; charset=utf-8",
+              "date": "Mon, 17 Aug 2026 20:08:46 GMT",
+              "server": "cloudflare",
+              "strict-transport-security": "max-age=1",
+              "timing-allow-origin": "*",
+              "x-content-type-options": "nosniff"
+            },
+            "mimeType": "text/plain",
+            "charset": "utf-8",
+            "remoteIPAddress": "104.18.33.160",
+            "remotePort": 443,
+            "encodedDataLength": 398,
+            "timing": {
+              "requestTime": 6831819.824905,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": 0.211,
+              "dnsEnd": 7.524,
+              "connectStart": 7.673,
+              "connectEnd": 16.242,
+              "sslStart": 9.51,
+              "sslEnd": 16.235,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 18.489,
+              "sendEnd": 26.52,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersStart": 284.899,
+              "receiveHeadersEnd": 285.062
+            },
+            "responseTime": 1786997326959.861,
+            "protocol": "h2",
+            "alternateProtocolUsage": "unspecifiedReason",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "TLS 1.3",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519MLKEM768",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "ldl1.com",
+              "sanList": [
+                "ldl1.com"
+              ],
+              "issuer": "WE1",
+              "validFrom": 1783041426,
+              "validTo": 1790821017,
+              "signedCertificateTimestampList": [
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Google 'Xenon2026h2' log",
+                  "logId": "D809553B944F7AFFC816196F944F85ABB0F8FC5E8755260F15D12E72BB454B14",
+                  "timestamp": 1783045027238,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "3044022071DF80A4D63AA640F46D3A15726129E678F10EE6263AABA8C10961D931BF0C41022047067F2A9C7CC3E6F876EB17703107FF1D87299D5D7E0E8C0610948C30194F13"
+                },
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Sectigo 'Elephant2026h2'",
+                  "logId": "AF67883B57B04EDD8FA6D97EF62EA8EB810AC77160F0245E55D60C2FE785873A",
+                  "timestamp": 1783045027405,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "3046022100B3935A13C61A635926CD7BBD4458BBCE572F39694EC25DBC0AFCA1CBCE11ACD5022100C706E9C1858767D1DD64042F5C3822C697DC99065B352165D64C0847A9DB94BF"
+                }
+              ],
+              "certificateTransparencyCompliance": "compliant",
+              "serverSignatureAlgorithm": 1027,
+              "encryptedClientHello": false
+            },
+            "securityHeaders": [
+              {
+                "name": "Strict-Transport-Security",
+                "value": "max-age=1"
+              },
+              {
+                "name": "X-Content-Type-Options",
+                "value": "nosniff"
+              }
+            ]
+          },
+          "hasExtraInfo": true,
+          "failed": {
+            "requestId": "7E9AD3A24330D5F0C69F0CEBB85A4565",
+            "timestamp": 6831820.113181,
+            "type": "Document",
+            "errorText": "net::ERR_ABORTED",
+            "canceled": true
+          },
+          "asn": {
+            "ip": "104.18.33.160",
+            "asn": "13335",
+            "country": "US",
+            "description": "CLOUDFLARENET - Cloudflare, Inc., US",
+            "name": "Cloudflare",
+            "route": "104.16.0.0/14"
+          },
+          "geoip": {
+            "country": "",
+            "region": "",
+            "timezone": "",
+            "city": "",
+            "ll": [
+              null,
+              null
+            ],
+            "country_name": "Ascension Island"
+          }
+        }
+      }
+    ],
+    "cookies": [
+      {
+        "name": "aa449b3e-b49f-4551-abd7-4ba528dcb970-v4",
+        "value": "6N2-DMsOGZ_mSdrv6tBHijBU_Drkk-XsKA2mLcKSd5I",
+        "domain": ".mms.sramms.space",
+        "path": "/",
+        "expires": 1787083726.622161,
+        "size": 82,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sourceScheme": "Secure",
+        "sourcePort": 443
+      },
+      {
+        "name": "cc-v4",
+        "value": "LphD49C8M6K16QYBMc4XkkchsUowO8ZLcJBI2i5cuQEdFulx4GeV5E3gnn7rV4RFLFKu5N5rAb%2B3TARJUj%2BQ9sZtL42TSTuCa6ivWBdyoTWIYI4Q%2F%2Fb99cc2l6%2BmTGTmlHt9mxRs%2FWRjmo2HKn%2Fi3Q%3D%3D",
+        "domain": ".mms.sramms.space",
+        "path": "/",
+        "expires": 1802549326.622285,
+        "size": 175,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sourceScheme": "Secure",
+        "sourcePort": 443
+      },
+      {
+        "name": "__cf_bm",
+        "value": "WjTjzuteIIxmo1JhsVE8AcI3aPQNM0iDz8Xixowi7WU-1786997326.6981106-1.0.1.1-Wg4CSckXg2iQVz2MGPSqQ6ejPJnG5DB_lqGBUglykVRkePaiTrsbfbxhhq0OkrDvBX.hM3g_L_VGyqZAKkmyesKjbbzRFV2T7zBzPsJvLzLjEato52GjTAbKnVqRH0zC",
+        "domain": ".ldl1.com",
+        "path": "/",
+        "expires": 1786999126.96002,
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sourceScheme": "Secure",
+        "sourcePort": 443
+      }
+    ],
+    "console": [],
+    "links": [],
+    "timing": {
+      "beginNavigation": "2026-08-17T20:08:46.033Z",
+      "frameStartedLoading": "2026-08-17T20:08:46.048Z",
+      "frameStoppedLoading": "2026-08-17T20:08:47.249Z"
+    },
+    "globals": [
+      {
+        "prop": "fence",
+        "type": "object"
+      }
+    ],
+    "storages": [],
+    "websockets": [],
+    "redirects": []
+  },
+  "lists": {
+    "ips": [
+      "104.18.33.160",
+      "13.224.245.83"
+    ],
+    "countries": [
+      "US"
+    ],
+    "asns": [
+      "13335",
+      "16509"
+    ],
+    "domains": [
+      "ldl1.com",
+      "mms.sramms.space"
+    ],
+    "servers": [
+      "cloudflare"
+    ],
+    "urls": [
+      "https://ldl1.com/link?z=11569507&var=27052&ymid=wji327mlgasg3kkkjqf89q2e",
+      "https://mms.sramms.space/aa449b3e-b49f-4551-abd7-4ba528dcb970?partner_ID=27052&pid=27052-dabc31az&subid=M7675059214544273449"
+    ],
+    "linkDomains": [],
+    "certificates": [
+      {
+        "subjectName": "ldl1.com",
+        "issuer": "WE1",
+        "validFrom": 1783041426,
+        "validTo": 1790821017
+      }
+    ],
+    "hashes": []
+  },
+  "meta": {
+    "processors": {
+      "umbrella": {
+        "data": [
+          {
+            "hostname": "ldl1.com",
+            "rank": 48429
+          }
+        ]
+      },
+      "geoip": {
+        "data": [
+          {
+            "ip": "104.18.33.160",
+            "geoip": {
+              "country": "",
+              "region": "",
+              "timezone": "",
+              "city": "",
+              "ll": [
+                null,
+                null
+              ],
+              "country_name": "Ascension Island"
+            }
+          },
+          {
+            "ip": "13.224.245.83",
+            "geoip": {
+              "country": "US",
+              "region": "",
+              "timezone": "America/Chicago",
+              "city": "",
+              "ll": [
+                37.751,
+                -97.822
+              ],
+              "country_name": "United States",
+              "metro": 0
+            }
+          }
+        ]
+      },
+      "asn": {
+        "data": [
+          {
+            "ip": "104.18.33.160",
+            "asn": "13335",
+            "country": "US",
+            "description": "CLOUDFLARENET - Cloudflare, Inc., US",
+            "name": "Cloudflare",
+            "route": "104.16.0.0/14"
+          },
+          {
+            "ip": "13.224.245.83",
+            "asn": "16509",
+            "country": "US",
+            "description": "AMAZON-02 - Amazon.com, Inc., US",
+            "name": "Amazon.com",
+            "route": "13.224.240.0/20"
+          }
+        ]
+      },
+      "rdns": {
+        "data": [
+          {
+            "ip": "13.224.245.83",
+            "ptr": "server-13-224-245-83.tlv55.r.cloudfront.net"
+          }
+        ]
+      },
+      "wappa": {
+        "data": [
+          {
+            "confidence": [
+              {
+                "confidence": 100,
+                "pattern": ""
+              }
+            ],
+            "confidenceTotal": 100,
+            "app": "Cloudflare Bot Management",
+            "icon": "CloudFlare.svg",
+            "website": "https://www.cloudflare.com/en-gb/products/bot-management/",
+            "categories": [
+              {
+                "groups": [
+                  11
+                ],
+                "name": "Security",
+                "priority": 9
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "page": {
+    "asn": "AS13335",
+    "asnname": "CLOUDFLARENET - Cloudflare, Inc., US",
+    "city": "",
+    "country": "",
+    "domain": "ldl1.com",
+    "ip": "104.18.33.160",
+    "server": "cloudflare",
+    "url": "https://ldl1.com/link?z=11569507&var=27052&ymid=wji327mlgasg3kkkjqf89q2e",
+    "redirected": "off-domain",
+    "apexDomainAgeDays": 1280,
+    "mimeType": "text/plain",
+    "tlsValidDays": 90,
+    "tlsAgeDays": 45,
+    "domainAgeDays": 1280,
+    "tlsValidFrom": "2026-07-03T01:17:06.000Z",
+    "umbrellaRank": 48429,
+    "apexDomain": "ldl1.com",
+    "tlsIssuer": "WE1",
+    "status": "204"
+  },
+  "scanner": {
+    "country": "sg"
+  },
+  "stats": {
+    "IPv6Percentage": 0,
+    "adBlocked": 0,
+    "domainStats": [
+      {
+        "count": 1,
+        "ips": [
+          "104.18.33.160"
+        ],
+        "domain": "ldl1.com",
+        "size": 0,
+        "encodedSize": 0,
+        "countries": [],
+        "index": 1,
+        "initiators": [],
+        "redirects": 0
+      },
+      {
+        "count": 1,
+        "ips": [
+          "13.224.245.83"
+        ],
+        "domain": "mms.sramms.space",
+        "size": 0,
+        "encodedSize": 731,
+        "countries": [
+          "US"
+        ],
+        "index": 0,
+        "initiators": [],
+        "redirects": 1
+      }
+    ],
+    "ipStats": [
+      {
+        "requests": 1,
+        "domains": [
+          "mms.sramms.space"
+        ],
+        "ip": "13.224.245.83",
+        "asn": {
+          "ip": "13.224.245.83",
+          "asn": "16509",
+          "country": "US",
+          "description": "AMAZON-02 - Amazon.com, Inc., US",
+          "name": "Amazon.com",
+          "route": "13.224.240.0/20"
+        },
+        "dns": {},
+        "geoip": {
+          "country": "US",
+          "region": "",
+          "timezone": "America/Chicago",
+          "city": "",
+          "ll": [
+            37.751,
+            -97.822
+          ],
+          "country_name": "United States",
+          "metro": 0
+        },
+        "size": 0,
+        "encodedSize": 731,
+        "countries": [
+          "US"
+        ],
+        "index": 0,
+        "ipv6": false,
+        "redirects": 1,
+        "count": null,
+        "rdns": {
+          "ip": "13.224.245.83",
+          "ptr": "server-13-224-245-83.tlv55.r.cloudfront.net"
+        }
+      },
+      {
+        "requests": 1,
+        "domains": [
+          "ldl1.com"
+        ],
+        "ip": "104.18.33.160",
+        "asn": {
+          "ip": "104.18.33.160",
+          "asn": "13335",
+          "country": "US",
+          "description": "CLOUDFLARENET - Cloudflare, Inc., US",
+          "name": "Cloudflare",
+          "route": "104.16.0.0/14"
+        },
+        "dns": {},
+        "geoip": {
+          "country": "",
+          "region": "",
+          "timezone": "",
+          "city": "",
+          "ll": [
+            null,
+            null
+          ],
+          "country_name": "Ascension Island"
+        },
+        "size": 0,
+        "encodedSize": 0,
+        "countries": [],
+        "index": 1,
+        "ipv6": false,
+        "redirects": 0,
+        "count": null
+      }
+    ],
+    "malicious": 0,
+    "protocolStats": [
+      {
+        "count": 1,
+        "size": 0,
+        "encodedSize": 0,
+        "ips": [
+          "104.18.33.160"
+        ],
+        "countries": [],
+        "securityState": {},
+        "protocol": "h2"
+      }
+    ],
+    "regDomainStats": [
+      {
+        "count": 1,
+        "ips": [
+          "104.18.33.160"
+        ],
+        "regDomain": "ldl1.com",
+        "size": 0,
+        "encodedSize": 0,
+        "countries": [],
+        "index": 1,
+        "subDomains": [
+          {
+            "domain": "",
+            "country": ""
+          }
+        ],
+        "redirects": 0
+      },
+      {
+        "count": 1,
+        "ips": [
+          "13.224.245.83"
+        ],
+        "regDomain": "sramms.space",
+        "size": 0,
+        "encodedSize": 731,
+        "countries": [],
+        "index": 0,
+        "subDomains": [
+          {
+            "domain": "mms",
+            "country": "US"
+          }
+        ],
+        "redirects": 1
+      }
+    ],
+    "resourceStats": [
+      {
+        "count": 1,
+        "size": 0,
+        "encodedSize": 0,
+        "latency": 0,
+        "countries": [],
+        "ips": [
+          "104.18.33.160"
+        ],
+        "type": "Document",
+        "compression": "NaN",
+        "percentage": 100
+      }
+    ],
+    "securePercentage": 100,
+    "secureRequests": 1,
+    "serverStats": [
+      {
+        "count": 1,
+        "size": 0,
+        "encodedSize": 0,
+        "ips": [
+          "104.18.33.160"
+        ],
+        "countries": [],
+        "server": "cloudflare"
+      }
+    ],
+    "tlsStats": [
+      {
+        "count": 1,
+        "size": 0,
+        "encodedSize": 0,
+        "ips": [
+          "104.18.33.160"
+        ],
+        "countries": [],
+        "protocols": {
+          "TLS 1.3 /  / AES_128_GCM": 1
+        },
+        "securityState": "secure"
+      }
+    ],
+    "totalLinks": 0,
+    "uniqCountries": 2
+  },
+  "submitter": {
+    "country": "ID"
+  },
+  "task": {
+    "method": "api",
+    "source": "61a6a5f6",
+    "tags": [],
+    "time": "2026-08-17T20:09:18.555Z",
+    "url": "https://mms.sramms.space/aa449b3e-b49f-4551-abd7-4ba528dcb970?partner_ID=27052&pid=27052-dabc31az&subid=M7675059214544273449",
+    "uuid": "01a01157-0141-772e-871d-1cdeb0c80765",
+    "visibility": "unlisted",
+    "reportURL": "https://urlscan.io/result/01a01157-0141-772e-871d-1cdeb0c80765/",
+    "screenshotURL": "https://urlscan.io/screenshots/01a01157-0141-772e-871d-1cdeb0c80765.png",
+    "domURL": "https://urlscan.io/dom/01a01157-0141-772e-871d-1cdeb0c80765/",
+    "domain": "mms.sramms.space",
+    "apexDomain": "sramms.space"
+  },
+  "verdicts": {
+    "overall": {
+      "score": 0,
+      "categories": [],
+      "brands": [],
+      "tags": [],
+      "malicious": false,
+      "hasVerdicts": true
+    },
+    "urlscan": {
+      "score": 0,
+      "categories": [],
+      "brands": [],
+      "tags": [],
+      "malicious": false,
+      "hasVerdicts": false
+    },
+    "engines": {
+      "score": -75,
+      "malicious": false,
+      "categories": [],
+      "enginesTotal": 0,
+      "maliciousTotal": 0,
+      "benignTotal": 0,
+      "maliciousVerdicts": [],
+      "benignVerdicts": [],
+      "hasVerdicts": true,
+      "tags": [
+        "urlscan-ml",
+        "urlscan-ml-60c5e22"
+      ]
+    },
+    "community": {
+      "score": 0,
+      "categories": [],
+      "brands": [],
+      "votesTotal": 0,
+      "votesMalicious": 0,
+      "votesBenign": 0,
+      "malicious": false,
+      "hasVerdicts": false
+    }
+  }
+}

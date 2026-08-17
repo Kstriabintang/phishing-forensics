@@ -1,0 +1,4148 @@
+{
+  "data": {
+    "requests": [
+      {
+        "request": {
+          "requestId": "4F630A16C5B909ADFE5F29F3DDDCA512",
+          "loaderId": "4F630A16C5B909ADFE5F29F3DDDCA512",
+          "documentURL": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+          "request": {
+            "url": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+            "method": "GET",
+            "headers": {
+              "Upgrade-Insecure-Requests": "1",
+              "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36",
+              "sec-ch-ua": "\"Chromium\";v=\"122\", \"Google Chrome\";v=\"122\", \"Not(A:Brand\";v=\"24\"",
+              "sec-ch-ua-mobile": "?1",
+              "sec-ch-ua-platform": "\"Android\""
+            },
+            "mixedContentType": "none",
+            "initialPriority": "VeryHigh",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": true
+          },
+          "timestamp": 6831494.244392,
+          "wallTime": 1786997001.094443,
+          "initiator": {
+            "type": "other"
+          },
+          "redirectHasExtraInfo": false,
+          "type": "Document",
+          "frameId": "FDEF4D34C846FDEC37FDBCF697CED3AD",
+          "hasUserGesture": false,
+          "primaryRequest": true
+        },
+        "response": {
+          "encodedDataLength": 9613,
+          "dataLength": 26876,
+          "requestId": "4F630A16C5B909ADFE5F29F3DDDCA512",
+          "type": "Document",
+          "response": {
+            "url": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+            "status": 200,
+            "statusText": "",
+            "headers": {
+              "alt-svc": "h3=\":443\"; ma=86400",
+              "cf-cache-status": "DYNAMIC",
+              "cf-ray": "a2cb4818edb7f876-SIN",
+              "content-encoding": "zstd",
+              "content-type": "text/html; charset=UTF-8",
+              "date": "Mon, 17 Aug 2026 20:03:21 GMT",
+              "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+              "priority": "u=0,i",
+              "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=2UVw4qOJEPStZrvcYFjrkcAGWB2Z5hGV9Z2vvrKcz2QadoC0yoiBb3bc0h2AlLu%2BE25NJmTjMuD%2Fdq1EPM5O65sKFzl6Kg%2BR0GX2Nqh6gFEx7CNNV%2FpC43dV3ZR3d%2Fuy2%2Be3m%2F9sVVqzPQFUef6R\"}]}",
+              "server": "cloudflare",
+              "server-timing": "cfCacheStatus;desc=\"DYNAMIC\"\ncfEdge;dur=10,cfOrigin;dur=6\ncfExtPri",
+              "vary": "Accept-Encoding"
+            },
+            "mimeType": "text/html",
+            "charset": "utf-8",
+            "remoteIPAddress": "172.67.166.103",
+            "remotePort": 443,
+            "encodedDataLength": 1383,
+            "timing": {
+              "requestTime": 6831494.245447,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": 0,
+              "dnsEnd": 0,
+              "connectStart": 0,
+              "connectEnd": 8.342,
+              "sslStart": 0,
+              "sslEnd": 8.342,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 8.479,
+              "sendEnd": 8.651,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersStart": 35.747,
+              "receiveHeadersEnd": 37.1
+            },
+            "responseTime": 1786997001131.28,
+            "protocol": "h3",
+            "alternateProtocolUsage": "dnsAlpnH3JobWonRace",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "QUIC",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519MLKEM768",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "1grd.xyz",
+              "sanList": [
+                "1grd.xyz",
+                "*.1grd.xyz"
+              ],
+              "issuer": "WE1",
+              "validFrom": 1785520828,
+              "validTo": 1793300424,
+              "signedCertificateTimestampList": [
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Google 'Argon2026h2' log",
+                  "logId": "D76D7D10D1A7F577C2C7E95FD700BFF982C9335A65E1D0B3017317C0C8C56977",
+                  "timestamp": 1785524428656,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "3045022006CC9E1FA5AA222A6CDCEF157A2FECD0077E186C5F0992AC6B0A4AEFFE292D5A022100A73FF1849CACFFD5A67B7D243DAF6CD9B925E67B2B2C8144DF80799FC63456C7"
+                },
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "DigiCert 'Sphinx2026h2'",
+                  "logId": "944E4387FAECC1EF81F3192426A8186501C7D35F3802013F72677D55372E19D8",
+                  "timestamp": 1785524428667,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "3045022100B3104BAEC5ACDF9D75187D3D79BD5436F5CB05B796134C0164DC5EBB2AECC20D022059B69CD71CD9CCFF3D65FE4A00F8FF8CF1816BF755A67D14FE8AEBF0EB8F4165"
+                }
+              ],
+              "certificateTransparencyCompliance": "compliant",
+              "serverSignatureAlgorithm": 1027,
+              "encryptedClientHello": true
+            }
+          },
+          "hasExtraInfo": true,
+          "hash": "3462fc59b69eddecf267f0caff958fc6681807b6fdad2631129847537d105b2d",
+          "size": 26855,
+          "asn": {
+            "ip": "172.67.166.103",
+            "asn": "13335",
+            "country": "US",
+            "description": "CLOUDFLARENET - Cloudflare, Inc., US",
+            "name": "Cloudflare",
+            "route": "172.67.128.0/17"
+          },
+          "geoip": {
+            "country": "",
+            "region": "",
+            "timezone": "",
+            "city": "",
+            "ll": [
+              null,
+              null
+            ],
+            "country_name": "Ascension Island"
+          }
+        }
+      },
+      {
+        "request": {
+          "requestId": "580615.2",
+          "loaderId": "4F630A16C5B909ADFE5F29F3DDDCA512",
+          "documentURL": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+          "request": {
+            "url": "https://cdn.jsdelivr.net/npm/canvas-confetti@1.3.2/dist/confetti.browser.min.js",
+            "method": "GET",
+            "headers": {
+              "sec-ch-ua-platform": "\"Android\"",
+              "Referer": "https://kuota-gratis-81gb98.1grd.xyz/",
+              "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36",
+              "sec-ch-ua": "\"Chromium\";v=\"122\", \"Google Chrome\";v=\"122\", \"Not(A:Brand\";v=\"24\"",
+              "sec-ch-ua-mobile": "?1"
+            },
+            "mixedContentType": "none",
+            "initialPriority": "High",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": false
+          },
+          "timestamp": 6831494.311625,
+          "wallTime": 1786997001.161755,
+          "initiator": {
+            "type": "parser",
+            "url": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+            "lineNumber": 189,
+            "columnNumber": 110
+          },
+          "redirectHasExtraInfo": false,
+          "type": "Script",
+          "frameId": "FDEF4D34C846FDEC37FDBCF697CED3AD",
+          "hasUserGesture": false,
+          "renderBlockingBehavior": "Blocking"
+        },
+        "response": {
+          "encodedDataLength": 3926,
+          "dataLength": 7370,
+          "requestId": "580615.2",
+          "type": "Script",
+          "response": {
+            "url": "https://cdn.jsdelivr.net/npm/canvas-confetti@1.3.2/dist/confetti.browser.min.js",
+            "status": 200,
+            "statusText": "",
+            "headers": {
+              "access-control-expose-headers": "*",
+              "content-encoding": "br",
+              "cf-cache-status": "HIT",
+              "etag": "W/\"1cca-HCFjXt+tR/AiMUp8B8CwfECSEpI\"",
+              "age": "944203",
+              "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=K%2BS4cmiPgkk3PmE%2BPVPBYNwjt1iliF1IUiEK1IEFFA7%2BS6IsKk5WmfvwvlfRtcwLBP%2FlnkFuhLFb1xzckmWWQglynw9omysg6D3GU32CVfIAiBIqZQTZmL1hOcxEQ2jxLJQ%3D\"}]}",
+              "x-content-type-options": "nosniff",
+              "x-jsd-version-type": "version",
+              "alt-svc": "h3=\":443\"; ma=86400",
+              "x-cache": "HIT, HIT",
+              "date": "Mon, 17 Aug 2026 20:03:21 GMT",
+              "content-type": "application/javascript; charset=utf-8",
+              "x-served-by": "cache-fra-eddf8230229-FRA, cache-sin-wsat1880045-SIN",
+              "vary": "Accept-Encoding",
+              "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+              "cache-control": "public, max-age=31536000, s-maxage=31536000, immutable",
+              "timing-allow-origin": "*",
+              "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.01,\"max_age\":604800}",
+              "cross-origin-resource-policy": "cross-origin",
+              "cf-ray": "a2cb4819d983ff81-SIN",
+              "accept-ranges": "bytes",
+              "access-control-allow-origin": "*",
+              "content-length": "3156",
+              "server": "cloudflare",
+              "x-jsd-version": "1.3.2"
+            },
+            "mimeType": "application/javascript",
+            "charset": "utf-8",
+            "remoteIPAddress": "104.17.208.5",
+            "remotePort": 443,
+            "encodedDataLength": 2121,
+            "timing": {
+              "requestTime": 6831494.324024,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": 0.161,
+              "dnsEnd": 9.015,
+              "connectStart": 10.253,
+              "connectEnd": 27.627,
+              "sslStart": 12.578,
+              "sslEnd": 27.619,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 31.946,
+              "sendEnd": 35.703,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersStart": 89.599,
+              "receiveHeadersEnd": 90.756
+            },
+            "responseTime": 1786997001263.724,
+            "protocol": "h2",
+            "alternateProtocolUsage": "unspecifiedReason",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "TLS 1.3",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519MLKEM768",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "*.jsdelivr.net",
+              "sanList": [
+                "*.jsdelivr.net",
+                "jsdelivr.net"
+              ],
+              "issuer": "Sectigo Public Server Authentication CA DV R36",
+              "validFrom": 1776816000,
+              "validTo": 1794009599,
+              "signedCertificateTimestampList": [
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Google 'Argon2026h2' log",
+                  "logId": "D76D7D10D1A7F577C2C7E95FD700BFF982C9335A65E1D0B3017317C0C8C56977",
+                  "timestamp": 1776856026429,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "3045022100A1D7DCF7E82D5B4D1118CB25680628DFC9B682B4A2CD1CAC17583BE192C6F0B702204BABC16D5C318BEA91A393032F503324D7CA5E00144C847C901A9EBF6FAA781D"
+                },
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Sectigo 'Tiger2026h2'",
+                  "logId": "C8A3C47FC7B3ADB9356B013F6A7A126DE33A4E43A5C646F997AD3975991DCF9A",
+                  "timestamp": 1776856026504,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "30450221008C92387660828CE59C95D5116C1E45182152698261E7D55D9213C64252DE1F3202206A5534CC6D620EE0A8F012937A5902C152322553DAD77E3DC6437D46FEBD0D23"
+                },
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Let's Encrypt 'Sycamore2026h2'",
+                  "logId": "6CFE501943A85EA916BC52D133E4DCC91EF1411C7D258420D173809E1818EB3A",
+                  "timestamp": 1776856027151,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "304502205A2656F53E84F4ED5BF3FAC7815BB57AE29C607A574A06A87EE8427B8790DBA9022100B6D651B1245366094EF925FF037BF666B6DE28EB27B0AF1263C5AE598E252BAB"
+                }
+              ],
+              "certificateTransparencyCompliance": "compliant",
+              "serverSignatureAlgorithm": 2052,
+              "encryptedClientHello": false
+            },
+            "securityHeaders": [
+              {
+                "name": "Strict-Transport-Security",
+                "value": "max-age=31536000; includeSubDomains; preload"
+              },
+              {
+                "name": "X-Content-Type-Options",
+                "value": "nosniff"
+              }
+            ]
+          },
+          "hasExtraInfo": true,
+          "hash": "04df330d0e18ed75f6d3cdf81e99e128a9cc5b00502de9773b5dc81b39765916",
+          "size": 7368,
+          "asn": {
+            "ip": "104.17.208.5",
+            "asn": "13335",
+            "country": "US",
+            "description": "CLOUDFLARENET - Cloudflare, Inc., US",
+            "name": "Cloudflare",
+            "route": "104.16.0.0/14"
+          },
+          "geoip": {
+            "country": "",
+            "region": "",
+            "timezone": "",
+            "city": "",
+            "ll": [
+              null,
+              null
+            ],
+            "country_name": "Ascension Island"
+          }
+        },
+        "initiatorInfo": {
+          "url": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+          "host": "kuota-gratis-81gb98.1grd.xyz",
+          "type": "parser"
+        }
+      },
+      {
+        "request": {
+          "requestId": "580615.3",
+          "loaderId": "4F630A16C5B909ADFE5F29F3DDDCA512",
+          "documentURL": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+          "request": {
+            "url": "https://626cdn.com/Indonesia/id817.jpg",
+            "method": "GET",
+            "headers": {
+              "sec-ch-ua-platform": "\"Android\"",
+              "Referer": "https://kuota-gratis-81gb98.1grd.xyz/",
+              "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36",
+              "sec-ch-ua": "\"Chromium\";v=\"122\", \"Google Chrome\";v=\"122\", \"Not(A:Brand\";v=\"24\"",
+              "sec-ch-ua-mobile": "?1"
+            },
+            "mixedContentType": "none",
+            "initialPriority": "Medium",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": false
+          },
+          "timestamp": 6831494.312162,
+          "wallTime": 1786997001.162219,
+          "initiator": {
+            "type": "parser",
+            "url": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+            "lineNumber": 193,
+            "columnNumber": 138
+          },
+          "redirectHasExtraInfo": false,
+          "type": "Image",
+          "frameId": "FDEF4D34C846FDEC37FDBCF697CED3AD",
+          "hasUserGesture": false
+        },
+        "response": {
+          "encodedDataLength": 148466,
+          "dataLength": 147989,
+          "requestId": "580615.3",
+          "type": "Image",
+          "response": {
+            "url": "https://626cdn.com/Indonesia/id817.jpg",
+            "status": 200,
+            "statusText": "",
+            "headers": {
+              "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+              "cache-control": "max-age=14400",
+              "cf-cache-status": "HIT",
+              "etag": "\"48e2c8d6806478e4abd64cf069c729db\"",
+              "age": "4821",
+              "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=IDkgM67L%2Fc9Hsssz%2BHJ3Xb2p%2FiFSQbIrzEkHfC7UyJpDsZfbFD4LT7oP%2BBEmrgmGBhihM8h9TydnRjxoJDLRtunzOu85pz0rXKfggH4KtsmtbSfXDZCszbwk%2FPN7\"}]}",
+              "cf-ray": "a2cb48199fd855de-SIN",
+              "accept-ranges": "bytes",
+              "alt-svc": "h3=\":443\"; ma=86400",
+              "content-length": "147989",
+              "date": "Mon, 17 Aug 2026 20:03:21 GMT",
+              "content-type": "image/jpeg",
+              "last-modified": "Thu, 13 Aug 2026 08:00:40 GMT",
+              "server": "cloudflare"
+            },
+            "mimeType": "image/jpeg",
+            "charset": "",
+            "remoteIPAddress": "104.21.63.159",
+            "remotePort": 443,
+            "encodedDataLength": 15356,
+            "timing": {
+              "requestTime": 6831494.324719,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": 0.119,
+              "dnsEnd": 8.499,
+              "connectStart": 16.264,
+              "connectEnd": 30.44,
+              "sslStart": 18.846,
+              "sslEnd": 30.43,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 34.781,
+              "sendEnd": 35.118,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersStart": 51.59,
+              "receiveHeadersEnd": 52.164
+            },
+            "responseTime": 1786997001226.372,
+            "protocol": "h2",
+            "alternateProtocolUsage": "unspecifiedReason",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "TLS 1.3",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519MLKEM768",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "e7b750d1.sni.cloudflaressl.com",
+              "sanList": [
+                "e7b750d1.sni.cloudflaressl.com",
+                "626cdn.com"
+              ],
+              "issuer": "WE1",
+              "validFrom": 1786689133,
+              "validTo": 1794468729,
+              "signedCertificateTimestampList": [
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Google 'Argon2026h2' log",
+                  "logId": "D76D7D10D1A7F577C2C7E95FD700BFF982C9335A65E1D0B3017317C0C8C56977",
+                  "timestamp": 1786692734246,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "304402200328EF49D81495C9496EDD6AEC427BB7EC674CDC890AC575BF9C0FEC79627DDC022011E8C8EE45E2917A8C7F8EAB7E4E6A2DDB2EF17239A9E9B1B369B34C88C9CE55"
+                },
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "DigiCert 'Sphinx2026h2'",
+                  "logId": "944E4387FAECC1EF81F3192426A8186501C7D35F3802013F72677D55372E19D8",
+                  "timestamp": 1786692734261,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "30440220591842B96715F40B331563DE3A463244BB4DC289734B162B555BAAB784E9EEAA02200A3B4AE11082C08BD651AF98B867631917851E11337F46DD228A7F5A5BDDBF93"
+                }
+              ],
+              "certificateTransparencyCompliance": "compliant",
+              "serverSignatureAlgorithm": 1027,
+              "encryptedClientHello": true
+            }
+          },
+          "hasExtraInfo": true,
+          "hash": "cafc4c8b53764315161ff156695133a101cc68bd2969508e68539e2f4b7c01c0",
+          "size": 197320,
+          "asn": {
+            "ip": "104.21.63.159",
+            "asn": "13335",
+            "country": "US",
+            "description": "CLOUDFLARENET - Cloudflare, Inc., US",
+            "name": "Cloudflare",
+            "route": "104.21.0.0/17"
+          },
+          "geoip": {
+            "country": "",
+            "region": "",
+            "timezone": "",
+            "city": "",
+            "ll": [
+              null,
+              null
+            ],
+            "country_name": "Ascension Island"
+          }
+        },
+        "initiatorInfo": {
+          "url": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+          "host": "kuota-gratis-81gb98.1grd.xyz",
+          "type": "parser"
+        }
+      },
+      {
+        "request": {
+          "requestId": "580615.4",
+          "loaderId": "4F630A16C5B909ADFE5F29F3DDDCA512",
+          "documentURL": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+          "request": {
+            "url": "https://626cdn.com/Indonesia/tx05.jpg",
+            "method": "GET",
+            "headers": {
+              "sec-ch-ua-platform": "\"Android\"",
+              "Referer": "https://kuota-gratis-81gb98.1grd.xyz/",
+              "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36",
+              "sec-ch-ua": "\"Chromium\";v=\"122\", \"Google Chrome\";v=\"122\", \"Not(A:Brand\";v=\"24\"",
+              "sec-ch-ua-mobile": "?1"
+            },
+            "mixedContentType": "none",
+            "initialPriority": "Medium",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": false
+          },
+          "timestamp": 6831494.312275,
+          "wallTime": 1786997001.162329,
+          "initiator": {
+            "type": "parser",
+            "url": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+            "lineNumber": 271,
+            "columnNumber": 80
+          },
+          "redirectHasExtraInfo": false,
+          "type": "Image",
+          "frameId": "FDEF4D34C846FDEC37FDBCF697CED3AD",
+          "hasUserGesture": false
+        },
+        "response": {
+          "encodedDataLength": 2040,
+          "dataLength": 1561,
+          "requestId": "580615.4",
+          "type": "Image",
+          "response": {
+            "url": "https://626cdn.com/Indonesia/tx05.jpg",
+            "status": 200,
+            "statusText": "",
+            "headers": {
+              "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+              "cache-control": "max-age=14400",
+              "cf-cache-status": "HIT",
+              "etag": "\"634f120276d0ce93e43d6ec3da1a370e\"",
+              "age": "5890",
+              "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Zp61VO1D6htmccyHpZVwTWLmKrZ49nwr8EMUhXbFYEch6egKLcJJjiVe%2FhYeMiCOfECcI34J%2BEX3rNK4w4teHKqpt%2FSO%2BCVZPA2eQvgX%2BCrOXebQ7j%2BCZTfPFUoX\"}]}",
+              "cf-ray": "a2cb48199fdb55de-SIN",
+              "accept-ranges": "bytes",
+              "alt-svc": "h3=\":443\"; ma=86400",
+              "content-length": "1561",
+              "date": "Mon, 17 Aug 2026 20:03:21 GMT",
+              "content-type": "image/jpeg",
+              "last-modified": "Mon, 08 Dec 2025 06:12:33 GMT",
+              "server": "cloudflare"
+            },
+            "mimeType": "image/jpeg",
+            "charset": "",
+            "remoteIPAddress": "104.21.63.159",
+            "remotePort": 443,
+            "encodedDataLength": 461,
+            "timing": {
+              "requestTime": 6831494.325244,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": -1,
+              "dnsEnd": -1,
+              "connectStart": -1,
+              "connectEnd": -1,
+              "sslStart": -1,
+              "sslEnd": -1,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 34.427,
+              "sendEnd": 34.596,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersStart": 47.373,
+              "receiveHeadersEnd": 48.864
+            },
+            "responseTime": 1786997001222.705,
+            "protocol": "h2",
+            "alternateProtocolUsage": "unspecifiedReason",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "TLS 1.3",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519MLKEM768",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "e7b750d1.sni.cloudflaressl.com",
+              "sanList": [
+                "e7b750d1.sni.cloudflaressl.com",
+                "626cdn.com"
+              ],
+              "issuer": "WE1",
+              "validFrom": 1786689133,
+              "validTo": 1794468729,
+              "signedCertificateTimestampList": [
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Google 'Argon2026h2' log",
+                  "logId": "D76D7D10D1A7F577C2C7E95FD700BFF982C9335A65E1D0B3017317C0C8C56977",
+                  "timestamp": 1786692734246,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "304402200328EF49D81495C9496EDD6AEC427BB7EC674CDC890AC575BF9C0FEC79627DDC022011E8C8EE45E2917A8C7F8EAB7E4E6A2DDB2EF17239A9E9B1B369B34C88C9CE55"
+                },
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "DigiCert 'Sphinx2026h2'",
+                  "logId": "944E4387FAECC1EF81F3192426A8186501C7D35F3802013F72677D55372E19D8",
+                  "timestamp": 1786692734261,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "30440220591842B96715F40B331563DE3A463244BB4DC289734B162B555BAAB784E9EEAA02200A3B4AE11082C08BD651AF98B867631917851E11337F46DD228A7F5A5BDDBF93"
+                }
+              ],
+              "certificateTransparencyCompliance": "compliant",
+              "serverSignatureAlgorithm": 1027,
+              "encryptedClientHello": true
+            }
+          },
+          "hasExtraInfo": true,
+          "hash": "1f6750987cf9f6324ac93f69655d6de3bfa72df01b4243cc3fe801fa4c169635",
+          "size": 2084,
+          "asn": {
+            "ip": "104.21.63.159",
+            "asn": "13335",
+            "country": "US",
+            "description": "CLOUDFLARENET - Cloudflare, Inc., US",
+            "name": "Cloudflare",
+            "route": "104.21.0.0/17"
+          },
+          "geoip": {
+            "country": "",
+            "region": "",
+            "timezone": "",
+            "city": "",
+            "ll": [
+              null,
+              null
+            ],
+            "country_name": "Ascension Island"
+          }
+        },
+        "initiatorInfo": {
+          "url": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+          "host": "kuota-gratis-81gb98.1grd.xyz",
+          "type": "parser"
+        }
+      },
+      {
+        "request": {
+          "requestId": "580615.5",
+          "loaderId": "4F630A16C5B909ADFE5F29F3DDDCA512",
+          "documentURL": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+          "request": {
+            "url": "https://626cdn.com/Indonesia/tx06.jpg",
+            "method": "GET",
+            "headers": {
+              "sec-ch-ua-platform": "\"Android\"",
+              "Referer": "https://kuota-gratis-81gb98.1grd.xyz/",
+              "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36",
+              "sec-ch-ua": "\"Chromium\";v=\"122\", \"Google Chrome\";v=\"122\", \"Not(A:Brand\";v=\"24\"",
+              "sec-ch-ua-mobile": "?1"
+            },
+            "mixedContentType": "none",
+            "initialPriority": "Medium",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": false
+          },
+          "timestamp": 6831494.312357,
+          "wallTime": 1786997001.162402,
+          "initiator": {
+            "type": "parser",
+            "url": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+            "lineNumber": 272,
+            "columnNumber": 80
+          },
+          "redirectHasExtraInfo": false,
+          "type": "Image",
+          "frameId": "FDEF4D34C846FDEC37FDBCF697CED3AD",
+          "hasUserGesture": false
+        },
+        "response": {
+          "encodedDataLength": 1730,
+          "dataLength": 1422,
+          "requestId": "580615.5",
+          "type": "Image",
+          "response": {
+            "url": "https://626cdn.com/Indonesia/tx06.jpg",
+            "status": 200,
+            "statusText": "",
+            "headers": {
+              "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+              "cache-control": "max-age=14400",
+              "cf-cache-status": "HIT",
+              "etag": "\"8769be1fa14b26bf9132d2512a4c37b8\"",
+              "age": "977",
+              "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=HSFsBH%2FI2HHoENROKV3P5TmJG8pzSCmlGTG3pbriibcGh2%2FihX1G7m8eVOPYN2Tx3kwOOHZNzx9AKYVme6s1Tuq59rdmAQ5Uu75tAUJThzS5l89ZUk8VPQmJrdjf\"}]}",
+              "cf-ray": "a2cb4819c83655de-SIN",
+              "accept-ranges": "bytes",
+              "alt-svc": "h3=\":443\"; ma=86400",
+              "content-length": "1422",
+              "date": "Mon, 17 Aug 2026 20:03:21 GMT",
+              "content-type": "image/jpeg",
+              "last-modified": "Mon, 08 Dec 2025 06:12:34 GMT",
+              "server": "cloudflare"
+            },
+            "mimeType": "image/jpeg",
+            "charset": "",
+            "remoteIPAddress": "104.21.63.159",
+            "remotePort": 443,
+            "encodedDataLength": 1730,
+            "timing": {
+              "requestTime": 6831494.386274,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": -1,
+              "dnsEnd": -1,
+              "connectStart": -1,
+              "connectEnd": -1,
+              "sslStart": -1,
+              "sslEnd": -1,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 0.255,
+              "sendEnd": 1.594,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersStart": 18.716,
+              "receiveHeadersEnd": 21.335
+            },
+            "responseTime": 1786997001255.06,
+            "protocol": "h2",
+            "alternateProtocolUsage": "unspecifiedReason",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "TLS 1.3",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519MLKEM768",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "e7b750d1.sni.cloudflaressl.com",
+              "sanList": [
+                "e7b750d1.sni.cloudflaressl.com",
+                "626cdn.com"
+              ],
+              "issuer": "WE1",
+              "validFrom": 1786689133,
+              "validTo": 1794468729,
+              "signedCertificateTimestampList": [
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Google 'Argon2026h2' log",
+                  "logId": "D76D7D10D1A7F577C2C7E95FD700BFF982C9335A65E1D0B3017317C0C8C56977",
+                  "timestamp": 1786692734246,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "304402200328EF49D81495C9496EDD6AEC427BB7EC674CDC890AC575BF9C0FEC79627DDC022011E8C8EE45E2917A8C7F8EAB7E4E6A2DDB2EF17239A9E9B1B369B34C88C9CE55"
+                },
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "DigiCert 'Sphinx2026h2'",
+                  "logId": "944E4387FAECC1EF81F3192426A8186501C7D35F3802013F72677D55372E19D8",
+                  "timestamp": 1786692734261,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "30440220591842B96715F40B331563DE3A463244BB4DC289734B162B555BAAB784E9EEAA02200A3B4AE11082C08BD651AF98B867631917851E11337F46DD228A7F5A5BDDBF93"
+                }
+              ],
+              "certificateTransparencyCompliance": "compliant",
+              "serverSignatureAlgorithm": 1027,
+              "encryptedClientHello": true
+            }
+          },
+          "hasExtraInfo": true,
+          "hash": "51c25201b2a1002d962ecbab1bfc542607189b622a99489be6a600b225afa923",
+          "size": 1896,
+          "asn": {
+            "ip": "104.21.63.159",
+            "asn": "13335",
+            "country": "US",
+            "description": "CLOUDFLARENET - Cloudflare, Inc., US",
+            "name": "Cloudflare",
+            "route": "104.21.0.0/17"
+          },
+          "geoip": {
+            "country": "",
+            "region": "",
+            "timezone": "",
+            "city": "",
+            "ll": [
+              null,
+              null
+            ],
+            "country_name": "Ascension Island"
+          }
+        },
+        "initiatorInfo": {
+          "url": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+          "host": "kuota-gratis-81gb98.1grd.xyz",
+          "type": "parser"
+        }
+      },
+      {
+        "request": {
+          "requestId": "580615.6",
+          "loaderId": "4F630A16C5B909ADFE5F29F3DDDCA512",
+          "documentURL": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+          "request": {
+            "url": "https://626cdn.com/Indonesia/tx07.jpg",
+            "method": "GET",
+            "headers": {
+              "sec-ch-ua-platform": "\"Android\"",
+              "Referer": "https://kuota-gratis-81gb98.1grd.xyz/",
+              "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36",
+              "sec-ch-ua": "\"Chromium\";v=\"122\", \"Google Chrome\";v=\"122\", \"Not(A:Brand\";v=\"24\"",
+              "sec-ch-ua-mobile": "?1"
+            },
+            "mixedContentType": "none",
+            "initialPriority": "Medium",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": false
+          },
+          "timestamp": 6831494.312425,
+          "wallTime": 1786997001.162469,
+          "initiator": {
+            "type": "parser",
+            "url": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+            "lineNumber": 273,
+            "columnNumber": 80
+          },
+          "redirectHasExtraInfo": false,
+          "type": "Image",
+          "frameId": "FDEF4D34C846FDEC37FDBCF697CED3AD",
+          "hasUserGesture": false
+        },
+        "response": {
+          "encodedDataLength": 1406,
+          "dataLength": 1095,
+          "requestId": "580615.6",
+          "type": "Image",
+          "response": {
+            "url": "https://626cdn.com/Indonesia/tx07.jpg",
+            "status": 200,
+            "statusText": "",
+            "headers": {
+              "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+              "cache-control": "max-age=14400",
+              "cf-cache-status": "HIT",
+              "etag": "\"c5eb35d757fa781a85c75df73db0ebf8\"",
+              "age": "6427",
+              "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=OGavL824kVGm3nd56rpIQL%2BEskOhkggPOc8%2FJis3DoOAd1bGUZTk0H7x6lH3AaA1wS7itIkJMZFUIA2MBmDstWwRLRw2%2Fdbw50X2%2BAXBoBPPOgnOCwRciWuSGVxH\"}]}",
+              "cf-ray": "a2cb4819e86f55de-SIN",
+              "accept-ranges": "bytes",
+              "alt-svc": "h3=\":443\"; ma=86400",
+              "content-length": "1095",
+              "date": "Mon, 17 Aug 2026 20:03:21 GMT",
+              "content-type": "image/jpeg",
+              "last-modified": "Mon, 08 Dec 2025 06:12:35 GMT",
+              "server": "cloudflare"
+            },
+            "mimeType": "image/jpeg",
+            "charset": "",
+            "remoteIPAddress": "104.21.63.159",
+            "remotePort": 443,
+            "encodedDataLength": 293,
+            "timing": {
+              "requestTime": 6831494.408812,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": -1,
+              "dnsEnd": -1,
+              "connectStart": -1,
+              "connectEnd": -1,
+              "sslStart": -1,
+              "sslEnd": -1,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 1.248,
+              "sendEnd": 2.433,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersStart": 12.232,
+              "receiveHeadersEnd": 13.355
+            },
+            "responseTime": 1786997001271.112,
+            "protocol": "h2",
+            "alternateProtocolUsage": "unspecifiedReason",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "TLS 1.3",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519MLKEM768",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "e7b750d1.sni.cloudflaressl.com",
+              "sanList": [
+                "e7b750d1.sni.cloudflaressl.com",
+                "626cdn.com"
+              ],
+              "issuer": "WE1",
+              "validFrom": 1786689133,
+              "validTo": 1794468729,
+              "signedCertificateTimestampList": [
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Google 'Argon2026h2' log",
+                  "logId": "D76D7D10D1A7F577C2C7E95FD700BFF982C9335A65E1D0B3017317C0C8C56977",
+                  "timestamp": 1786692734246,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "304402200328EF49D81495C9496EDD6AEC427BB7EC674CDC890AC575BF9C0FEC79627DDC022011E8C8EE45E2917A8C7F8EAB7E4E6A2DDB2EF17239A9E9B1B369B34C88C9CE55"
+                },
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "DigiCert 'Sphinx2026h2'",
+                  "logId": "944E4387FAECC1EF81F3192426A8186501C7D35F3802013F72677D55372E19D8",
+                  "timestamp": 1786692734261,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "30440220591842B96715F40B331563DE3A463244BB4DC289734B162B555BAAB784E9EEAA02200A3B4AE11082C08BD651AF98B867631917851E11337F46DD228A7F5A5BDDBF93"
+                }
+              ],
+              "certificateTransparencyCompliance": "compliant",
+              "serverSignatureAlgorithm": 1027,
+              "encryptedClientHello": true
+            }
+          },
+          "hasExtraInfo": true,
+          "hash": "abf6de5823efe236f4f1271aed8a4ab49d6c1b6c93e490799eb262017031bb82",
+          "size": 1460,
+          "asn": {
+            "ip": "104.21.63.159",
+            "asn": "13335",
+            "country": "US",
+            "description": "CLOUDFLARENET - Cloudflare, Inc., US",
+            "name": "Cloudflare",
+            "route": "104.21.0.0/17"
+          },
+          "geoip": {
+            "country": "",
+            "region": "",
+            "timezone": "",
+            "city": "",
+            "ll": [
+              null,
+              null
+            ],
+            "country_name": "Ascension Island"
+          }
+        },
+        "initiatorInfo": {
+          "url": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+          "host": "kuota-gratis-81gb98.1grd.xyz",
+          "type": "parser"
+        }
+      },
+      {
+        "request": {
+          "requestId": "580615.7",
+          "loaderId": "4F630A16C5B909ADFE5F29F3DDDCA512",
+          "documentURL": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+          "request": {
+            "url": "https://626cdn.com/Indonesia/tx02.jpg",
+            "method": "GET",
+            "headers": {
+              "sec-ch-ua-platform": "\"Android\"",
+              "Referer": "https://kuota-gratis-81gb98.1grd.xyz/",
+              "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36",
+              "sec-ch-ua": "\"Chromium\";v=\"122\", \"Google Chrome\";v=\"122\", \"Not(A:Brand\";v=\"24\"",
+              "sec-ch-ua-mobile": "?1"
+            },
+            "mixedContentType": "none",
+            "initialPriority": "Medium",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": false
+          },
+          "timestamp": 6831494.312474,
+          "wallTime": 1786997001.162517,
+          "initiator": {
+            "type": "parser",
+            "url": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+            "lineNumber": 285,
+            "columnNumber": 55
+          },
+          "redirectHasExtraInfo": false,
+          "type": "Image",
+          "frameId": "FDEF4D34C846FDEC37FDBCF697CED3AD",
+          "hasUserGesture": false
+        },
+        "response": {
+          "encodedDataLength": 1625,
+          "dataLength": 1345,
+          "requestId": "580615.7",
+          "type": "Image",
+          "response": {
+            "url": "https://626cdn.com/Indonesia/tx02.jpg",
+            "status": 200,
+            "statusText": "",
+            "headers": {
+              "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+              "cache-control": "max-age=14400",
+              "cf-cache-status": "HIT",
+              "etag": "\"56c7cc738ff57fc4686e93c99e74ec32\"",
+              "age": "977",
+              "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=ZeJA4a7Hl%2Bmz9L3dHvmgz80JwcOuNiWO886f25SeDYaE8OFpCiEydo91%2FXpA7z4EpMJSGQC1SsmRnrD0QtNyHzOONb0nsS3Naz80uy3sYI8d8aMlWGbHL2sdZUX4\"}]}",
+              "cf-ray": "a2cb4819e88655de-SIN",
+              "accept-ranges": "bytes",
+              "alt-svc": "h3=\":443\"; ma=86400",
+              "content-length": "1345",
+              "date": "Mon, 17 Aug 2026 20:03:21 GMT",
+              "content-type": "image/jpeg",
+              "last-modified": "Mon, 08 Dec 2025 06:12:33 GMT",
+              "server": "cloudflare"
+            },
+            "mimeType": "image/jpeg",
+            "charset": "",
+            "remoteIPAddress": "104.21.63.159",
+            "remotePort": 443,
+            "encodedDataLength": 1625,
+            "timing": {
+              "requestTime": 6831494.414398,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": -1,
+              "dnsEnd": -1,
+              "connectStart": -1,
+              "connectEnd": -1,
+              "sslStart": -1,
+              "sslEnd": -1,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 0.232,
+              "sendEnd": 1.351,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersStart": 11.223,
+              "receiveHeadersEnd": 12.924
+            },
+            "responseTime": 1786997001275.689,
+            "protocol": "h2",
+            "alternateProtocolUsage": "unspecifiedReason",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "TLS 1.3",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519MLKEM768",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "e7b750d1.sni.cloudflaressl.com",
+              "sanList": [
+                "e7b750d1.sni.cloudflaressl.com",
+                "626cdn.com"
+              ],
+              "issuer": "WE1",
+              "validFrom": 1786689133,
+              "validTo": 1794468729,
+              "signedCertificateTimestampList": [
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Google 'Argon2026h2' log",
+                  "logId": "D76D7D10D1A7F577C2C7E95FD700BFF982C9335A65E1D0B3017317C0C8C56977",
+                  "timestamp": 1786692734246,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "304402200328EF49D81495C9496EDD6AEC427BB7EC674CDC890AC575BF9C0FEC79627DDC022011E8C8EE45E2917A8C7F8EAB7E4E6A2DDB2EF17239A9E9B1B369B34C88C9CE55"
+                },
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "DigiCert 'Sphinx2026h2'",
+                  "logId": "944E4387FAECC1EF81F3192426A8186501C7D35F3802013F72677D55372E19D8",
+                  "timestamp": 1786692734261,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "30440220591842B96715F40B331563DE3A463244BB4DC289734B162B555BAAB784E9EEAA02200A3B4AE11082C08BD651AF98B867631917851E11337F46DD228A7F5A5BDDBF93"
+                }
+              ],
+              "certificateTransparencyCompliance": "compliant",
+              "serverSignatureAlgorithm": 1027,
+              "encryptedClientHello": true
+            }
+          },
+          "hasExtraInfo": true,
+          "hash": "ad09d8cdf3f2fe9fa0ca7ce185965e7445e6d7d619bbe0f5ca18366318d03691",
+          "size": 1796,
+          "asn": {
+            "ip": "104.21.63.159",
+            "asn": "13335",
+            "country": "US",
+            "description": "CLOUDFLARENET - Cloudflare, Inc., US",
+            "name": "Cloudflare",
+            "route": "104.21.0.0/17"
+          },
+          "geoip": {
+            "country": "",
+            "region": "",
+            "timezone": "",
+            "city": "",
+            "ll": [
+              null,
+              null
+            ],
+            "country_name": "Ascension Island"
+          }
+        },
+        "initiatorInfo": {
+          "url": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+          "host": "kuota-gratis-81gb98.1grd.xyz",
+          "type": "parser"
+        }
+      },
+      {
+        "request": {
+          "requestId": "580615.8",
+          "loaderId": "4F630A16C5B909ADFE5F29F3DDDCA512",
+          "documentURL": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+          "request": {
+            "url": "https://626cdn.com/Indonesia/tx03.jpg",
+            "method": "GET",
+            "headers": {
+              "sec-ch-ua-platform": "\"Android\"",
+              "Referer": "https://kuota-gratis-81gb98.1grd.xyz/",
+              "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36",
+              "sec-ch-ua": "\"Chromium\";v=\"122\", \"Google Chrome\";v=\"122\", \"Not(A:Brand\";v=\"24\"",
+              "sec-ch-ua-mobile": "?1"
+            },
+            "mixedContentType": "none",
+            "initialPriority": "Low",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": false
+          },
+          "timestamp": 6831494.31253,
+          "wallTime": 1786997001.162574,
+          "initiator": {
+            "type": "parser",
+            "url": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+            "lineNumber": 294,
+            "columnNumber": 55
+          },
+          "redirectHasExtraInfo": false,
+          "type": "Image",
+          "frameId": "FDEF4D34C846FDEC37FDBCF697CED3AD",
+          "hasUserGesture": false
+        },
+        "response": {
+          "encodedDataLength": 1840,
+          "dataLength": 1551,
+          "requestId": "580615.8",
+          "type": "Image",
+          "response": {
+            "url": "https://626cdn.com/Indonesia/tx03.jpg",
+            "status": 200,
+            "statusText": "",
+            "headers": {
+              "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+              "cache-control": "max-age=14400",
+              "cf-cache-status": "HIT",
+              "etag": "\"e0fd074e2705964c751484a6f8567814\"",
+              "age": "5171",
+              "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=WhM1kK6CFripkP4cMc1gbo%2B077WOd2wVDR%2BuMKGNpNznTyP7G0UX8aEoS1QXC0mSQ3Av2HRZWAAemNDEe%2B2lh%2BVDlrvNFoEvIeJbLaEvQ4mWmVINqCkOrXdoJzWA\"}]}",
+              "cf-ray": "a2cb481a18e255de-SIN",
+              "accept-ranges": "bytes",
+              "alt-svc": "h3=\":443\"; ma=86400",
+              "content-length": "1551",
+              "date": "Mon, 17 Aug 2026 20:03:21 GMT",
+              "content-type": "image/jpeg",
+              "last-modified": "Mon, 08 Dec 2025 06:12:33 GMT",
+              "server": "cloudflare"
+            },
+            "mimeType": "image/jpeg",
+            "charset": "",
+            "remoteIPAddress": "104.21.63.159",
+            "remotePort": 443,
+            "encodedDataLength": 271,
+            "timing": {
+              "requestTime": 6831494.443291,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": -1,
+              "dnsEnd": -1,
+              "connectStart": -1,
+              "connectEnd": -1,
+              "sslStart": -1,
+              "sslEnd": -1,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 1.053,
+              "sendEnd": 1.737,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersStart": 8.865,
+              "receiveHeadersEnd": 9.823
+            },
+            "responseTime": 1786997001302.224,
+            "protocol": "h2",
+            "alternateProtocolUsage": "unspecifiedReason",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "TLS 1.3",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519MLKEM768",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "e7b750d1.sni.cloudflaressl.com",
+              "sanList": [
+                "e7b750d1.sni.cloudflaressl.com",
+                "626cdn.com"
+              ],
+              "issuer": "WE1",
+              "validFrom": 1786689133,
+              "validTo": 1794468729,
+              "signedCertificateTimestampList": [
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Google 'Argon2026h2' log",
+                  "logId": "D76D7D10D1A7F577C2C7E95FD700BFF982C9335A65E1D0B3017317C0C8C56977",
+                  "timestamp": 1786692734246,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "304402200328EF49D81495C9496EDD6AEC427BB7EC674CDC890AC575BF9C0FEC79627DDC022011E8C8EE45E2917A8C7F8EAB7E4E6A2DDB2EF17239A9E9B1B369B34C88C9CE55"
+                },
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "DigiCert 'Sphinx2026h2'",
+                  "logId": "944E4387FAECC1EF81F3192426A8186501C7D35F3802013F72677D55372E19D8",
+                  "timestamp": 1786692734261,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "30440220591842B96715F40B331563DE3A463244BB4DC289734B162B555BAAB784E9EEAA02200A3B4AE11082C08BD651AF98B867631917851E11337F46DD228A7F5A5BDDBF93"
+                }
+              ],
+              "certificateTransparencyCompliance": "compliant",
+              "serverSignatureAlgorithm": 1027,
+              "encryptedClientHello": true
+            }
+          },
+          "hasExtraInfo": true,
+          "hash": "0ade21c552f3d19c9e984d77d0aaba0d95a5087d0c9c816cdea0cac4ce71c738",
+          "size": 2068,
+          "asn": {
+            "ip": "104.21.63.159",
+            "asn": "13335",
+            "country": "US",
+            "description": "CLOUDFLARENET - Cloudflare, Inc., US",
+            "name": "Cloudflare",
+            "route": "104.21.0.0/17"
+          },
+          "geoip": {
+            "country": "",
+            "region": "",
+            "timezone": "",
+            "city": "",
+            "ll": [
+              null,
+              null
+            ],
+            "country_name": "Ascension Island"
+          }
+        },
+        "initiatorInfo": {
+          "url": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+          "host": "kuota-gratis-81gb98.1grd.xyz",
+          "type": "parser"
+        }
+      },
+      {
+        "request": {
+          "requestId": "580615.9",
+          "loaderId": "4F630A16C5B909ADFE5F29F3DDDCA512",
+          "documentURL": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+          "request": {
+            "url": "https://626cdn.com/Indonesia/tx04.jpg",
+            "method": "GET",
+            "headers": {
+              "sec-ch-ua-platform": "\"Android\"",
+              "Referer": "https://kuota-gratis-81gb98.1grd.xyz/",
+              "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36",
+              "sec-ch-ua": "\"Chromium\";v=\"122\", \"Google Chrome\";v=\"122\", \"Not(A:Brand\";v=\"24\"",
+              "sec-ch-ua-mobile": "?1"
+            },
+            "mixedContentType": "none",
+            "initialPriority": "Low",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": false
+          },
+          "timestamp": 6831494.325522,
+          "wallTime": 1786997001.175587,
+          "initiator": {
+            "type": "parser",
+            "url": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+            "lineNumber": 303,
+            "columnNumber": 55
+          },
+          "redirectHasExtraInfo": false,
+          "type": "Image",
+          "frameId": "FDEF4D34C846FDEC37FDBCF697CED3AD",
+          "hasUserGesture": false
+        },
+        "response": {
+          "encodedDataLength": 1741,
+          "dataLength": 1455,
+          "requestId": "580615.9",
+          "type": "Image",
+          "response": {
+            "url": "https://626cdn.com/Indonesia/tx04.jpg",
+            "status": 200,
+            "statusText": "",
+            "headers": {
+              "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+              "cache-control": "max-age=14400",
+              "cf-cache-status": "HIT",
+              "etag": "\"7d3187aba10045436a51295c54dcfb8f\"",
+              "age": "2247",
+              "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=ZiLfYQdGKpTn8FOzuJnIucFh1kIoqEGmnj1gzkszngWA3G7u0uEvYsmtAIgI5AsfmvA1UQJHYmrjKR6Yd%2F5OJDrVObRP1AdOVmqs1tHB%2FWbNjHo4asjy5ogYO7%2Fx\"}]}",
+              "cf-ray": "a2cb481a28fc55de-SIN",
+              "accept-ranges": "bytes",
+              "alt-svc": "h3=\":443\"; ma=86400",
+              "content-length": "1455",
+              "date": "Mon, 17 Aug 2026 20:03:21 GMT",
+              "content-type": "image/jpeg",
+              "last-modified": "Mon, 08 Dec 2025 06:12:33 GMT",
+              "server": "cloudflare"
+            },
+            "mimeType": "image/jpeg",
+            "charset": "",
+            "remoteIPAddress": "104.21.63.159",
+            "remotePort": 443,
+            "encodedDataLength": 1741,
+            "timing": {
+              "requestTime": 6831494.443668,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": -1,
+              "dnsEnd": -1,
+              "connectStart": -1,
+              "connectEnd": -1,
+              "sslStart": -1,
+              "sslEnd": -1,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 0.809,
+              "sendEnd": 1.365,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersStart": 14.147,
+              "receiveHeadersEnd": 19.296
+            },
+            "responseTime": 1786997001307.901,
+            "protocol": "h2",
+            "alternateProtocolUsage": "unspecifiedReason",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "TLS 1.3",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519MLKEM768",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "e7b750d1.sni.cloudflaressl.com",
+              "sanList": [
+                "e7b750d1.sni.cloudflaressl.com",
+                "626cdn.com"
+              ],
+              "issuer": "WE1",
+              "validFrom": 1786689133,
+              "validTo": 1794468729,
+              "signedCertificateTimestampList": [
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Google 'Argon2026h2' log",
+                  "logId": "D76D7D10D1A7F577C2C7E95FD700BFF982C9335A65E1D0B3017317C0C8C56977",
+                  "timestamp": 1786692734246,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "304402200328EF49D81495C9496EDD6AEC427BB7EC674CDC890AC575BF9C0FEC79627DDC022011E8C8EE45E2917A8C7F8EAB7E4E6A2DDB2EF17239A9E9B1B369B34C88C9CE55"
+                },
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "DigiCert 'Sphinx2026h2'",
+                  "logId": "944E4387FAECC1EF81F3192426A8186501C7D35F3802013F72677D55372E19D8",
+                  "timestamp": 1786692734261,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "30440220591842B96715F40B331563DE3A463244BB4DC289734B162B555BAAB784E9EEAA02200A3B4AE11082C08BD651AF98B867631917851E11337F46DD228A7F5A5BDDBF93"
+                }
+              ],
+              "certificateTransparencyCompliance": "compliant",
+              "serverSignatureAlgorithm": 1027,
+              "encryptedClientHello": true
+            }
+          },
+          "hasExtraInfo": true,
+          "hash": "d0e7389b8cee45019c89ff9775b74b13a013e6d83f4bc58f6b409205471e45a4",
+          "size": 1940,
+          "asn": {
+            "ip": "104.21.63.159",
+            "asn": "13335",
+            "country": "US",
+            "description": "CLOUDFLARENET - Cloudflare, Inc., US",
+            "name": "Cloudflare",
+            "route": "104.21.0.0/17"
+          },
+          "geoip": {
+            "country": "",
+            "region": "",
+            "timezone": "",
+            "city": "",
+            "ll": [
+              null,
+              null
+            ],
+            "country_name": "Ascension Island"
+          }
+        },
+        "initiatorInfo": {
+          "url": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+          "host": "kuota-gratis-81gb98.1grd.xyz",
+          "type": "parser"
+        }
+      },
+      {
+        "request": {
+          "requestId": "580615.10",
+          "loaderId": "4F630A16C5B909ADFE5F29F3DDDCA512",
+          "documentURL": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+          "request": {
+            "url": "https://626cdn.com/Indonesia/tx09.jpg",
+            "method": "GET",
+            "headers": {
+              "sec-ch-ua-platform": "\"Android\"",
+              "Referer": "https://kuota-gratis-81gb98.1grd.xyz/",
+              "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36",
+              "sec-ch-ua": "\"Chromium\";v=\"122\", \"Google Chrome\";v=\"122\", \"Not(A:Brand\";v=\"24\"",
+              "sec-ch-ua-mobile": "?1"
+            },
+            "mixedContentType": "none",
+            "initialPriority": "Low",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": false
+          },
+          "timestamp": 6831494.325661,
+          "wallTime": 1786997001.175704,
+          "initiator": {
+            "type": "parser",
+            "url": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+            "lineNumber": 312,
+            "columnNumber": 55
+          },
+          "redirectHasExtraInfo": false,
+          "type": "Image",
+          "frameId": "FDEF4D34C846FDEC37FDBCF697CED3AD",
+          "hasUserGesture": false
+        },
+        "response": {
+          "encodedDataLength": 1687,
+          "dataLength": 1245,
+          "requestId": "580615.10",
+          "type": "Image",
+          "response": {
+            "url": "https://626cdn.com/Indonesia/tx09.jpg",
+            "status": 200,
+            "statusText": "",
+            "headers": {
+              "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+              "cache-control": "max-age=14400",
+              "cf-cache-status": "HIT",
+              "etag": "\"d0f0589bc7a125298b5f0f15145130d0\"",
+              "age": "1302",
+              "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=%2BIXFUVoGi8etGxJylpSRB10IYf%2BTKhCYgyak1WaPECYY9AmF%2Flw4MgChw8i%2BfNC3AkTHtxE%2BwdbiwZJvfn7x6YFsVseO4Lf2PEu5GvOEvq%2FBOMCr3I%2F2LtCR1nms\"}]}",
+              "cf-ray": "a2cb481a28fe55de-SIN",
+              "accept-ranges": "bytes",
+              "alt-svc": "h3=\":443\"; ma=86400",
+              "content-length": "1245",
+              "date": "Mon, 17 Aug 2026 20:03:21 GMT",
+              "content-type": "image/jpeg",
+              "last-modified": "Mon, 08 Dec 2025 06:12:34 GMT",
+              "server": "cloudflare"
+            },
+            "mimeType": "image/jpeg",
+            "charset": "",
+            "remoteIPAddress": "104.21.63.159",
+            "remotePort": 443,
+            "encodedDataLength": 1687,
+            "timing": {
+              "requestTime": 6831494.443991,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": -1,
+              "dnsEnd": -1,
+              "connectStart": -1,
+              "connectEnd": -1,
+              "sslStart": -1,
+              "sslEnd": -1,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 0.597,
+              "sendEnd": 1.045,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersStart": 18.563,
+              "receiveHeadersEnd": 19.957
+            },
+            "responseTime": 1786997001312.624,
+            "protocol": "h2",
+            "alternateProtocolUsage": "unspecifiedReason",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "TLS 1.3",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519MLKEM768",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "e7b750d1.sni.cloudflaressl.com",
+              "sanList": [
+                "e7b750d1.sni.cloudflaressl.com",
+                "626cdn.com"
+              ],
+              "issuer": "WE1",
+              "validFrom": 1786689133,
+              "validTo": 1794468729,
+              "signedCertificateTimestampList": [
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Google 'Argon2026h2' log",
+                  "logId": "D76D7D10D1A7F577C2C7E95FD700BFF982C9335A65E1D0B3017317C0C8C56977",
+                  "timestamp": 1786692734246,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "304402200328EF49D81495C9496EDD6AEC427BB7EC674CDC890AC575BF9C0FEC79627DDC022011E8C8EE45E2917A8C7F8EAB7E4E6A2DDB2EF17239A9E9B1B369B34C88C9CE55"
+                },
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "DigiCert 'Sphinx2026h2'",
+                  "logId": "944E4387FAECC1EF81F3192426A8186501C7D35F3802013F72677D55372E19D8",
+                  "timestamp": 1786692734261,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "30440220591842B96715F40B331563DE3A463244BB4DC289734B162B555BAAB784E9EEAA02200A3B4AE11082C08BD651AF98B867631917851E11337F46DD228A7F5A5BDDBF93"
+                }
+              ],
+              "certificateTransparencyCompliance": "compliant",
+              "serverSignatureAlgorithm": 1027,
+              "encryptedClientHello": true
+            }
+          },
+          "hasExtraInfo": true,
+          "hash": "d48a0d6e69a77a82e46b7df3eecfbc2880ce6ff79312f92b68886a4bcfc38c79",
+          "size": 1660,
+          "asn": {
+            "ip": "104.21.63.159",
+            "asn": "13335",
+            "country": "US",
+            "description": "CLOUDFLARENET - Cloudflare, Inc., US",
+            "name": "Cloudflare",
+            "route": "104.21.0.0/17"
+          },
+          "geoip": {
+            "country": "",
+            "region": "",
+            "timezone": "",
+            "city": "",
+            "ll": [
+              null,
+              null
+            ],
+            "country_name": "Ascension Island"
+          }
+        },
+        "initiatorInfo": {
+          "url": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+          "host": "kuota-gratis-81gb98.1grd.xyz",
+          "type": "parser"
+        }
+      },
+      {
+        "request": {
+          "requestId": "580615.11",
+          "loaderId": "4F630A16C5B909ADFE5F29F3DDDCA512",
+          "documentURL": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+          "request": {
+            "url": "https://code.jquery.com/jquery-latest.min.js",
+            "method": "GET",
+            "headers": {
+              "sec-ch-ua-platform": "\"Android\"",
+              "Referer": "https://kuota-gratis-81gb98.1grd.xyz/",
+              "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36",
+              "sec-ch-ua": "\"Chromium\";v=\"122\", \"Google Chrome\";v=\"122\", \"Not(A:Brand\";v=\"24\"",
+              "sec-ch-ua-mobile": "?1"
+            },
+            "mixedContentType": "none",
+            "initialPriority": "Medium",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": false
+          },
+          "timestamp": 6831494.325723,
+          "wallTime": 1786997001.175766,
+          "initiator": {
+            "type": "parser",
+            "url": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+            "lineNumber": 325,
+            "columnNumber": 59
+          },
+          "redirectHasExtraInfo": false,
+          "type": "Script",
+          "frameId": "FDEF4D34C846FDEC37FDBCF697CED3AD",
+          "hasUserGesture": false,
+          "renderBlockingBehavior": "InBodyParserBlocking"
+        },
+        "response": {
+          "encodedDataLength": 33577,
+          "dataLength": 95786,
+          "requestId": "580615.11",
+          "type": "Script",
+          "response": {
+            "url": "https://code.jquery.com/jquery-latest.min.js",
+            "status": 200,
+            "statusText": "",
+            "headers": {
+              "content-encoding": "gzip",
+              "etag": "W/\"28feccc0-1762a\"",
+              "age": "2204391",
+              "x-cache": "HIT, HIT",
+              "date": "Mon, 17 Aug 2026 20:03:21 GMT",
+              "content-type": "application/javascript; charset=utf-8",
+              "last-modified": "Fri, 18 Oct 1991 12:00:00 GMT",
+              "x-cache-hits": "9946, 1101",
+              "x-served-by": "cache-lga21983-LGA, cache-qpg120107-QPG",
+              "vary": "Accept-Encoding",
+              "cache-control": "public, max-age=31536000, stale-while-revalidate=604800",
+              "x-timer": "S1786997001.316874,VS0,VE0",
+              "cross-origin-resource-policy": "cross-origin",
+              "via": "1.1 varnish, 1.1 varnish",
+              "accept-ranges": "bytes",
+              "access-control-allow-origin": "*",
+              "content-length": "33202",
+              "server": "nginx"
+            },
+            "mimeType": "application/javascript",
+            "charset": "utf-8",
+            "remoteIPAddress": "151.101.129.155",
+            "remotePort": 443,
+            "encodedDataLength": 17454,
+            "timing": {
+              "requestTime": 6831494.429103,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": 0.145,
+              "dnsEnd": 13.725,
+              "connectStart": 15.637,
+              "connectEnd": 33.329,
+              "sslStart": 17.548,
+              "sslEnd": 33.313,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 34.681,
+              "sendEnd": 36.044,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersStart": 39.874,
+              "receiveHeadersEnd": 40.232
+            },
+            "responseTime": 1786997001319.054,
+            "protocol": "h2",
+            "alternateProtocolUsage": "unspecifiedReason",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "TLS 1.3",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519MLKEM768",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "*.jquery.com",
+              "sanList": [
+                "*.jquery.com",
+                "jquery.com"
+              ],
+              "issuer": "Sectigo Public Server Authentication CA DV E36",
+              "validFrom": 1779235200,
+              "validTo": 1796428799,
+              "signedCertificateTimestampList": [
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Google 'Argon2026h2' log",
+                  "logId": "D76D7D10D1A7F577C2C7E95FD700BFF982C9335A65E1D0B3017317C0C8C56977",
+                  "timestamp": 1779318634526,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "3045022057F2A7557DC8FA339BA3EB3B862CE8D0AC7B3E74A7EA455F64379C9AAA77DD3F022100A485557AD387C718D51D4BD48AB0FCF6695283AD27F4A9BE980D1A81078A7732"
+                },
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Sectigo 'Tiger2026h2'",
+                  "logId": "C8A3C47FC7B3ADB9356B013F6A7A126DE33A4E43A5C646F997AD3975991DCF9A",
+                  "timestamp": 1779318634607,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "30440220109C7309ADC8689F59B4734E2A40C60BF53155351B27128A7E8F062F758BF27E02207DF76ED96B524145934DDC14E43F30D0A00BA3EEF7CD3874011D076365AF0007"
+                },
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Let's Encrypt 'Sycamore2026h2'",
+                  "logId": "6CFE501943A85EA916BC52D133E4DCC91EF1411C7D258420D173809E1818EB3A",
+                  "timestamp": 1779318635150,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "30450220747EFE5D3299711BD5F49E51DD7BA03F3D183995354DB8CEE40311EB55CBC36F022100DF14DA9BA935DD94C4EB78AAABBFBFEEEF48FFE6ABA1530BE13DD5DDBE381710"
+                }
+              ],
+              "certificateTransparencyCompliance": "compliant",
+              "serverSignatureAlgorithm": 1027,
+              "encryptedClientHello": false
+            }
+          },
+          "hasExtraInfo": true,
+          "hash": "540bc6dec1dd4b92ea4d3fb903f69eabf6d919afd48f4e312b163c28cff0f441",
+          "size": 95786,
+          "asn": {
+            "ip": "151.101.129.155",
+            "asn": "54113",
+            "country": "US",
+            "description": "FASTLY - Fastly, Inc., US",
+            "name": "Fastly",
+            "route": "151.101.0.0/16"
+          },
+          "geoip": {
+            "country": "US",
+            "region": "",
+            "timezone": "America/Chicago",
+            "city": "",
+            "ll": [
+              37.751,
+              -97.822
+            ],
+            "country_name": "United States",
+            "metro": 0
+          }
+        },
+        "initiatorInfo": {
+          "url": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+          "host": "kuota-gratis-81gb98.1grd.xyz",
+          "type": "parser"
+        }
+      },
+      {
+        "request": {
+          "requestId": "580615.12",
+          "loaderId": "4F630A16C5B909ADFE5F29F3DDDCA512",
+          "documentURL": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+          "request": {
+            "url": "https://kuota-gratis-81gb98.1grd.xyz/single.php",
+            "method": "GET",
+            "headers": {
+              "sec-ch-ua-platform": "\"Android\"",
+              "Referer": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+              "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36",
+              "sec-ch-ua": "\"Chromium\";v=\"122\", \"Google Chrome\";v=\"122\", \"Not(A:Brand\";v=\"24\"",
+              "sec-ch-ua-mobile": "?1"
+            },
+            "mixedContentType": "none",
+            "initialPriority": "Medium",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": true
+          },
+          "timestamp": 6831494.325769,
+          "wallTime": 1786997001.175811,
+          "initiator": {
+            "type": "parser",
+            "url": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+            "lineNumber": 326,
+            "columnNumber": 26
+          },
+          "redirectHasExtraInfo": false,
+          "type": "Script",
+          "frameId": "FDEF4D34C846FDEC37FDBCF697CED3AD",
+          "hasUserGesture": false,
+          "renderBlockingBehavior": "InBodyParserBlocking"
+        },
+        "response": {
+          "encodedDataLength": 1100,
+          "dataLength": 1097,
+          "requestId": "580615.12",
+          "type": "Script",
+          "response": {
+            "url": "https://kuota-gratis-81gb98.1grd.xyz/single.php",
+            "status": 200,
+            "statusText": "",
+            "headers": {
+              "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+              "content-encoding": "gzip",
+              "cf-cache-status": "DYNAMIC",
+              "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=7rPWjVpDkRsYXwlBiFb6C0hpjHOEBRYZUDmBswqH%2BIailoefJDbSJeMmO55MG6e%2B2Q4kltxzgoLvcxi8%2FqoIr7EoUxfA73Aw8PpiFOBBUHcAz4LRLzjf6u05PwbxjhPNnZv%2BxqgF1DUXNKB5vc%2Bl\"}]}",
+              "cf-ray": "a2cb481a1e10f876-SIN",
+              "alt-svc": "h3=\":443\"; ma=86400",
+              "server-timing": "cfExtPri",
+              "date": "Mon, 17 Aug 2026 20:03:21 GMT",
+              "content-type": "text/javascript;charset=utf-8",
+              "vary": "Accept-Encoding",
+              "server": "cloudflare",
+              "priority": "u=2,i=?0"
+            },
+            "mimeType": "text/javascript",
+            "charset": "utf-8",
+            "remoteIPAddress": "172.67.166.103",
+            "remotePort": 443,
+            "encodedDataLength": 456,
+            "timing": {
+              "requestTime": 6831494.43689,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": -1,
+              "dnsEnd": -1,
+              "connectStart": -1,
+              "connectEnd": -1,
+              "sslStart": -1,
+              "sslEnd": -1,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 0.737,
+              "sendEnd": 1.025,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersStart": 13.063,
+              "receiveHeadersEnd": 13.78
+            },
+            "responseTime": 1786997001300.01,
+            "protocol": "h3",
+            "alternateProtocolUsage": "dnsAlpnH3JobWonWithoutRace",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "QUIC",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519MLKEM768",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "1grd.xyz",
+              "sanList": [
+                "1grd.xyz",
+                "*.1grd.xyz"
+              ],
+              "issuer": "WE1",
+              "validFrom": 1785520828,
+              "validTo": 1793300424,
+              "signedCertificateTimestampList": [
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Google 'Argon2026h2' log",
+                  "logId": "D76D7D10D1A7F577C2C7E95FD700BFF982C9335A65E1D0B3017317C0C8C56977",
+                  "timestamp": 1785524428656,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "3045022006CC9E1FA5AA222A6CDCEF157A2FECD0077E186C5F0992AC6B0A4AEFFE292D5A022100A73FF1849CACFFD5A67B7D243DAF6CD9B925E67B2B2C8144DF80799FC63456C7"
+                },
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "DigiCert 'Sphinx2026h2'",
+                  "logId": "944E4387FAECC1EF81F3192426A8186501C7D35F3802013F72677D55372E19D8",
+                  "timestamp": 1785524428667,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "3045022100B3104BAEC5ACDF9D75187D3D79BD5436F5CB05B796134C0164DC5EBB2AECC20D022059B69CD71CD9CCFF3D65FE4A00F8FF8CF1816BF755A67D14FE8AEBF0EB8F4165"
+                }
+              ],
+              "certificateTransparencyCompliance": "compliant",
+              "serverSignatureAlgorithm": 1027,
+              "encryptedClientHello": true
+            }
+          },
+          "hasExtraInfo": true,
+          "hash": "646db9d6f52c7cd52c3d79d9e25319f8f28ffbcb483d5e0ed4b37f25f5567739",
+          "size": 1063,
+          "asn": {
+            "ip": "172.67.166.103",
+            "asn": "13335",
+            "country": "US",
+            "description": "CLOUDFLARENET - Cloudflare, Inc., US",
+            "name": "Cloudflare",
+            "route": "172.67.128.0/17"
+          },
+          "geoip": {
+            "country": "",
+            "region": "",
+            "timezone": "",
+            "city": "",
+            "ll": [
+              null,
+              null
+            ],
+            "country_name": "Ascension Island"
+          }
+        },
+        "initiatorInfo": {
+          "url": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+          "host": "kuota-gratis-81gb98.1grd.xyz",
+          "type": "parser"
+        }
+      },
+      {
+        "request": {
+          "requestId": "580615.13",
+          "loaderId": "4F630A16C5B909ADFE5F29F3DDDCA512",
+          "documentURL": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+          "request": {
+            "url": "https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496",
+            "method": "GET",
+            "headers": {
+              "Origin": "https://kuota-gratis-81gb98.1grd.xyz",
+              "sec-ch-ua-platform": "\"Android\"",
+              "Referer": "https://kuota-gratis-81gb98.1grd.xyz/",
+              "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36",
+              "sec-ch-ua": "\"Chromium\";v=\"122\", \"Google Chrome\";v=\"122\", \"Not(A:Brand\";v=\"24\"",
+              "sec-ch-ua-mobile": "?1"
+            },
+            "mixedContentType": "none",
+            "initialPriority": "High",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": false
+          },
+          "timestamp": 6831494.325817,
+          "wallTime": 1786997001.175861,
+          "initiator": {
+            "type": "parser",
+            "url": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+            "lineNumber": 543,
+            "columnNumber": 349
+          },
+          "redirectHasExtraInfo": false,
+          "type": "Script",
+          "frameId": "FDEF4D34C846FDEC37FDBCF697CED3AD",
+          "hasUserGesture": false,
+          "renderBlockingBehavior": "NonBlocking"
+        },
+        "response": {
+          "encodedDataLength": 11577,
+          "dataLength": 31612,
+          "requestId": "580615.13",
+          "type": "Script",
+          "response": {
+            "url": "https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496",
+            "status": 200,
+            "statusText": "",
+            "headers": {
+              "cache-control": "public, max-age=86400",
+              "content-encoding": "gzip",
+              "etag": "W/\"2026.6.0\"",
+              "cross-origin-resource-policy": "cross-origin",
+              "cf-ray": "a2cb4819db0c2c14-SIN",
+              "access-control-allow-origin": "*",
+              "date": "Mon, 17 Aug 2026 20:03:21 GMT",
+              "content-type": "text/javascript;charset=UTF-8",
+              "last-modified": "Thu, 18 Jun 2026 14:05:09 GMT",
+              "server": "cloudflare"
+            },
+            "mimeType": "text/javascript",
+            "charset": "utf-8",
+            "remoteIPAddress": "104.16.79.73",
+            "remotePort": 443,
+            "encodedDataLength": 9769,
+            "timing": {
+              "requestTime": 6831494.332388,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": 0.158,
+              "dnsEnd": 3.982,
+              "connectStart": 4.102,
+              "connectEnd": 18.79,
+              "sslStart": 7.885,
+              "sslEnd": 18.776,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 21.239,
+              "sendEnd": 24.429,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersStart": 87.869,
+              "receiveHeadersEnd": 89.171
+            },
+            "responseTime": 1786997001270.317,
+            "protocol": "h2",
+            "alternateProtocolUsage": "unspecifiedReason",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "TLS 1.3",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519MLKEM768",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "cloudflareinsights.com",
+              "sanList": [
+                "cloudflareinsights.com",
+                "*.cloudflareinsights.com"
+              ],
+              "issuer": "WE1",
+              "validFrom": 1786694550,
+              "validTo": 1794474137,
+              "signedCertificateTimestampList": [
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Sectigo 'Tiger2026h2'",
+                  "logId": "C8A3C47FC7B3ADB9356B013F6A7A126DE33A4E43A5C646F997AD3975991DCF9A",
+                  "timestamp": 1786698151470,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "30450221009C3B08652DB315FFE828298EE8CB1EE4D4BDF7E9C53D8D5F8E7F821DC250478302201D70F12BD6A5104A8B72919E7D2861B3C097E75344E68392DA9453A627864D01"
+                },
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Google 'Argon2026h2' log",
+                  "logId": "D76D7D10D1A7F577C2C7E95FD700BFF982C9335A65E1D0B3017317C0C8C56977",
+                  "timestamp": 1786698151447,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "304502205F3729BF9FE19BD7E6F4ACD026ADC30CBE5D9CAF684E4DF6964F7788FE4A66EF022100B3EF8867C0EDE1AFC14C162FF880018E4618286158CC176C7C39EBC1DD69039C"
+                }
+              ],
+              "certificateTransparencyCompliance": "compliant",
+              "serverSignatureAlgorithm": 1027,
+              "encryptedClientHello": false
+            }
+          },
+          "hasExtraInfo": true,
+          "hash": "e1ac4849b9d4a498b68f8aca01e6ed99a11d94b35a2cec533b3916b8fb722fd6",
+          "size": 31612,
+          "asn": {
+            "ip": "104.16.79.73",
+            "asn": "13335",
+            "country": "US",
+            "description": "CLOUDFLARENET - Cloudflare, Inc., US",
+            "name": "Cloudflare",
+            "route": "104.16.0.0/14"
+          },
+          "geoip": {
+            "country": "",
+            "region": "",
+            "timezone": "",
+            "city": "",
+            "ll": [
+              null,
+              null
+            ],
+            "country_name": "Ascension Island"
+          }
+        },
+        "initiatorInfo": {
+          "url": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+          "host": "kuota-gratis-81gb98.1grd.xyz",
+          "type": "parser"
+        }
+      },
+      {
+        "request": {
+          "requestId": "8C0D6846890CBF1ADA770E5F0D7C9BFE",
+          "loaderId": "",
+          "documentURL": "blob:https://kuota-gratis-81gb98.1grd.xyz/42150929-98ef-42b9-8bd6-17b7d9f8c307",
+          "request": {
+            "url": "blob:https://kuota-gratis-81gb98.1grd.xyz/42150929-98ef-42b9-8bd6-17b7d9f8c307",
+            "method": "GET",
+            "headers": {
+              "Accept": "*/*",
+              "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36"
+            },
+            "initialPriority": "VeryLow",
+            "referrerPolicy": "strict-origin-when-cross-origin"
+          },
+          "timestamp": 6831494.445744,
+          "wallTime": 1786997001.295794,
+          "initiator": {
+            "type": "other",
+            "url": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98"
+          },
+          "redirectHasExtraInfo": false,
+          "type": "Script",
+          "frameId": "FDEF4D34C846FDEC37FDBCF697CED3AD",
+          "hasUserGesture": false
+        },
+        "response": {
+          "encodedDataLength": 0,
+          "dataLength": 0
+        }
+      },
+      {
+        "request": {
+          "requestId": "580615.27",
+          "loaderId": "4F630A16C5B909ADFE5F29F3DDDCA512",
+          "documentURL": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+          "request": {
+            "url": "https://kuota-gratis-81gb98.1grd.xyz/cdn-cgi/rum?",
+            "method": "POST",
+            "headers": {
+              "sec-ch-ua-platform": "\"Android\"",
+              "Referer": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+              "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36",
+              "sec-ch-ua": "\"Chromium\";v=\"122\", \"Google Chrome\";v=\"122\", \"Not(A:Brand\";v=\"24\"",
+              "content-type": "application/json",
+              "sec-ch-ua-mobile": "?1"
+            },
+            "postData": "{\"memory\":{\"totalJSHeapSize\":10000000,\"usedJSHeapSize\":10000000,\"jsHeapSizeLimit\":3760000000},\"resources\":[],\"referrer\":\"\",\"eventType\":1,\"firstPaint\":0,\"firstContentfulPaint\":0,\"startTime\":1786997001093.7,\"versions\":{\"fl\":\"2024.11.0\",\"js\":\"2026.6.0\",\"timings\":2},\"pageloadId\":\"c01b20cf-edfb-4a7a-b131-f08f80f710fe\",\"location\":\"https://kuota-gratis-81gb98.1grd.xyz/\",\"nt\":\"navigate\",\"timingsV2\":{\"nextHopProtocol\":\"h3\",\"domainLookupStart\":1.8000001907348633,\"domainLookupEnd\":1.8000001907348633,\"connectStart\":1.8000001907348633,\"connectEnd\":10.100000381469727,\"requestStart\":10.199999809265137,\"responseStart\":37.5,\"responseEnd\":41.40000057220459,\"domInteractive\":297.69999980926514,\"domComplete\":420.1000003814697,\"loadEventStart\":420.1000003814697,\"loadEventEnd\":420.30000019073486,\"finalResponseHeadersStart\":37.5,\"firstInterimResponseStart\":0,\"transferSize\":8520,\"decodedBodySize\":26876},\"dt\":\"\",\"siteToken\":\"b87bd34135ca4b4f954a2f5f74cbb6fe\",\"st\":2}",
+            "hasPostData": true,
+            "postDataEntries": [
+              {
+                "bytes": "eyJtZW1vcnkiOnsidG90YWxKU0hlYXBTaXplIjoxMDAwMDAwMCwidXNlZEpTSGVhcFNpemUiOjEwMDAwMDAwLCJqc0hlYXBTaXplTGltaXQiOjM3NjAwMDAwMDB9LCJyZXNvdXJjZXMiOltdLCJyZWZlcnJlciI6IiIsImV2ZW50VHlwZSI6MSwiZmlyc3RQYWludCI6MCwiZmlyc3RDb250ZW50ZnVsUGFpbnQiOjAsInN0YXJ0VGltZSI6MTc4Njk5NzAwMTA5My43LCJ2ZXJzaW9ucyI6eyJmbCI6IjIwMjQuMTEuMCIsImpzIjoiMjAyNi42LjAiLCJ0aW1pbmdzIjoyfSwicGFnZWxvYWRJZCI6ImMwMWIyMGNmLWVkZmItNGE3YS1iMTMxLWYwOGY4MGY3MTBmZSIsImxvY2F0aW9uIjoiaHR0cHM6Ly9rdW90YS1ncmF0aXMtODFnYjk4LjFncmQueHl6LyIsIm50IjoibmF2aWdhdGUiLCJ0aW1pbmdzVjIiOnsibmV4dEhvcFByb3RvY29sIjoiaDMiLCJkb21haW5Mb29rdXBTdGFydCI6MS44MDAwMDAxOTA3MzQ4NjMzLCJkb21haW5Mb29rdXBFbmQiOjEuODAwMDAwMTkwNzM0ODYzMywiY29ubmVjdFN0YXJ0IjoxLjgwMDAwMDE5MDczNDg2MzMsImNvbm5lY3RFbmQiOjEwLjEwMDAwMDM4MTQ2OTcyNywicmVxdWVzdFN0YXJ0IjoxMC4xOTk5OTk4MDkyNjUxMzcsInJlc3BvbnNlU3RhcnQiOjM3LjUsInJlc3BvbnNlRW5kIjo0MS40MDAwMDA1NzIyMDQ1OSwiZG9tSW50ZXJhY3RpdmUiOjI5Ny42OTk5OTk4MDkyNjUxNCwiZG9tQ29tcGxldGUiOjQyMC4xMDAwMDAzODE0Njk3LCJsb2FkRXZlbnRTdGFydCI6NDIwLjEwMDAwMDM4MTQ2OTcsImxvYWRFdmVudEVuZCI6NDIwLjMwMDAwMDE5MDczNDg2LCJmaW5hbFJlc3BvbnNlSGVhZGVyc1N0YXJ0IjozNy41LCJmaXJzdEludGVyaW1SZXNwb25zZVN0YXJ0IjowLCJ0cmFuc2ZlclNpemUiOjg1MjAsImRlY29kZWRCb2R5U2l6ZSI6MjY4NzZ9LCJkdCI6IiIsInNpdGVUb2tlbiI6ImI4N2JkMzQxMzVjYTRiNGY5NTRhMmY1Zjc0Y2JiNmZlIiwic3QiOjJ9"
+              }
+            ],
+            "mixedContentType": "none",
+            "initialPriority": "High",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": true
+          },
+          "timestamp": 6831494.673109,
+          "wallTime": 1786997001.523417,
+          "initiator": {
+            "type": "script",
+            "stack": {
+              "callFrames": [
+                {
+                  "functionName": "e.sendObjectBeacon",
+                  "scriptId": "9",
+                  "url": "https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496",
+                  "lineNumber": 0,
+                  "columnNumber": 12456
+                },
+                {
+                  "functionName": "S",
+                  "scriptId": "9",
+                  "url": "https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496",
+                  "lineNumber": 0,
+                  "columnNumber": 28716
+                },
+                {
+                  "functionName": "L",
+                  "scriptId": "9",
+                  "url": "https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496",
+                  "lineNumber": 0,
+                  "columnNumber": 29594
+                }
+              ]
+            }
+          },
+          "redirectHasExtraInfo": false,
+          "type": "XHR",
+          "frameId": "FDEF4D34C846FDEC37FDBCF697CED3AD",
+          "hasUserGesture": false
+        },
+        "response": {
+          "encodedDataLength": 472,
+          "dataLength": 0,
+          "requestId": "580615.27",
+          "type": "XHR",
+          "response": {
+            "url": "https://kuota-gratis-81gb98.1grd.xyz/cdn-cgi/rum?",
+            "status": 204,
+            "statusText": "",
+            "headers": {
+              "access-control-max-age": "86400",
+              "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+              "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=j7YF8gQANUnjStz2XDoGyZveRCaZ%2Baq1dI2QlI7Qg89sjkhTRTaly6nBJ6N2xK4tkLUW47K4ny4j0gp3vQgkS8Pk01nNHveDzQsBKjMrL89dxKN84b%2FexnCTZc4mPzNahhAjC9HW2S%2B5kA1WWV9x\"}]}",
+              "access-control-allow-credentials": "true",
+              "access-control-allow-methods": "POST,OPTIONS",
+              "cf-ray": "a2cb481b9e99f876-SIN",
+              "access-control-allow-origin": "https://kuota-gratis-81gb98.1grd.xyz",
+              "alt-svc": "h3=\":443\"; ma=86400",
+              "server-timing": "cfExtPri",
+              "date": "Mon, 17 Aug 2026 20:03:21 GMT",
+              "content-type": "text/plain",
+              "vary": "Origin",
+              "server": "cloudflare",
+              "priority": "u=1,i"
+            },
+            "mimeType": "text/plain",
+            "charset": "",
+            "remoteIPAddress": "172.67.166.103",
+            "remotePort": 443,
+            "encodedDataLength": 472,
+            "timing": {
+              "requestTime": 6831494.677509,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": -1,
+              "dnsEnd": -1,
+              "connectStart": -1,
+              "connectEnd": -1,
+              "sslStart": -1,
+              "sslEnd": -1,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 0.657,
+              "sendEnd": 6.469,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersStart": 15.798,
+              "receiveHeadersEnd": 17.221
+            },
+            "responseTime": 1786997001543.377,
+            "protocol": "h3",
+            "alternateProtocolUsage": "dnsAlpnH3JobWonWithoutRace",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "QUIC",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519MLKEM768",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "1grd.xyz",
+              "sanList": [
+                "1grd.xyz",
+                "*.1grd.xyz"
+              ],
+              "issuer": "WE1",
+              "validFrom": 1785520828,
+              "validTo": 1793300424,
+              "signedCertificateTimestampList": [
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Google 'Argon2026h2' log",
+                  "logId": "D76D7D10D1A7F577C2C7E95FD700BFF982C9335A65E1D0B3017317C0C8C56977",
+                  "timestamp": 1785524428656,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "3045022006CC9E1FA5AA222A6CDCEF157A2FECD0077E186C5F0992AC6B0A4AEFFE292D5A022100A73FF1849CACFFD5A67B7D243DAF6CD9B925E67B2B2C8144DF80799FC63456C7"
+                },
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "DigiCert 'Sphinx2026h2'",
+                  "logId": "944E4387FAECC1EF81F3192426A8186501C7D35F3802013F72677D55372E19D8",
+                  "timestamp": 1785524428667,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "3045022100B3104BAEC5ACDF9D75187D3D79BD5436F5CB05B796134C0164DC5EBB2AECC20D022059B69CD71CD9CCFF3D65FE4A00F8FF8CF1816BF755A67D14FE8AEBF0EB8F4165"
+                }
+              ],
+              "certificateTransparencyCompliance": "compliant",
+              "serverSignatureAlgorithm": 1027,
+              "encryptedClientHello": true
+            }
+          },
+          "hasExtraInfo": true,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0,
+          "asn": {
+            "ip": "172.67.166.103",
+            "asn": "13335",
+            "country": "US",
+            "description": "CLOUDFLARENET - Cloudflare, Inc., US",
+            "name": "Cloudflare",
+            "route": "172.67.128.0/17"
+          },
+          "geoip": {
+            "country": "",
+            "region": "",
+            "timezone": "",
+            "city": "",
+            "ll": [
+              null,
+              null
+            ],
+            "country_name": "Ascension Island"
+          }
+        },
+        "initiatorInfo": {
+          "url": "https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496",
+          "host": "static.cloudflareinsights.com",
+          "type": "script"
+        }
+      },
+      {
+        "request": {
+          "requestId": "580615.28",
+          "loaderId": "4F630A16C5B909ADFE5F29F3DDDCA512",
+          "documentURL": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+          "request": {
+            "url": "https://kuota-gratis-81gb98.1grd.xyz/favicon.ico",
+            "method": "GET",
+            "headers": {
+              "sec-ch-ua-platform": "\"Android\"",
+              "Referer": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+              "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36",
+              "sec-ch-ua": "\"Chromium\";v=\"122\", \"Google Chrome\";v=\"122\", \"Not(A:Brand\";v=\"24\"",
+              "sec-ch-ua-mobile": "?1"
+            },
+            "mixedContentType": "none",
+            "initialPriority": "High",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": true
+          },
+          "timestamp": 6831494.679189,
+          "wallTime": 1786997001.529267,
+          "initiator": {
+            "type": "other"
+          },
+          "redirectHasExtraInfo": false,
+          "type": "Other",
+          "frameId": "FDEF4D34C846FDEC37FDBCF697CED3AD",
+          "hasUserGesture": false
+        },
+        "response": {
+          "encodedDataLength": 597,
+          "dataLength": 548,
+          "requestId": "580615.28",
+          "type": "Other",
+          "response": {
+            "url": "https://kuota-gratis-81gb98.1grd.xyz/favicon.ico",
+            "status": 404,
+            "statusText": "",
+            "headers": {
+              "cache-control": "max-age=14400",
+              "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+              "content-encoding": "zstd",
+              "cf-cache-status": "EXPIRED",
+              "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=jGg%2BHeMDKn1AsLOB3iIWS4ZhwO4v0vaZ61YW6UzqC5TofJY6L7GTQCKAHMoaj7LUOhtQbvxzS5w%2BG0ZtIBPdCCMpLf3sgmn2iGT%2F4XWMHYnnXygIzYxYZvblGGDP9GZ2mK0J0tk5uYf%2FFgU6XbJi\"}]}",
+              "cf-ray": "a2cb481b9ea5f876-SIN",
+              "alt-svc": "h3=\":443\"; ma=86400",
+              "server-timing": "cfExtPri",
+              "date": "Mon, 17 Aug 2026 20:03:21 GMT",
+              "content-type": "text/html",
+              "server": "cloudflare",
+              "priority": "u=1,i"
+            },
+            "mimeType": "text/html",
+            "charset": "",
+            "remoteIPAddress": "172.67.166.103",
+            "remotePort": 443,
+            "encodedDataLength": 443,
+            "timing": {
+              "requestTime": 6831494.682745,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": -1,
+              "dnsEnd": -1,
+              "connectStart": -1,
+              "connectEnd": -1,
+              "sslStart": -1,
+              "sslEnd": -1,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 0.946,
+              "sendEnd": 1.17,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersStart": 19.746,
+              "receiveHeadersEnd": 20.23
+            },
+            "responseTime": 1786997001552.556,
+            "protocol": "h3",
+            "alternateProtocolUsage": "dnsAlpnH3JobWonWithoutRace",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "QUIC",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519MLKEM768",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "1grd.xyz",
+              "sanList": [
+                "1grd.xyz",
+                "*.1grd.xyz"
+              ],
+              "issuer": "WE1",
+              "validFrom": 1785520828,
+              "validTo": 1793300424,
+              "signedCertificateTimestampList": [
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Google 'Argon2026h2' log",
+                  "logId": "D76D7D10D1A7F577C2C7E95FD700BFF982C9335A65E1D0B3017317C0C8C56977",
+                  "timestamp": 1785524428656,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "3045022006CC9E1FA5AA222A6CDCEF157A2FECD0077E186C5F0992AC6B0A4AEFFE292D5A022100A73FF1849CACFFD5A67B7D243DAF6CD9B925E67B2B2C8144DF80799FC63456C7"
+                },
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "DigiCert 'Sphinx2026h2'",
+                  "logId": "944E4387FAECC1EF81F3192426A8186501C7D35F3802013F72677D55372E19D8",
+                  "timestamp": 1785524428667,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "3045022100B3104BAEC5ACDF9D75187D3D79BD5436F5CB05B796134C0164DC5EBB2AECC20D022059B69CD71CD9CCFF3D65FE4A00F8FF8CF1816BF755A67D14FE8AEBF0EB8F4165"
+                }
+              ],
+              "certificateTransparencyCompliance": "compliant",
+              "serverSignatureAlgorithm": 1027,
+              "encryptedClientHello": true
+            }
+          },
+          "hasExtraInfo": true,
+          "hash": "d465172175d35d493fb1633e237700022bd849fa123164790b168b8318acb090",
+          "size": 548,
+          "asn": {
+            "ip": "172.67.166.103",
+            "asn": "13335",
+            "country": "US",
+            "description": "CLOUDFLARENET - Cloudflare, Inc., US",
+            "name": "Cloudflare",
+            "route": "172.67.128.0/17"
+          },
+          "geoip": {
+            "country": "",
+            "region": "",
+            "timezone": "",
+            "city": "",
+            "ll": [
+              null,
+              null
+            ],
+            "country_name": "Ascension Island"
+          }
+        }
+      },
+      {
+        "request": {
+          "requestId": "580615.29",
+          "loaderId": "4F630A16C5B909ADFE5F29F3DDDCA512",
+          "documentURL": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+          "request": {
+            "url": "https://tj.16gift.com/js/script.js",
+            "method": "GET",
+            "headers": {
+              "sec-ch-ua-platform": "\"Android\"",
+              "Referer": "https://kuota-gratis-81gb98.1grd.xyz/",
+              "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36",
+              "sec-ch-ua": "\"Chromium\";v=\"122\", \"Google Chrome\";v=\"122\", \"Not(A:Brand\";v=\"24\"",
+              "sec-ch-ua-mobile": "?1"
+            },
+            "mixedContentType": "none",
+            "initialPriority": "Low",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": false
+          },
+          "timestamp": 6831495.030067,
+          "wallTime": 1786997001.880222,
+          "initiator": {
+            "type": "script",
+            "stack": {
+              "callFrames": [
+                {
+                  "functionName": "",
+                  "scriptId": "10",
+                  "url": "https://kuota-gratis-81gb98.1grd.xyz/single.php",
+                  "lineNumber": 9,
+                  "columnNumber": 11
+                }
+              ]
+            }
+          },
+          "redirectHasExtraInfo": false,
+          "type": "Script",
+          "frameId": "FDEF4D34C846FDEC37FDBCF697CED3AD",
+          "hasUserGesture": false,
+          "renderBlockingBehavior": "NonBlocking"
+        },
+        "response": {
+          "encodedDataLength": 1317,
+          "dataLength": 1386,
+          "requestId": "580615.29",
+          "type": "Script",
+          "response": {
+            "url": "https://tj.16gift.com/js/script.js",
+            "status": 200,
+            "statusText": "",
+            "headers": {
+              "content-encoding": "gzip",
+              "cf-cache-status": "HIT",
+              "age": "71630",
+              "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=h8o2NwzNiX81yFoyI%2FanKrPRp555eiYjoLPcQ2NnLW0uF5SZgA0aaMw03P0c%2FTimI0QA3FT32o6%2BPb64%2B9IjifoYSqkZ%2BztX2vPlvQT1VGMAm9KKEppowh5sGjYcHjHA\"}]}",
+              "x-content-type-options": "nosniff",
+              "alt-svc": "h3=\":443\"; ma=86400",
+              "server-timing": "cfExtPri",
+              "date": "Mon, 17 Aug 2026 20:03:21 GMT",
+              "last-modified": "Mon, 17 Aug 2026 00:09:31 GMT",
+              "content-type": "application/javascript",
+              "vary": "Accept-Encoding",
+              "priority": "u=3,i=?0",
+              "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+              "cache-control": "public, max-age=86400, must-revalidate",
+              "cross-origin-resource-policy": "cross-origin",
+              "cf-ray": "a2cb481df8547a23-SIN",
+              "access-control-allow-origin": "*",
+              "server": "cloudflare"
+            },
+            "mimeType": "application/javascript",
+            "charset": "",
+            "remoteIPAddress": "104.21.10.63",
+            "remotePort": 443,
+            "encodedDataLength": 542,
+            "timing": {
+              "requestTime": 6831495.032356,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": 0.182,
+              "dnsEnd": 8.501,
+              "connectStart": 8.807,
+              "connectEnd": 27.319,
+              "sslStart": 8.807,
+              "sslEnd": 27.319,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 27.49,
+              "sendEnd": 27.66,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersStart": 38.449,
+              "receiveHeadersEnd": 43.913
+            },
+            "responseTime": 1786997001920.892,
+            "protocol": "h3",
+            "alternateProtocolUsage": "dnsAlpnH3JobWonRace",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "QUIC",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519MLKEM768",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "16gift.com",
+              "sanList": [
+                "16gift.com",
+                "*.16gift.com"
+              ],
+              "issuer": "WE1",
+              "validFrom": 1785559449,
+              "validTo": 1793338911,
+              "signedCertificateTimestampList": [
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Google 'Argon2026h2' log",
+                  "logId": "D76D7D10D1A7F577C2C7E95FD700BFF982C9335A65E1D0B3017317C0C8C56977",
+                  "timestamp": 1785563050340,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "30450221008F385C1932BA32CA9282B98092846BA03A6594E6FAA71E5A6FAE51037C148D8F02202B5344F5D319E43CCBBFD5E2E1091BD2F8F218C572AC32B91B378478AA010B88"
+                },
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "DigiCert 'Wyvern2026h2'",
+                  "logId": "C2317E574519A345EE7F38DEB29041EBC7C2215A22BF7FD5B5AD769AD90E52CD",
+                  "timestamp": 1785563050300,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "304502202DA18E6A2E8B34E5566E2A436F0CBA9031E0118DC27CC1B1A42F79C6FD7A1EF1022100CBC0C5B20AEA659682DBAED43748B7C1ADBD794F535171FFAECAF2C298CDE0CF"
+                }
+              ],
+              "certificateTransparencyCompliance": "compliant",
+              "serverSignatureAlgorithm": 1027,
+              "encryptedClientHello": true
+            },
+            "securityHeaders": [
+              {
+                "name": "X-Content-Type-Options",
+                "value": "nosniff"
+              }
+            ]
+          },
+          "hasExtraInfo": true,
+          "hash": "965387ce9489d0167cf33444ab52d064bb3fab35e94b12082ff5eb00a34c070c",
+          "size": 1386,
+          "asn": {
+            "ip": "104.21.10.63",
+            "asn": "13335",
+            "country": "US",
+            "description": "CLOUDFLARENET - Cloudflare, Inc., US",
+            "name": "Cloudflare",
+            "route": "104.21.0.0/17"
+          },
+          "geoip": {
+            "country": "",
+            "region": "",
+            "timezone": "",
+            "city": "",
+            "ll": [
+              null,
+              null
+            ],
+            "country_name": "Ascension Island"
+          }
+        },
+        "initiatorInfo": {
+          "url": "https://kuota-gratis-81gb98.1grd.xyz/single.php",
+          "host": "kuota-gratis-81gb98.1grd.xyz",
+          "type": "script"
+        }
+      },
+      {
+        "request": {
+          "requestId": "580615.30",
+          "loaderId": "4F630A16C5B909ADFE5F29F3DDDCA512",
+          "documentURL": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+          "request": {
+            "url": "https://tj.16gift.com/api/event",
+            "method": "POST",
+            "headers": {
+              "sec-ch-ua-platform": "\"Android\"",
+              "Referer": "https://kuota-gratis-81gb98.1grd.xyz/",
+              "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36",
+              "sec-ch-ua": "\"Chromium\";v=\"122\", \"Google Chrome\";v=\"122\", \"Not(A:Brand\";v=\"24\"",
+              "Content-Type": "text/plain",
+              "sec-ch-ua-mobile": "?1"
+            },
+            "postData": "{\"n\":\"pageview\",\"u\":\"https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98\",\"d\":\"id-data01\",\"r\":null}",
+            "hasPostData": true,
+            "postDataEntries": [
+              {
+                "bytes": "eyJuIjoicGFnZXZpZXciLCJ1IjoiaHR0cHM6Ly9rdW90YS1ncmF0aXMtODFnYjk4LjFncmQueHl6Lz9odXQtcmktODE9OTgiLCJkIjoiaWQtZGF0YTAxIiwiciI6bnVsbH0="
+              }
+            ],
+            "mixedContentType": "none",
+            "initialPriority": "High",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": false
+          },
+          "timestamp": 6831495.083445,
+          "wallTime": 1786997001.933881,
+          "initiator": {
+            "type": "script",
+            "stack": {
+              "callFrames": [
+                {
+                  "functionName": "t",
+                  "scriptId": "18",
+                  "url": "https://tj.16gift.com/js/script.js",
+                  "lineNumber": 0,
+                  "columnNumber": 824
+                },
+                {
+                  "functionName": "p",
+                  "scriptId": "18",
+                  "url": "https://tj.16gift.com/js/script.js",
+                  "lineNumber": 0,
+                  "columnNumber": 1101
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "18",
+                  "url": "https://tj.16gift.com/js/script.js",
+                  "lineNumber": 0,
+                  "columnNumber": 1379
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "18",
+                  "url": "https://tj.16gift.com/js/script.js",
+                  "lineNumber": 0,
+                  "columnNumber": 1383
+                }
+              ]
+            }
+          },
+          "redirectHasExtraInfo": false,
+          "type": "XHR",
+          "frameId": "FDEF4D34C846FDEC37FDBCF697CED3AD",
+          "hasUserGesture": false
+        },
+        "response": {
+          "encodedDataLength": 528,
+          "dataLength": 2,
+          "requestId": "580615.30",
+          "type": "XHR",
+          "response": {
+            "url": "https://tj.16gift.com/api/event",
+            "status": 202,
+            "statusText": "",
+            "headers": {
+              "x-request-id": "GMywTi140GN28iQNjmNh",
+              "access-control-expose-headers": "",
+              "cf-cache-status": "DYNAMIC",
+              "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=bn9xVGzABdZ4HmHgrAUcLaRNDApGEtaOaECWH7YF106d6VS1bD2Rvnwj7gADKDrggZmqfG52lhr9DpS2nJ%2BF2%2Bqxx%2BvQcihyIx8hS0YE3OYOAx43SOANfQ3UdagVLDFm\"}]}",
+              "server-timing": "cfExtPri",
+              "alt-svc": "h3=\":443\"; ma=86400",
+              "date": "Mon, 17 Aug 2026 20:03:22 GMT",
+              "content-type": "text/plain; charset=utf-8",
+              "priority": "u=1,i",
+              "cache-control": "max-age=0, private, must-revalidate",
+              "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+              "access-control-allow-credentials": "true",
+              "cf-ray": "a2cb481e2a500d23-SIN",
+              "access-control-allow-origin": "*",
+              "content-length": "2",
+              "server": "cloudflare"
+            },
+            "mimeType": "text/plain",
+            "charset": "utf-8",
+            "remoteIPAddress": "104.21.10.63",
+            "remotePort": 443,
+            "encodedDataLength": 524,
+            "timing": {
+              "requestTime": 6831495.084635,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": 0.149,
+              "dnsEnd": 0.196,
+              "connectStart": 0.535,
+              "connectEnd": 9.487,
+              "sslStart": 0.535,
+              "sslEnd": 9.487,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 9.846,
+              "sendEnd": 11.784,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersStart": 130.699,
+              "receiveHeadersEnd": 132.419
+            },
+            "responseTime": 1786997002065.404,
+            "protocol": "h3",
+            "alternateProtocolUsage": "alternativeJobWonRace",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "QUIC",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519MLKEM768",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "16gift.com",
+              "sanList": [
+                "16gift.com",
+                "*.16gift.com"
+              ],
+              "issuer": "WE1",
+              "validFrom": 1785559449,
+              "validTo": 1793338911,
+              "signedCertificateTimestampList": [
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Google 'Argon2026h2' log",
+                  "logId": "D76D7D10D1A7F577C2C7E95FD700BFF982C9335A65E1D0B3017317C0C8C56977",
+                  "timestamp": 1785563050340,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "30450221008F385C1932BA32CA9282B98092846BA03A6594E6FAA71E5A6FAE51037C148D8F02202B5344F5D319E43CCBBFD5E2E1091BD2F8F218C572AC32B91B378478AA010B88"
+                },
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "DigiCert 'Wyvern2026h2'",
+                  "logId": "C2317E574519A345EE7F38DEB29041EBC7C2215A22BF7FD5B5AD769AD90E52CD",
+                  "timestamp": 1785563050300,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "304502202DA18E6A2E8B34E5566E2A436F0CBA9031E0118DC27CC1B1A42F79C6FD7A1EF1022100CBC0C5B20AEA659682DBAED43748B7C1ADBD794F535171FFAECAF2C298CDE0CF"
+                }
+              ],
+              "certificateTransparencyCompliance": "compliant",
+              "serverSignatureAlgorithm": 1027,
+              "encryptedClientHello": true
+            }
+          },
+          "hasExtraInfo": true,
+          "hash": "2689367b205c16ce32ed4200942b8b8b1e262dfc70d9bc9fbc77c49699a4f1df",
+          "size": 2,
+          "asn": {
+            "ip": "104.21.10.63",
+            "asn": "13335",
+            "country": "US",
+            "description": "CLOUDFLARENET - Cloudflare, Inc., US",
+            "name": "Cloudflare",
+            "route": "104.21.0.0/17"
+          },
+          "geoip": {
+            "country": "",
+            "region": "",
+            "timezone": "",
+            "city": "",
+            "ll": [
+              null,
+              null
+            ],
+            "country_name": "Ascension Island"
+          }
+        },
+        "initiatorInfo": {
+          "url": "https://tj.16gift.com/js/script.js",
+          "host": "tj.16gift.com",
+          "type": "script"
+        }
+      }
+    ],
+    "cookies": [
+      {
+        "name": "pics",
+        "value": "%5B%22https%3A%5C%2F%5C%2F626cdn.com%5C%2FIndonesia%5C%2Ftx03.jpg%22%2C%22https%3A%5C%2F%5C%2F626cdn.com%5C%2FIndonesia%5C%2Ftx04.jpg%22%2C%22https%3A%5C%2F%5C%2F626cdn.com%5C%2FIndonesia%5C%2Ftx02.jpg%22%2C%22https%3A%5C%2F%5C%2F626cdn.com%5C%2FIndonesia%5C%2Ftx09.jpg%22%5D",
+        "domain": "kuota-gratis-81gb98.1grd.xyz",
+        "path": "/",
+        "expires": 1787000601.132602,
+        "size": 279,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sourceScheme": "Secure",
+        "sourcePort": 443
+      },
+      {
+        "name": "comments",
+        "value": "%5B%22Terima%20kasih%2C%20sangat%20membantu%20buat%20kerja%20sehari-hari%20%5Cud83d%5Cudc9a%22%2C%22Sudah%20aku%20coba%2C%20kuotanya%20langsung%20aktif%20%5Cud83d%5Cudc4d%22%2C%22Awalnya%20ragu%2C%20tapi%20ternyata%20bisa%20dipakai.%20Lumayan%20banget%21%22%2C%22Mantap%2C%20dapat%20tambahan%20kuota%20gratis%20%5Cud83d%5Cude04%22%5D",
+        "domain": "kuota-gratis-81gb98.1grd.xyz",
+        "path": "/",
+        "expires": 1787000601.132712,
+        "size": 341,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sourceScheme": "Secure",
+        "sourcePort": 443
+      },
+      {
+        "name": "names",
+        "value": "%5B%22Sari%20Wulandari%22%2C%22Putri%20Maharani%22%2C%22Nur%20Aisyah%22%2C%22Lina%20Oktaviani%22%2C%22Hendra%20Gunawan%22%2C%22Budi%20Santoso%22%2C%22Dedi%20Kurniawan%22%2C%22Agus%20Setiawan%22%2C%22Maya%20Sari%22%2C%22Rudi%20Hartono%22%2C%22Fajar%20Hidayat%22%5D",
+        "domain": "kuota-gratis-81gb98.1grd.xyz",
+        "path": "/",
+        "expires": 1787000601.132764,
+        "size": 268,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sourceScheme": "Secure",
+        "sourcePort": 443
+      },
+      {
+        "name": "loclang",
+        "value": "en",
+        "domain": "kuota-gratis-81gb98.1grd.xyz",
+        "path": "/",
+        "expires": 1787256201.132806,
+        "size": 9,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sourceScheme": "Secure",
+        "sourcePort": 443
+      }
+    ],
+    "console": [
+      {
+        "message": {
+          "source": "network",
+          "level": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()",
+          "timestamp": 1786997001554.795,
+          "url": "https://kuota-gratis-81gb98.1grd.xyz/favicon.ico"
+        }
+      }
+    ],
+    "links": [],
+    "timing": {
+      "beginNavigation": "2026-08-17T20:03:21.079Z",
+      "frameStartedLoading": "2026-08-17T20:03:21.895Z",
+      "frameNavigated": "2026-08-17T20:03:21.150Z",
+      "domContentEventFired": "2026-08-17T20:03:21.569Z",
+      "frameStoppedLoading": "2026-08-17T20:03:21.907Z"
+    },
+    "globals": [
+      {
+        "prop": "ontouchcancel",
+        "type": "object"
+      },
+      {
+        "prop": "ontouchend",
+        "type": "object"
+      },
+      {
+        "prop": "ontouchmove",
+        "type": "object"
+      },
+      {
+        "prop": "ontouchstart",
+        "type": "object"
+      },
+      {
+        "prop": "fence",
+        "type": "object"
+      },
+      {
+        "prop": "confetti",
+        "type": "function"
+      },
+      {
+        "prop": "$",
+        "type": "function"
+      },
+      {
+        "prop": "jQuery",
+        "type": "function"
+      },
+      {
+        "prop": "ad1",
+        "type": "string"
+      },
+      {
+        "prop": "ad2",
+        "type": "string"
+      },
+      {
+        "prop": "ad3",
+        "type": "string"
+      },
+      {
+        "prop": "landingDomain",
+        "type": "string"
+      },
+      {
+        "prop": "randomString",
+        "type": "function"
+      },
+      {
+        "prop": "hh",
+        "type": "function"
+      },
+      {
+        "prop": "madInt",
+        "type": "number"
+      },
+      {
+        "prop": "startRedirectTimer",
+        "type": "function"
+      },
+      {
+        "prop": "resetRedirectTimer",
+        "type": "function"
+      },
+      {
+        "prop": "startTimer",
+        "type": "function"
+      },
+      {
+        "prop": "hidemodal01",
+        "type": "function"
+      },
+      {
+        "prop": "hidemodal02",
+        "type": "function"
+      },
+      {
+        "prop": "time",
+        "type": "number"
+      },
+      {
+        "prop": "likes",
+        "type": "number"
+      },
+      {
+        "prop": "comments",
+        "type": "number"
+      },
+      {
+        "prop": "shares",
+        "type": "number"
+      },
+      {
+        "prop": "saved",
+        "type": "string"
+      },
+      {
+        "prop": "width",
+        "type": "number"
+      },
+      {
+        "prop": "text1",
+        "type": "string"
+      },
+      {
+        "prop": "errorMsg",
+        "type": "string"
+      },
+      {
+        "prop": "shareWhatsApp",
+        "type": "function"
+      },
+      {
+        "prop": "shareMessenger",
+        "type": "function"
+      },
+      {
+        "prop": "increaseProgress",
+        "type": "function"
+      },
+      {
+        "prop": "jp",
+        "type": "function"
+      },
+      {
+        "prop": "fh",
+        "type": "function"
+      },
+      {
+        "prop": "goon",
+        "type": "function"
+      },
+      {
+        "prop": "timeleft",
+        "type": "number"
+      },
+      {
+        "prop": "downloadTimer",
+        "type": "number"
+      },
+      {
+        "prop": "__cfBeacon",
+        "type": "object"
+      },
+      {
+        "prop": "plausible",
+        "type": "function"
+      },
+      {
+        "prop": "redirectTimer",
+        "type": "unknown",
+        "source": "globalScope"
+      },
+      {
+        "prop": "duration",
+        "type": "unknown",
+        "source": "globalScope"
+      },
+      {
+        "prop": "display",
+        "type": "unknown",
+        "source": "globalScope"
+      }
+    ],
+    "storages": [],
+    "websockets": [],
+    "redirects": [],
+    "identifiers": [
+      "html-id",
+      "html-id.intro",
+      "html-id.go",
+      "html-id.loader",
+      "html-id.num",
+      "html-id.info",
+      "html-id.name",
+      "html-id.confirm",
+      "html-id.checking",
+      "html-id.fill",
+      "html-id.load",
+      "html-id.check",
+      "html-id.percentage",
+      "html-id.share",
+      "html-id.getname",
+      "html-id.whatsapp-btn",
+      "html-id.fill2",
+      "html-id.percentage2",
+      "html-id.claim",
+      "html-id.likes",
+      "html-id.comments",
+      "html-id.shares",
+      "html-id.countdowntimer"
+    ]
+  },
+  "lists": {
+    "ips": [
+      "104.21.10.63",
+      "104.16.79.73",
+      "151.101.129.155",
+      "104.21.63.159",
+      "104.17.208.5",
+      "172.67.166.103"
+    ],
+    "countries": [
+      "US"
+    ],
+    "asns": [
+      "13335",
+      "54113"
+    ],
+    "domains": [
+      "626cdn.com",
+      "kuota-gratis-81gb98.1grd.xyz",
+      "tj.16gift.com",
+      "static.cloudflareinsights.com",
+      "code.jquery.com",
+      "cdn.jsdelivr.net"
+    ],
+    "servers": [
+      "cloudflare",
+      "nginx"
+    ],
+    "urls": [
+      "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+      "https://cdn.jsdelivr.net/npm/canvas-confetti@1.3.2/dist/confetti.browser.min.js",
+      "https://626cdn.com/Indonesia/id817.jpg",
+      "https://626cdn.com/Indonesia/tx05.jpg",
+      "https://626cdn.com/Indonesia/tx06.jpg",
+      "https://626cdn.com/Indonesia/tx07.jpg",
+      "https://626cdn.com/Indonesia/tx02.jpg",
+      "https://626cdn.com/Indonesia/tx03.jpg",
+      "https://626cdn.com/Indonesia/tx04.jpg",
+      "https://626cdn.com/Indonesia/tx09.jpg",
+      "https://code.jquery.com/jquery-latest.min.js",
+      "https://kuota-gratis-81gb98.1grd.xyz/single.php",
+      "https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496",
+      "blob:https://kuota-gratis-81gb98.1grd.xyz/42150929-98ef-42b9-8bd6-17b7d9f8c307",
+      "https://kuota-gratis-81gb98.1grd.xyz/cdn-cgi/rum?",
+      "https://kuota-gratis-81gb98.1grd.xyz/favicon.ico",
+      "https://tj.16gift.com/js/script.js",
+      "https://tj.16gift.com/api/event"
+    ],
+    "linkDomains": [],
+    "certificates": [
+      {
+        "subjectName": "1grd.xyz",
+        "issuer": "WE1",
+        "validFrom": 1785520828,
+        "validTo": 1793300424
+      },
+      {
+        "subjectName": "*.jsdelivr.net",
+        "issuer": "Sectigo Public Server Authentication CA DV R36",
+        "validFrom": 1776816000,
+        "validTo": 1794009599
+      },
+      {
+        "subjectName": "e7b750d1.sni.cloudflaressl.com",
+        "issuer": "WE1",
+        "validFrom": 1786689133,
+        "validTo": 1794468729
+      },
+      {
+        "subjectName": "*.jquery.com",
+        "issuer": "Sectigo Public Server Authentication CA DV E36",
+        "validFrom": 1779235200,
+        "validTo": 1796428799
+      },
+      {
+        "subjectName": "cloudflareinsights.com",
+        "issuer": "WE1",
+        "validFrom": 1786694550,
+        "validTo": 1794474137
+      },
+      {
+        "subjectName": "16gift.com",
+        "issuer": "WE1",
+        "validFrom": 1785559449,
+        "validTo": 1793338911
+      }
+    ],
+    "hashes": [
+      "3462fc59b69eddecf267f0caff958fc6681807b6fdad2631129847537d105b2d",
+      "04df330d0e18ed75f6d3cdf81e99e128a9cc5b00502de9773b5dc81b39765916",
+      "cafc4c8b53764315161ff156695133a101cc68bd2969508e68539e2f4b7c01c0",
+      "1f6750987cf9f6324ac93f69655d6de3bfa72df01b4243cc3fe801fa4c169635",
+      "51c25201b2a1002d962ecbab1bfc542607189b622a99489be6a600b225afa923",
+      "abf6de5823efe236f4f1271aed8a4ab49d6c1b6c93e490799eb262017031bb82",
+      "ad09d8cdf3f2fe9fa0ca7ce185965e7445e6d7d619bbe0f5ca18366318d03691",
+      "0ade21c552f3d19c9e984d77d0aaba0d95a5087d0c9c816cdea0cac4ce71c738",
+      "d0e7389b8cee45019c89ff9775b74b13a013e6d83f4bc58f6b409205471e45a4",
+      "d48a0d6e69a77a82e46b7df3eecfbc2880ce6ff79312f92b68886a4bcfc38c79",
+      "540bc6dec1dd4b92ea4d3fb903f69eabf6d919afd48f4e312b163c28cff0f441",
+      "646db9d6f52c7cd52c3d79d9e25319f8f28ffbcb483d5e0ed4b37f25f5567739",
+      "e1ac4849b9d4a498b68f8aca01e6ed99a11d94b35a2cec533b3916b8fb722fd6",
+      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "d465172175d35d493fb1633e237700022bd849fa123164790b168b8318acb090",
+      "965387ce9489d0167cf33444ab52d064bb3fab35e94b12082ff5eb00a34c070c",
+      "2689367b205c16ce32ed4200942b8b8b1e262dfc70d9bc9fbc77c49699a4f1df"
+    ]
+  },
+  "meta": {
+    "processors": {
+      "umbrella": {
+        "data": [
+          {
+            "hostname": "cdn.jsdelivr.net",
+            "rank": 360
+          },
+          {
+            "hostname": "626cdn.com",
+            "rank": 227331
+          },
+          {
+            "hostname": "code.jquery.com",
+            "rank": 1038
+          },
+          {
+            "hostname": "static.cloudflareinsights.com",
+            "rank": 306
+          },
+          {
+            "hostname": "tj.16gift.com",
+            "rank": 221813
+          }
+        ]
+      },
+      "geoip": {
+        "data": [
+          {
+            "ip": "172.67.166.103",
+            "geoip": {
+              "country": "",
+              "region": "",
+              "timezone": "",
+              "city": "",
+              "ll": [
+                null,
+                null
+              ],
+              "country_name": "Ascension Island"
+            }
+          },
+          {
+            "ip": "104.17.208.5",
+            "geoip": {
+              "country": "",
+              "region": "",
+              "timezone": "",
+              "city": "",
+              "ll": [
+                null,
+                null
+              ],
+              "country_name": "Ascension Island"
+            }
+          },
+          {
+            "ip": "104.21.63.159",
+            "geoip": {
+              "country": "",
+              "region": "",
+              "timezone": "",
+              "city": "",
+              "ll": [
+                null,
+                null
+              ],
+              "country_name": "Ascension Island"
+            }
+          },
+          {
+            "ip": "151.101.129.155",
+            "geoip": {
+              "country": "US",
+              "region": "",
+              "timezone": "America/Chicago",
+              "city": "",
+              "ll": [
+                37.751,
+                -97.822
+              ],
+              "country_name": "United States",
+              "metro": 0
+            }
+          },
+          {
+            "ip": "104.16.79.73",
+            "geoip": {
+              "country": "",
+              "region": "",
+              "timezone": "",
+              "city": "",
+              "ll": [
+                null,
+                null
+              ],
+              "country_name": "Ascension Island"
+            }
+          },
+          {
+            "ip": "104.21.10.63",
+            "geoip": {
+              "country": "",
+              "region": "",
+              "timezone": "",
+              "city": "",
+              "ll": [
+                null,
+                null
+              ],
+              "country_name": "Ascension Island"
+            }
+          }
+        ]
+      },
+      "asn": {
+        "data": [
+          {
+            "ip": "172.67.166.103",
+            "asn": "13335",
+            "country": "US",
+            "description": "CLOUDFLARENET - Cloudflare, Inc., US",
+            "name": "Cloudflare",
+            "route": "172.67.128.0/17"
+          },
+          {
+            "ip": "104.17.208.5",
+            "asn": "13335",
+            "country": "US",
+            "description": "CLOUDFLARENET - Cloudflare, Inc., US",
+            "name": "Cloudflare",
+            "route": "104.16.0.0/14"
+          },
+          {
+            "ip": "104.21.63.159",
+            "asn": "13335",
+            "country": "US",
+            "description": "CLOUDFLARENET - Cloudflare, Inc., US",
+            "name": "Cloudflare",
+            "route": "104.21.0.0/17"
+          },
+          {
+            "ip": "151.101.129.155",
+            "asn": "54113",
+            "country": "US",
+            "description": "FASTLY - Fastly, Inc., US",
+            "name": "Fastly",
+            "route": "151.101.0.0/16"
+          },
+          {
+            "ip": "104.16.79.73",
+            "asn": "13335",
+            "country": "US",
+            "description": "CLOUDFLARENET - Cloudflare, Inc., US",
+            "name": "Cloudflare",
+            "route": "104.16.0.0/14"
+          },
+          {
+            "ip": "104.21.10.63",
+            "asn": "13335",
+            "country": "US",
+            "description": "CLOUDFLARENET - Cloudflare, Inc., US",
+            "name": "Cloudflare",
+            "route": "104.21.0.0/17"
+          }
+        ]
+      },
+      "rdns": {
+        "data": []
+      },
+      "wappa": {
+        "data": [
+          {
+            "confidence": [
+              {
+                "confidence": 100,
+                "pattern": "static\\.cloudflareinsights\\.com/beacon(?:\\.min)?\\.js"
+              }
+            ],
+            "confidenceTotal": 100,
+            "app": "Cloudflare Browser Insights",
+            "icon": "CloudFlare.svg",
+            "website": "https://www.cloudflare.com",
+            "categories": [
+              {
+                "groups": [
+                  8
+                ],
+                "name": "Analytics",
+                "priority": 9
+              },
+              {
+                "groups": [
+                  2
+                ],
+                "name": "RUM",
+                "priority": 9
+              }
+            ]
+          },
+          {
+            "confidence": [
+              {
+                "confidence": 100,
+                "pattern": "jquery"
+              }
+            ],
+            "confidenceTotal": 100,
+            "app": "jQuery",
+            "icon": "jQuery.svg",
+            "website": "https://jquery.com",
+            "categories": [
+              {
+                "groups": [
+                  9
+                ],
+                "name": "JavaScript libraries",
+                "priority": 9
+              }
+            ]
+          },
+          {
+            "confidence": [
+              {
+                "confidence": 100,
+                "pattern": "code\\.jquery\\.com/"
+              }
+            ],
+            "confidenceTotal": 100,
+            "app": "jQuery CDN",
+            "icon": "jQuery.svg",
+            "website": "https://code.jquery.com/",
+            "categories": [
+              {
+                "groups": [
+                  7
+                ],
+                "name": "CDN",
+                "priority": 9
+              }
+            ]
+          },
+          {
+            "confidence": [
+              {
+                "confidence": 100,
+                "pattern": "cdn\\.jsdelivr\\.net"
+              }
+            ],
+            "confidenceTotal": 100,
+            "app": "jsDelivr",
+            "icon": "jsdelivr-icon.svg",
+            "website": "https://www.jsdelivr.com/",
+            "categories": [
+              {
+                "groups": [
+                  7
+                ],
+                "name": "CDN",
+                "priority": 9
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "page": {
+    "asn": "AS13335",
+    "asnname": "CLOUDFLARENET - Cloudflare, Inc., US",
+    "city": "",
+    "country": "",
+    "domain": "kuota-gratis-81gb98.1grd.xyz",
+    "ip": "172.67.166.103",
+    "server": "cloudflare",
+    "url": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+    "apexDomainAgeDays": 76,
+    "language": "id",
+    "mimeType": "text/html",
+    "title": "Kuota Gratis 81GB Spesial HUT RI ke-81",
+    "tlsValidDays": 90,
+    "tlsAgeDays": 17,
+    "domainAgeDays": 0,
+    "tlsValidFrom": "2026-07-31T18:00:28.000Z",
+    "apexDomain": "1grd.xyz",
+    "tlsIssuer": "WE1",
+    "status": "200"
+  },
+  "scanner": {
+    "country": "sg"
+  },
+  "stats": {
+    "IPv6Percentage": 0,
+    "adBlocked": 0,
+    "domainStats": [
+      {
+        "count": 8,
+        "ips": [
+          "104.21.63.159"
+        ],
+        "domain": "626cdn.com",
+        "size": 157663,
+        "encodedSize": 160535,
+        "countries": [],
+        "index": 2,
+        "initiators": [
+          "kuota-gratis-81gb98.1grd.xyz"
+        ],
+        "redirects": 0
+      },
+      {
+        "count": 4,
+        "ips": [
+          "172.67.166.103"
+        ],
+        "domain": "kuota-gratis-81gb98.1grd.xyz",
+        "size": 28521,
+        "encodedSize": 11782,
+        "countries": [],
+        "index": 0,
+        "initiators": [
+          "kuota-gratis-81gb98.1grd.xyz",
+          "static.cloudflareinsights.com"
+        ],
+        "redirects": 0
+      },
+      {
+        "count": 2,
+        "ips": [
+          "104.21.10.63"
+        ],
+        "domain": "tj.16gift.com",
+        "size": 1388,
+        "encodedSize": 1845,
+        "countries": [],
+        "index": 16,
+        "initiators": [
+          "kuota-gratis-81gb98.1grd.xyz",
+          "tj.16gift.com"
+        ],
+        "redirects": 0
+      },
+      {
+        "count": 1,
+        "ips": [
+          "104.16.79.73"
+        ],
+        "domain": "static.cloudflareinsights.com",
+        "size": 31612,
+        "encodedSize": 11577,
+        "countries": [],
+        "index": 12,
+        "initiators": [
+          "kuota-gratis-81gb98.1grd.xyz"
+        ],
+        "redirects": 0
+      },
+      {
+        "count": 1,
+        "ips": [
+          "151.101.129.155"
+        ],
+        "domain": "code.jquery.com",
+        "size": 95786,
+        "encodedSize": 33577,
+        "countries": [
+          "US"
+        ],
+        "index": 10,
+        "initiators": [
+          "kuota-gratis-81gb98.1grd.xyz"
+        ],
+        "redirects": 0
+      },
+      {
+        "count": 1,
+        "ips": [
+          "104.17.208.5"
+        ],
+        "domain": "cdn.jsdelivr.net",
+        "size": 7370,
+        "encodedSize": 3926,
+        "countries": [],
+        "index": 1,
+        "initiators": [
+          "kuota-gratis-81gb98.1grd.xyz"
+        ],
+        "redirects": 0
+      }
+    ],
+    "ipStats": [
+      {
+        "requests": 4,
+        "domains": [
+          "kuota-gratis-81gb98.1grd.xyz"
+        ],
+        "ip": "172.67.166.103",
+        "asn": {
+          "ip": "172.67.166.103",
+          "asn": "13335",
+          "country": "US",
+          "description": "CLOUDFLARENET - Cloudflare, Inc., US",
+          "name": "Cloudflare",
+          "route": "172.67.128.0/17"
+        },
+        "dns": {},
+        "geoip": {
+          "country": "",
+          "region": "",
+          "timezone": "",
+          "city": "",
+          "ll": [
+            null,
+            null
+          ],
+          "country_name": "Ascension Island"
+        },
+        "size": 28521,
+        "encodedSize": 11782,
+        "countries": [],
+        "index": 0,
+        "ipv6": false,
+        "redirects": 0,
+        "count": null
+      },
+      {
+        "requests": 1,
+        "domains": [
+          "cdn.jsdelivr.net"
+        ],
+        "ip": "104.17.208.5",
+        "asn": {
+          "ip": "104.17.208.5",
+          "asn": "13335",
+          "country": "US",
+          "description": "CLOUDFLARENET - Cloudflare, Inc., US",
+          "name": "Cloudflare",
+          "route": "104.16.0.0/14"
+        },
+        "dns": {},
+        "geoip": {
+          "country": "",
+          "region": "",
+          "timezone": "",
+          "city": "",
+          "ll": [
+            null,
+            null
+          ],
+          "country_name": "Ascension Island"
+        },
+        "size": 7370,
+        "encodedSize": 3926,
+        "countries": [],
+        "index": 1,
+        "ipv6": false,
+        "redirects": 0,
+        "count": null
+      },
+      {
+        "requests": 8,
+        "domains": [
+          "626cdn.com"
+        ],
+        "ip": "104.21.63.159",
+        "asn": {
+          "ip": "104.21.63.159",
+          "asn": "13335",
+          "country": "US",
+          "description": "CLOUDFLARENET - Cloudflare, Inc., US",
+          "name": "Cloudflare",
+          "route": "104.21.0.0/17"
+        },
+        "dns": {},
+        "geoip": {
+          "country": "",
+          "region": "",
+          "timezone": "",
+          "city": "",
+          "ll": [
+            null,
+            null
+          ],
+          "country_name": "Ascension Island"
+        },
+        "size": 157663,
+        "encodedSize": 160535,
+        "countries": [],
+        "index": 2,
+        "ipv6": false,
+        "redirects": 0,
+        "count": null
+      },
+      {
+        "requests": 1,
+        "domains": [
+          "code.jquery.com"
+        ],
+        "ip": "151.101.129.155",
+        "asn": {
+          "ip": "151.101.129.155",
+          "asn": "54113",
+          "country": "US",
+          "description": "FASTLY - Fastly, Inc., US",
+          "name": "Fastly",
+          "route": "151.101.0.0/16"
+        },
+        "dns": {},
+        "geoip": {
+          "country": "US",
+          "region": "",
+          "timezone": "America/Chicago",
+          "city": "",
+          "ll": [
+            37.751,
+            -97.822
+          ],
+          "country_name": "United States",
+          "metro": 0
+        },
+        "size": 95786,
+        "encodedSize": 33577,
+        "countries": [
+          "US"
+        ],
+        "index": 10,
+        "ipv6": false,
+        "redirects": 0,
+        "count": null
+      },
+      {
+        "requests": 1,
+        "domains": [
+          "static.cloudflareinsights.com"
+        ],
+        "ip": "104.16.79.73",
+        "asn": {
+          "ip": "104.16.79.73",
+          "asn": "13335",
+          "country": "US",
+          "description": "CLOUDFLARENET - Cloudflare, Inc., US",
+          "name": "Cloudflare",
+          "route": "104.16.0.0/14"
+        },
+        "dns": {},
+        "geoip": {
+          "country": "",
+          "region": "",
+          "timezone": "",
+          "city": "",
+          "ll": [
+            null,
+            null
+          ],
+          "country_name": "Ascension Island"
+        },
+        "size": 31612,
+        "encodedSize": 11577,
+        "countries": [],
+        "index": 12,
+        "ipv6": false,
+        "redirects": 0,
+        "count": null
+      },
+      {
+        "requests": 2,
+        "domains": [
+          "tj.16gift.com"
+        ],
+        "ip": "104.21.10.63",
+        "asn": {
+          "ip": "104.21.10.63",
+          "asn": "13335",
+          "country": "US",
+          "description": "CLOUDFLARENET - Cloudflare, Inc., US",
+          "name": "Cloudflare",
+          "route": "104.21.0.0/17"
+        },
+        "dns": {},
+        "geoip": {
+          "country": "",
+          "region": "",
+          "timezone": "",
+          "city": "",
+          "ll": [
+            null,
+            null
+          ],
+          "country_name": "Ascension Island"
+        },
+        "size": 1388,
+        "encodedSize": 1845,
+        "countries": [],
+        "index": 16,
+        "ipv6": false,
+        "redirects": 0,
+        "count": null
+      }
+    ],
+    "malicious": 0,
+    "protocolStats": [
+      {
+        "count": 11,
+        "size": 292431,
+        "encodedSize": 209615,
+        "ips": [
+          "104.17.208.5",
+          "104.21.63.159",
+          "151.101.129.155",
+          "104.16.79.73"
+        ],
+        "countries": [
+          "US"
+        ],
+        "securityState": {},
+        "protocol": "h2"
+      },
+      {
+        "count": 6,
+        "size": 29909,
+        "encodedSize": 13627,
+        "ips": [
+          "172.67.166.103",
+          "104.21.10.63"
+        ],
+        "countries": [],
+        "securityState": {},
+        "protocol": "h3"
+      }
+    ],
+    "regDomainStats": [
+      {
+        "count": 8,
+        "ips": [
+          "104.21.63.159"
+        ],
+        "regDomain": "626cdn.com",
+        "size": 157663,
+        "encodedSize": 160535,
+        "countries": [],
+        "index": 2,
+        "subDomains": [
+          {
+            "domain": "",
+            "country": ""
+          }
+        ],
+        "redirects": 0
+      },
+      {
+        "count": 4,
+        "ips": [
+          "172.67.166.103"
+        ],
+        "regDomain": "1grd.xyz",
+        "size": 28521,
+        "encodedSize": 11782,
+        "countries": [],
+        "index": 0,
+        "subDomains": [
+          {
+            "domain": "kuota-gratis-81gb98",
+            "country": ""
+          }
+        ],
+        "redirects": 0
+      },
+      {
+        "count": 2,
+        "ips": [
+          "104.21.10.63"
+        ],
+        "regDomain": "16gift.com",
+        "size": 1388,
+        "encodedSize": 1845,
+        "countries": [],
+        "index": 16,
+        "subDomains": [
+          {
+            "domain": "tj",
+            "country": ""
+          }
+        ],
+        "redirects": 0
+      },
+      {
+        "count": 1,
+        "ips": [
+          "104.16.79.73"
+        ],
+        "regDomain": "cloudflareinsights.com",
+        "size": 31612,
+        "encodedSize": 11577,
+        "countries": [],
+        "index": 12,
+        "subDomains": [
+          {
+            "domain": "static",
+            "country": ""
+          }
+        ],
+        "redirects": 0
+      },
+      {
+        "count": 1,
+        "ips": [
+          "151.101.129.155"
+        ],
+        "regDomain": "jquery.com",
+        "size": 95786,
+        "encodedSize": 33577,
+        "countries": [],
+        "index": 10,
+        "subDomains": [
+          {
+            "domain": "code",
+            "country": "US"
+          }
+        ],
+        "redirects": 0
+      },
+      {
+        "count": 1,
+        "ips": [
+          "104.17.208.5"
+        ],
+        "regDomain": "jsdelivr.net",
+        "size": 7370,
+        "encodedSize": 3926,
+        "countries": [],
+        "index": 1,
+        "subDomains": [
+          {
+            "domain": "cdn",
+            "country": ""
+          }
+        ],
+        "redirects": 0
+      }
+    ],
+    "resourceStats": [
+      {
+        "count": 8,
+        "size": 157663,
+        "encodedSize": 160535,
+        "latency": 0,
+        "countries": [],
+        "ips": [
+          "104.21.63.159"
+        ],
+        "type": "Image",
+        "compression": "1.0",
+        "percentage": 44
+      },
+      {
+        "count": 5,
+        "size": 137251,
+        "encodedSize": 51497,
+        "latency": 0,
+        "countries": [
+          "US"
+        ],
+        "ips": [
+          "104.17.208.5",
+          "151.101.129.155",
+          "172.67.166.103",
+          "104.16.79.73",
+          "104.21.10.63"
+        ],
+        "type": "Script",
+        "compression": "2.7",
+        "percentage": 27
+      },
+      {
+        "count": 2,
+        "size": 2,
+        "encodedSize": 1000,
+        "latency": 0,
+        "countries": [],
+        "ips": [
+          "172.67.166.103",
+          "104.21.10.63"
+        ],
+        "type": "XHR",
+        "compression": "0.0",
+        "percentage": 11
+      },
+      {
+        "count": 1,
+        "size": 548,
+        "encodedSize": 597,
+        "latency": 0,
+        "countries": [],
+        "ips": [
+          "172.67.166.103"
+        ],
+        "type": "Other",
+        "compression": "0.9",
+        "percentage": 5
+      },
+      {
+        "count": 1,
+        "size": 26876,
+        "encodedSize": 9613,
+        "latency": 0,
+        "countries": [],
+        "ips": [
+          "172.67.166.103"
+        ],
+        "type": "Document",
+        "compression": "2.8",
+        "percentage": 5
+      }
+    ],
+    "securePercentage": 94,
+    "secureRequests": 17,
+    "serverStats": [
+      {
+        "count": 16,
+        "size": 226554,
+        "encodedSize": 189665,
+        "ips": [
+          "172.67.166.103",
+          "104.17.208.5",
+          "104.21.63.159",
+          "104.16.79.73",
+          "104.21.10.63"
+        ],
+        "countries": [],
+        "server": "cloudflare"
+      },
+      {
+        "count": 1,
+        "size": 95786,
+        "encodedSize": 33577,
+        "ips": [
+          "151.101.129.155"
+        ],
+        "countries": [
+          "US"
+        ],
+        "server": "nginx"
+      }
+    ],
+    "tlsStats": [
+      {
+        "count": 17,
+        "size": 322340,
+        "encodedSize": 223242,
+        "ips": [
+          "172.67.166.103",
+          "104.17.208.5",
+          "104.21.63.159",
+          "151.101.129.155",
+          "104.16.79.73",
+          "104.21.10.63"
+        ],
+        "countries": [
+          "US"
+        ],
+        "protocols": {
+          "QUIC /  / AES_128_GCM": 6,
+          "TLS 1.3 /  / AES_128_GCM": 11
+        },
+        "securityState": "secure"
+      }
+    ],
+    "totalLinks": 0,
+    "uniqCountries": 2
+  },
+  "submitter": {
+    "country": "ID"
+  },
+  "task": {
+    "method": "api",
+    "source": "61a6a5f6",
+    "tags": [],
+    "time": "2026-08-17T20:03:30.447Z",
+    "url": "https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98",
+    "uuid": "01a01152-4886-778c-85cb-239aff0aa3bc",
+    "visibility": "unlisted",
+    "reportURL": "https://urlscan.io/result/01a01152-4886-778c-85cb-239aff0aa3bc/",
+    "screenshotURL": "https://urlscan.io/screenshots/01a01152-4886-778c-85cb-239aff0aa3bc.png",
+    "domURL": "https://urlscan.io/dom/01a01152-4886-778c-85cb-239aff0aa3bc/",
+    "domain": "kuota-gratis-81gb98.1grd.xyz",
+    "apexDomain": "1grd.xyz"
+  },
+  "verdicts": {
+    "overall": {
+      "score": 0,
+      "categories": [],
+      "brands": [],
+      "tags": [],
+      "malicious": false,
+      "hasVerdicts": true
+    },
+    "urlscan": {
+      "score": 0,
+      "categories": [],
+      "brands": [],
+      "tags": [],
+      "malicious": false,
+      "hasVerdicts": false
+    },
+    "engines": {
+      "score": 99,
+      "malicious": true,
+      "categories": [],
+      "enginesTotal": 0,
+      "maliciousTotal": 0,
+      "benignTotal": 0,
+      "maliciousVerdicts": [],
+      "benignVerdicts": [],
+      "hasVerdicts": true,
+      "tags": [
+        "urlscan-ml",
+        "urlscan-ml-60c5e22"
+      ]
+    },
+    "community": {
+      "score": 0,
+      "categories": [],
+      "brands": [],
+      "votesTotal": 0,
+      "votesMalicious": 0,
+      "votesBenign": 0,
+      "malicious": false,
+      "hasVerdicts": false
+    }
+  }
+}

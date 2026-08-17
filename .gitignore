@@ -1,0 +1,9 @@
+# JANGAN commit sampel malware / berkas berbahaya
+_QUARANTINE_DO_NOT_EXECUTE/
+*.apk
+*.apk.quarantine
+*.dex
+*.unpacked/
+*.bin
+# artefak sementara
+*.tmp

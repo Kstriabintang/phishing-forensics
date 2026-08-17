@@ -1,0 +1,25 @@
+To: abuse@inap.com
+Cc: noc@inap.com
+Subject: Abuse report — phishing/CPA cloaking origin 108.178.23.116 (AS32475)
+
+Hello INAP/Internap Abuse Team,
+
+Your IP 108.178.23.116 (AS32475) is the origin server for a large cloaking/CPA
+ad-fraud network behind Cloudflare, used in an active campaign targeting Indonesian
+mobile users ("Kuota Gratis 81GB HUT RI ke-81" WhatsApp lure).
+
+Key hostname: free.gf920.com — a device-fingerprint cloaker that routes real
+Indonesian mobile users into rotating CPA ad networks (ldl1.com / obqj3.com).
+
+Scope: passive-DNS shows 500+ hostnames historically on this IP; 193+ currently
+resolve here, themed offer/aff/verify/track/prize (see attached inventory). This is a
+shared cloaking hub, not a single site.
+
+Evidence (browser render):
+  https://urlscan.io/result/01a01152-4da8-742f-9115-4b876c71bffd/
+
+Please investigate. I can provide the full host inventory (host-inventory.tsv) and
+raw headers on request.
+
+Regards,
+(Independent security researcher — defensive report)

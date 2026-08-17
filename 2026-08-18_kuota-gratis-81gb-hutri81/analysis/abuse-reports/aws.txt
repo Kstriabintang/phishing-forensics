@@ -1,0 +1,17 @@
+Submit via: https://support.aws.amazon.com/#/contacts/report-abuse
+Type: Phishing / Fraudulent content on CloudFront
+
+Resource: mms.sramms.space  (CNAME -> d20yaalqmjo7mn.cloudfront.net; AWS CloudFront)
+Also seen resolving via CloudFront edge IPs incl. 13.224.245.83 / 18.161.111.x.
+
+Description:
+mms.sramms.space is a CPA offer-network node in an active phishing/ad-fraud campaign
+targeting Indonesian mobile users ("Kuota Gratis 81GB HUT RI ke-81"). It receives
+cloaked traffic and redirects to ad networks (ldl1.com), e.g.:
+  mms.sramms.space/aa449b3e-b49f-4551-abd7-4ba528dcb970?partner_ID=27052&...
+  -> https://ldl1.com/link?z=...&var=27052&ymid=...
+
+Evidence (browser render):
+  https://urlscan.io/result/01a01157-0141-772e-871d-1cdeb0c80765/
+
+Please review the CloudFront distribution serving mms.sramms.space.

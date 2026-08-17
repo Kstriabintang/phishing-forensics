@@ -1,0 +1,514 @@
+{
+  "data": {
+    "requests": [
+      {
+        "request": {
+          "requestId": "942F4BA3272C2A268CFD5A435CF5AC2D",
+          "loaderId": "942F4BA3272C2A268CFD5A435CF5AC2D",
+          "documentURL": "https://ldl1.com/link?z=11569507&var=27052&ymid=wv8m6vgk4udrbikk39pqkilu",
+          "request": {
+            "url": "https://ldl1.com/link?z=11569507&var=27052&ymid=wv8m6vgk4udrbikk39pqkilu",
+            "method": "GET",
+            "headers": {
+              "Upgrade-Insecure-Requests": "1",
+              "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36",
+              "sec-ch-ua": "\"Chromium\";v=\"122\", \"Google Chrome\";v=\"122\", \"Not(A:Brand\";v=\"24\"",
+              "sec-ch-ua-mobile": "?1",
+              "sec-ch-ua-platform": "\"Android\""
+            },
+            "mixedContentType": "none",
+            "initialPriority": "VeryHigh",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "isSameSite": true
+          },
+          "timestamp": 6831804.138418,
+          "wallTime": 1786997310.98847,
+          "initiator": {
+            "type": "other"
+          },
+          "redirectHasExtraInfo": false,
+          "type": "Document",
+          "frameId": "5AC8FAA0EA12EBEF94F75BED916FB38B",
+          "hasUserGesture": false,
+          "primaryRequest": true
+        },
+        "response": {
+          "encodedDataLength": 0,
+          "dataLength": 0,
+          "requestId": "942F4BA3272C2A268CFD5A435CF5AC2D",
+          "type": "Document",
+          "response": {
+            "url": "https://ldl1.com/link?z=11569507&var=27052&ymid=wv8m6vgk4udrbikk39pqkilu",
+            "status": 204,
+            "statusText": "",
+            "headers": {
+              "cf-cache-status": "DYNAMIC",
+              "cf-ray": "a2cb4fa9cf02fcf7-SIN",
+              "content-type": "text/plain; charset=utf-8",
+              "date": "Mon, 17 Aug 2026 20:08:31 GMT",
+              "server": "cloudflare",
+              "strict-transport-security": "max-age=1",
+              "timing-allow-origin": "*",
+              "x-content-type-options": "nosniff"
+            },
+            "mimeType": "text/plain",
+            "charset": "utf-8",
+            "remoteIPAddress": "172.64.154.96",
+            "remotePort": 443,
+            "encodedDataLength": 397,
+            "timing": {
+              "requestTime": 6831804.139272,
+              "proxyStart": -1,
+              "proxyEnd": -1,
+              "dnsStart": 0,
+              "dnsEnd": 0,
+              "connectStart": 0,
+              "connectEnd": 11.68,
+              "sslStart": 1.08,
+              "sslEnd": 11.664,
+              "workerStart": -1,
+              "workerReady": -1,
+              "workerFetchStart": -1,
+              "workerRespondWithSettled": -1,
+              "sendStart": 11.886,
+              "sendEnd": 12.098,
+              "pushStart": 0,
+              "pushEnd": 0,
+              "receiveHeadersStart": 280.719,
+              "receiveHeadersEnd": 282.152
+            },
+            "responseTime": 1786997311270.076,
+            "protocol": "h2",
+            "alternateProtocolUsage": "unspecifiedReason",
+            "securityState": "secure",
+            "securityDetails": {
+              "protocol": "TLS 1.3",
+              "keyExchange": "",
+              "keyExchangeGroup": "X25519MLKEM768",
+              "cipher": "AES_128_GCM",
+              "certificateId": 0,
+              "subjectName": "ldl1.com",
+              "sanList": [
+                "ldl1.com"
+              ],
+              "issuer": "WE1",
+              "validFrom": 1783041426,
+              "validTo": 1790821017,
+              "signedCertificateTimestampList": [
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Google 'Xenon2026h2' log",
+                  "logId": "D809553B944F7AFFC816196F944F85ABB0F8FC5E8755260F15D12E72BB454B14",
+                  "timestamp": 1783045027238,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "3044022071DF80A4D63AA640F46D3A15726129E678F10EE6263AABA8C10961D931BF0C41022047067F2A9C7CC3E6F876EB17703107FF1D87299D5D7E0E8C0610948C30194F13"
+                },
+                {
+                  "status": "Verified",
+                  "origin": "Embedded in certificate",
+                  "logDescription": "Sectigo 'Elephant2026h2'",
+                  "logId": "AF67883B57B04EDD8FA6D97EF62EA8EB810AC77160F0245E55D60C2FE785873A",
+                  "timestamp": 1783045027405,
+                  "hashAlgorithm": "SHA-256",
+                  "signatureAlgorithm": "ECDSA",
+                  "signatureData": "3046022100B3935A13C61A635926CD7BBD4458BBCE572F39694EC25DBC0AFCA1CBCE11ACD5022100C706E9C1858767D1DD64042F5C3822C697DC99065B352165D64C0847A9DB94BF"
+                }
+              ],
+              "certificateTransparencyCompliance": "compliant",
+              "serverSignatureAlgorithm": 1027,
+              "encryptedClientHello": false
+            },
+            "securityHeaders": [
+              {
+                "name": "Strict-Transport-Security",
+                "value": "max-age=1"
+              },
+              {
+                "name": "X-Content-Type-Options",
+                "value": "nosniff"
+              }
+            ]
+          },
+          "hasExtraInfo": true,
+          "failed": {
+            "requestId": "942F4BA3272C2A268CFD5A435CF5AC2D",
+            "timestamp": 6831804.423199,
+            "type": "Document",
+            "errorText": "net::ERR_ABORTED",
+            "canceled": true
+          },
+          "asn": {
+            "ip": "172.64.154.96",
+            "asn": "13335",
+            "country": "US",
+            "description": "CLOUDFLARENET - Cloudflare, Inc., US",
+            "name": "Cloudflare",
+            "route": "172.64.144.0/20"
+          },
+          "geoip": {
+            "country": "",
+            "region": "",
+            "timezone": "",
+            "city": "",
+            "ll": [
+              null,
+              null
+            ],
+            "country_name": "Ascension Island"
+          }
+        }
+      }
+    ],
+    "cookies": [
+      {
+        "name": "__cf_bm",
+        "value": "5m42muKnv5suFQeJwGWsYbK_bZZr1rfI7RUX5iOa0zw-1786997311.0061905-1.0.1.1-0ZYc3JFJJAjZ3wEMv9p8CFaehhp15muYLNNR.um7DhNjBsON7TR8w_.AJTc5avNp5cm2CxaQJAxNDcN4rSzlzJ3JwlE8LmlZ4wtRCkVodpWbUCUqwJj766LgavssbOHj",
+        "domain": ".ldl1.com",
+        "path": "/",
+        "expires": 1786999111.271486,
+        "size": 206,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sourceScheme": "Secure",
+        "sourcePort": 443
+      }
+    ],
+    "console": [],
+    "links": [],
+    "timing": {
+      "beginNavigation": "2026-08-17T20:08:30.981Z",
+      "frameStartedLoading": "2026-08-17T20:08:30.987Z",
+      "frameStoppedLoading": "2026-08-17T20:08:31.275Z"
+    },
+    "globals": [
+      {
+        "prop": "fence",
+        "type": "object"
+      }
+    ],
+    "storages": [],
+    "websockets": [],
+    "redirects": []
+  },
+  "lists": {
+    "ips": [
+      "172.64.154.96"
+    ],
+    "countries": [],
+    "asns": [
+      "13335"
+    ],
+    "domains": [
+      "ldl1.com"
+    ],
+    "servers": [
+      "cloudflare"
+    ],
+    "urls": [
+      "https://ldl1.com/link?z=11569507&var=27052&ymid=wv8m6vgk4udrbikk39pqkilu"
+    ],
+    "linkDomains": [],
+    "certificates": [
+      {
+        "subjectName": "ldl1.com",
+        "issuer": "WE1",
+        "validFrom": 1783041426,
+        "validTo": 1790821017
+      }
+    ],
+    "hashes": []
+  },
+  "meta": {
+    "processors": {
+      "umbrella": {
+        "data": [
+          {
+            "hostname": "ldl1.com",
+            "rank": 48429
+          }
+        ]
+      },
+      "geoip": {
+        "data": [
+          {
+            "ip": "172.64.154.96",
+            "geoip": {
+              "country": "",
+              "region": "",
+              "timezone": "",
+              "city": "",
+              "ll": [
+                null,
+                null
+              ],
+              "country_name": "Ascension Island"
+            }
+          }
+        ]
+      },
+      "asn": {
+        "data": [
+          {
+            "ip": "172.64.154.96",
+            "asn": "13335",
+            "country": "US",
+            "description": "CLOUDFLARENET - Cloudflare, Inc., US",
+            "name": "Cloudflare",
+            "route": "172.64.144.0/20"
+          }
+        ]
+      },
+      "rdns": {
+        "data": []
+      },
+      "wappa": {
+        "data": [
+          {
+            "confidence": [
+              {
+                "confidence": 100,
+                "pattern": ""
+              }
+            ],
+            "confidenceTotal": 100,
+            "app": "Cloudflare Bot Management",
+            "icon": "CloudFlare.svg",
+            "website": "https://www.cloudflare.com/en-gb/products/bot-management/",
+            "categories": [
+              {
+                "groups": [
+                  11
+                ],
+                "name": "Security",
+                "priority": 9
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "page": {
+    "asn": "AS13335",
+    "asnname": "CLOUDFLARENET - Cloudflare, Inc., US",
+    "city": "",
+    "country": "",
+    "domain": "ldl1.com",
+    "ip": "172.64.154.96",
+    "server": "cloudflare",
+    "url": "https://ldl1.com/link?z=11569507&var=27052&ymid=wv8m6vgk4udrbikk39pqkilu",
+    "apexDomainAgeDays": 1280,
+    "mimeType": "text/plain",
+    "tlsValidDays": 90,
+    "tlsAgeDays": 45,
+    "domainAgeDays": 1280,
+    "tlsValidFrom": "2026-07-03T01:17:06.000Z",
+    "umbrellaRank": 48429,
+    "apexDomain": "ldl1.com",
+    "tlsIssuer": "WE1",
+    "status": "204"
+  },
+  "scanner": {
+    "country": "sg"
+  },
+  "stats": {
+    "IPv6Percentage": 0,
+    "adBlocked": 0,
+    "domainStats": [
+      {
+        "count": 1,
+        "ips": [
+          "172.64.154.96"
+        ],
+        "domain": "ldl1.com",
+        "size": 0,
+        "encodedSize": 0,
+        "countries": [],
+        "index": 0,
+        "initiators": [],
+        "redirects": 0
+      }
+    ],
+    "ipStats": [
+      {
+        "requests": 1,
+        "domains": [
+          "ldl1.com"
+        ],
+        "ip": "172.64.154.96",
+        "asn": {
+          "ip": "172.64.154.96",
+          "asn": "13335",
+          "country": "US",
+          "description": "CLOUDFLARENET - Cloudflare, Inc., US",
+          "name": "Cloudflare",
+          "route": "172.64.144.0/20"
+        },
+        "dns": {},
+        "geoip": {
+          "country": "",
+          "region": "",
+          "timezone": "",
+          "city": "",
+          "ll": [
+            null,
+            null
+          ],
+          "country_name": "Ascension Island"
+        },
+        "size": 0,
+        "encodedSize": 0,
+        "countries": [],
+        "index": 0,
+        "ipv6": false,
+        "redirects": 0,
+        "count": null
+      }
+    ],
+    "malicious": 0,
+    "protocolStats": [
+      {
+        "count": 1,
+        "size": 0,
+        "encodedSize": 0,
+        "ips": [
+          "172.64.154.96"
+        ],
+        "countries": [],
+        "securityState": {},
+        "protocol": "h2"
+      }
+    ],
+    "regDomainStats": [
+      {
+        "count": 1,
+        "ips": [
+          "172.64.154.96"
+        ],
+        "regDomain": "ldl1.com",
+        "size": 0,
+        "encodedSize": 0,
+        "countries": [],
+        "index": 0,
+        "subDomains": [
+          {
+            "domain": "",
+            "country": ""
+          }
+        ],
+        "redirects": 0
+      }
+    ],
+    "resourceStats": [
+      {
+        "count": 1,
+        "size": 0,
+        "encodedSize": 0,
+        "latency": 0,
+        "countries": [],
+        "ips": [
+          "172.64.154.96"
+        ],
+        "type": "Document",
+        "compression": "NaN",
+        "percentage": 100
+      }
+    ],
+    "securePercentage": 100,
+    "secureRequests": 1,
+    "serverStats": [
+      {
+        "count": 1,
+        "size": 0,
+        "encodedSize": 0,
+        "ips": [
+          "172.64.154.96"
+        ],
+        "countries": [],
+        "server": "cloudflare"
+      }
+    ],
+    "tlsStats": [
+      {
+        "count": 1,
+        "size": 0,
+        "encodedSize": 0,
+        "ips": [
+          "172.64.154.96"
+        ],
+        "countries": [],
+        "protocols": {
+          "TLS 1.3 /  / AES_128_GCM": 1
+        },
+        "securityState": "secure"
+      }
+    ],
+    "totalLinks": 0,
+    "uniqCountries": 1
+  },
+  "submitter": {
+    "country": "ID"
+  },
+  "task": {
+    "method": "api",
+    "source": "61a6a5f6",
+    "tags": [],
+    "time": "2026-08-17T20:09:02.499Z",
+    "url": "https://ldl1.com/link?z=11569507&var=27052&ymid=wv8m6vgk4udrbikk39pqkilu",
+    "uuid": "01a01157-04c6-7159-b314-4764f30466fb",
+    "visibility": "unlisted",
+    "reportURL": "https://urlscan.io/result/01a01157-04c6-7159-b314-4764f30466fb/",
+    "screenshotURL": "https://urlscan.io/screenshots/01a01157-04c6-7159-b314-4764f30466fb.png",
+    "domURL": "https://urlscan.io/dom/01a01157-04c6-7159-b314-4764f30466fb/",
+    "domain": "ldl1.com",
+    "apexDomain": "ldl1.com"
+  },
+  "verdicts": {
+    "overall": {
+      "score": 0,
+      "categories": [],
+      "brands": [],
+      "tags": [],
+      "malicious": false,
+      "hasVerdicts": true
+    },
+    "urlscan": {
+      "score": 0,
+      "categories": [],
+      "brands": [],
+      "tags": [],
+      "malicious": false,
+      "hasVerdicts": false
+    },
+    "engines": {
+      "score": -73,
+      "malicious": false,
+      "categories": [],
+      "enginesTotal": 0,
+      "maliciousTotal": 0,
+      "benignTotal": 0,
+      "maliciousVerdicts": [],
+      "benignVerdicts": [],
+      "hasVerdicts": true,
+      "tags": [
+        "urlscan-ml",
+        "urlscan-ml-60c5e22"
+      ]
+    },
+    "community": {
+      "score": 0,
+      "categories": [],
+      "brands": [],
+      "votesTotal": 0,
+      "votesMalicious": 0,
+      "votesBenign": 0,
+      "malicious": false,
+      "hasVerdicts": false
+    }
+  }
+}

@@ -1,0 +1,28 @@
+=== west.cn (Chengdu West Dimension) ===
+To: abuse@west.cn
+Subject: Phishing domain 1grd.xyz used against Indonesian users
+Body:
+  1grd.xyz (registered 2026-06-02 via your service) hosts a phishing/ad-fraud
+  campaign "Kuota Gratis 81GB HUT RI ke-81" using wildcard subdomains
+  (e.g. kuota-gratis-81gb98.1grd.xyz) + /go.php redirector into a CPA cloaker.
+  Evidence: https://urlscan.io/result/01a01152-4886-778c-85cb-239aff0aa3bc/
+  Please suspend the domain.
+
+=== Cloud Yuqu LLC / DiyMySite ===
+To: abuse@diymysite.com
+Subject: Phishing domains gf920.com and 626cdn.com
+Body:
+  gf920.com (2026-01-14) — device-fingerprint cloaker (free.gf920.com).
+  626cdn.com (2026-06-16) — fake social-proof asset CDN, multi-country folders.
+  Both are part of the "Kuota Gratis 81GB" phishing/ad-fraud campaign.
+  Evidence: https://urlscan.io/result/01a01152-4da8-742f-9115-4b876c71bffd/
+  Please suspend these domains.
+
+=== Hefei Juming Network Technology ===
+Subject: Phishing telemetry domain 16gift.com
+Body:
+  16gift.com (2023-12-30) — tj.16gift.com is the analytics/telemetry backend
+  (/api/event) for the "Kuota Gratis 81GB" phishing/ad-fraud campaign targeting
+  Indonesian users. Evidence:
+  https://urlscan.io/result/01a01152-4886-778c-85cb-239aff0aa3bc/
+  Please review and suspend.

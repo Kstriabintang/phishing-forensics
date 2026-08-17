@@ -1,0 +1,12 @@
+HTTP/2 200 
+server: nginx
+date: Mon, 17 Aug 2026 17:49:37 GMT
+content-type: text/html; charset=UTF-8
+vary: Accept-Encoding
+cache-control: no-store, no-cache, must-revalidate, max-age=0
+pragma: no-cache
+expires: Thu, 01 Jan 1970 00:00:00 GMT
+accept-ch: Sec-CH-UA, Sec-CH-UA-Mobile, Sec-CH-UA-Platform, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Form-Factors, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-WoW64
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+alt-svc: h3=":443"; ma=604800; persist=1
+

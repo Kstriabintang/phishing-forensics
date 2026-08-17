@@ -1,0 +1,28 @@
+Submit via: https://abuse.cloudflare.com/  (category: Phishing)
+
+Reported domains (all proxied by Cloudflare):
+  1grd.xyz            (+ wildcard *.1grd.xyz; e.g. kuota-gratis-81gb98.1grd.xyz)
+  626cdn.com          (fake social-proof assets; /Indonesia /Malaysia /Vietnam /Thailand /Philippines)
+  gf920.com / free.gf920.com   (device-fingerprint cloaker)
+  16gift.com / tj.16gift.com   (campaign telemetry, /api/event)
+  obqj3.com           (CPA ad-network redirect)
+  ldl1.com            (CPA ad-network / RTB smartlink)
+
+Description:
+Active phishing/ad-fraud campaign targeting Indonesian mobile users:
+"Kuota Gratis 81GB Spesial HUT RI ke-81" free-data lure spread via WhatsApp.
+Landing (kuota-gratis-81gb98.1grd.xyz) shows a fake Facebook-style post with
+fabricated social proof and forces victims to re-share on WhatsApp before a
+"DAPATKAN 81GB" button routes them via /go.php -> gf920.com cloaker ->
+CPA ad networks (ldl1.com / obqj3.com). No real data quota is ever provided.
+
+Evidence (browser render, unlisted):
+  https://urlscan.io/result/01a01152-4886-778c-85cb-239aff0aa3bc/   (landing)
+  https://urlscan.io/result/01a01152-4da8-742f-9115-4b876c71bffd/   (cloaker -> ldl1)
+  https://urlscan.io/result/01a01156-fd3d-719e-b164-551fa2162c28/   (go.php -> obqj3)
+
+Origin servers behind Cloudflare (for your reference):
+  free.gf920.com -> 108.178.23.116 (INAP/Internap, Chicago)
+  srvmediahost.com -> 95.217.42.163 (Hetzner, Helsinki)
+
+Registration dates: 1grd.xyz 2026-06-02, 626cdn.com 2026-06-16, gf920.com 2026-01-14.
