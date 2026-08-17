@@ -77,6 +77,8 @@ Hefei Juming; `tj`=统计 telemetry; 2018 gambling lineage `和信娱乐城`).
 | Document | Contents |
 |---|---|
 | **[`DIGITAL-TRACES-DOSSIER.md`](DIGITAL-TRACES-DOSSIER.md)** | Master consolidated report (chain, infra, attribution, IOC) |
+| **[`FINDINGS.md`](FINDINGS.md)** | Detailed findings register (F-01…F-18) with evidence + source links + confidence |
+| **[`REFERENCES.md`](REFERENCES.md)** | All OSINT source links (news, archives, sandboxes, threat-intel) |
 | [`SCREENSHOTS.md`](SCREENSHOTS.md) | Visual evidence gallery |
 | [`IOC.txt`](IOC.txt) | Indicators of compromise (6 network blocks) |
 | [`report/DIGITAL-TRACES-DOSSIER.pdf`](report/) | Print-ready PDF (for Kominfo/BSSN & providers) |
