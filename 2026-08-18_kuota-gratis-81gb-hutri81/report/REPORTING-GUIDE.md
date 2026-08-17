@@ -8,16 +8,20 @@ laporan: **`DIGITAL-TRACES-DOSSIER.pdf`** (folder ini) + `screenshots/01_landing
 
 ---
 
-## ✅ PRIORITAS 1 — Cepat & berdampak (form web, tanpa email, ±15 menit)
+## ✅ PRIORITAS 1 — Cepat & berdampak (form web — CUKUP MASUKKAN URL, TANPA lampiran)
 
-| # | Kanal | Cara | Isi |
+> Form web hanya minta **URL/domain** — **tidak** ada upload PDF. PDF & screenshot hanya untuk kanal EMAIL (Prioritas 2).
+
+| # | Kanal | Cara | Yang dimasukkan |
 |---|---|---|---|
-| 1 | **Kemenkomdigi — Aduan Konten** | Buka **https://aduankonten.id/** → kategori **Penipuan** | Tempel isi `../analysis/abuse-reports/kominfo-bssn_ID.txt`; lampirkan PDF + screenshot |
-| 2 | **Cloudflare Abuse** | **https://abuse.cloudflare.com/** → **Phishing** | Tempel `../analysis/abuse-reports/cloudflare.txt` (daftar domain + link urlscan) |
-| 3 | **Google Safe Browsing** | **https://safebrowsing.google.com/safebrowsing/report_phish/** | Masukkan `https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98` (agar diblokir di Chrome/Android) |
-| 4 | **WhatsApp** | Di chat pesan itu → **Laporkan** | Report in-app + kabari pengirim (dia korban) |
+| 1 | **Kemenkomdigi — Aduan Konten** | **https://aduankonten.id/** → tempel URL di kotak → **Laporkan Konten** → pilih kategori **Penipuan** / **Phising / Malware** → isi langkah lanjutan (kalau ada opsi unggah bukti, baru pakai screenshot) | `https://kuota-gratis-81gb98.1grd.xyz/?hut-ri-81=98` (kalau ditolak, coba tanpa query: `https://kuota-gratis-81gb98.1grd.xyz` atau domain `1grd.xyz`). Ulangi untuk `gf920.com`, `626cdn.com`, `16gift.com` |
+| 2 | **Cloudflare Abuse** | **https://abuse.cloudflare.com/** → **Phishing** | Isi form; tempel daftar domain + link urlscan dari `cloudflare.txt` |
+| 3 | **Google Safe Browsing** | **https://safebrowsing.google.com/safebrowsing/report_phish/** | URL landing → agar diblokir di Chrome/Android |
+| 4 | **WhatsApp** | Chat pesan → **Laporkan** | Report in-app + kabari pengirim |
+| 5 | **OJK IASC** (bila ada kerugian materi) | **https://iasc.ojk.go.id/** | Untuk korban penipuan finansial / pinjol dari varian data-harvesting |
 
-> **Kanal #1 (aduankonten.id) paling penting** untuk konteks Indonesia — ini jalur resmi pemerintah.
+> **Kanal #1 (aduankonten.id) paling penting** untuk Indonesia — jalur resmi pemerintah.
+> Error "Silakan masukkan domain atau URL yang valid" = kotak itu **hanya menerima URL/domain**, bukan teks laporan. Masukkan alamat webnya saja.
 
 ---
 
