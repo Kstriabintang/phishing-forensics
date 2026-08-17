@@ -1,5 +1,5 @@
-To: abuse@inap.com
-Cc: noc@inap.com
+To: abuse@horizoniq.com  (INAP/Internap is now HorizonIQ)
+Cc: engineering-network@horizoniq.com
 Subject: Abuse report — phishing/CPA cloaking origin 108.178.23.116 (AS32475)
 
 Hello INAP/Internap Abuse Team,

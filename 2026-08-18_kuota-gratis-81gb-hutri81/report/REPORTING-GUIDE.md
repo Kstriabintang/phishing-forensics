@@ -33,7 +33,7 @@ PDF + screenshot. Boo­leh dikirim satu per satu.
 | Kirim ke | Untuk | Draft |
 |---|---|---|
 | **abuse@hetzner.com** | Origin asli #2 (95.217.42.163) + 6 domain srvmedia | `hetzner.txt` |
-| **abuse@inap.com** (cc noc@inap.com) | Origin asli #1 (108.178.23.116) | `inap.txt` |
+| **abuse@horizoniq.com** (INAP/Internap = now HorizonIQ) | Origin asli #1 (108.178.23.116) | `inap.txt` |
 | **abuse@namecheap.com** | srvmediahost / sramms / obqj3 / sssifmobisignal | `namecheap.txt` |
 | **abuse@west.cn** | Domain 1grd.xyz | `registrars.txt` |
 | **abuse@diymysite.com** | Domain gf920.com, 626cdn.com | `registrars.txt` |
