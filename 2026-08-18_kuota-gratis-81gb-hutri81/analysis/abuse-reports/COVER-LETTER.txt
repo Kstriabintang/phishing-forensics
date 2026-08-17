@@ -1,0 +1,43 @@
+=== COVER LETTER (English — for hosting/registrar abuse desks) ===
+
+Subject: Abuse report — active phishing / ad-fraud campaign (attached forensic evidence)
+
+Hello,
+
+I am reporting an active phishing / CPA-ad-fraud campaign that abuses infrastructure under your
+control. It targets Indonesian mobile users with a fake "Free 81GB data quota" WhatsApp lure and has
+been publicly confirmed as a hoax by the Indonesian government (Kemenkomdigi).
+
+Details, indicators of compromise, independent urlscan.io renders, and screenshots are in the
+attached forensic report (PDF). The specific asset(s) and evidence links relevant to you are listed
+in the body below.
+
+All my observations were passive/read-only. Please investigate and take appropriate action.
+I am happy to provide additional raw evidence on request.
+
+Thank you,
+[your name / handle — optional]
+
+--- attach: DIGITAL-TRACES-DOSSIER.pdf, 01_landing_merdeka_81gb.png, IOC.txt ---
+
+
+=== SURAT PENGANTAR (Indonesia — untuk Kominfo/BSSN) ===
+
+Perihal: Laporan penipuan/phishing "Kuota Gratis 81GB Spesial HUT RI ke-81"
+
+Kepada Yth. Tim Aduan,
+
+Saya melaporkan kampanye penipuan/phishing yang sedang aktif dan menargetkan pengguna seluler
+Indonesia melalui pesan berantai WhatsApp "Kuota Gratis 81GB Spesial HUT RI ke-81". Kampanye ini
+telah dinyatakan HOAKS oleh Kemenkomdigi. Situs memaksa korban membagikan tautan ke WhatsApp lalu
+mengarahkan ke jaringan iklan penipuan; tidak ada kuota yang benar-benar diberikan.
+
+Rincian teknis lengkap, indikator, bukti render independen (urlscan.io), dan tangkapan layar
+terlampir dalam laporan forensik (PDF). Domain & server terkait tercantum di dalam laporan.
+
+Semua pengamatan bersifat pasif/hanya-baca. Mohon ditindaklanjuti. Terima kasih.
+
+Hormat saya,
+[nama/anonim — opsional]
+
+--- lampirkan: DIGITAL-TRACES-DOSSIER.pdf, 01_landing_merdeka_81gb.png, IOC.txt ---
